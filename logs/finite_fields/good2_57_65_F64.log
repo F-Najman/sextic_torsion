@@ -1,0 +1,10 @@
+GOOD2 N=57 j=0 curve=[ 0, 0, F.1, 0, 0 ] order=57 aut_count=6 stabilizer_multipliers=[ 1, 7, 8, 49, 50, 56 ]
+GOOD2 N=57 j=0 curve=[ 0, 0, F.1^62, 0, 0 ] order=57 aut_count=6 stabilizer_multipliers=[ 1, 7, 8, 49, 50, 56 ]
+GOOD2_ALL_CURVES N=57 qualifying_twists=2
+GOOD2 N=65 j=0 curve=[ 0, 0, 1, F.1^22, 0 ] order=65 aut_count=4 stabilizer_multipliers=[ 1, 8, 57, 64 ]
+GOOD2_ALL_CURVES N=65 qualifying_twists=1
+C65_CUBIC_FIELD disc=-83 factor_mod2=[
+<$.1, 1>,
+<$.1^2 + $.1 + 1, 1>
+]
+GOOD2_57_65_CHECK_DONE

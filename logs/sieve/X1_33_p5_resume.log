@@ -1,0 +1,26 @@
+SETUP N=33 M=1 p=5 genus=21 time=3.980
+CUSPS number=18 degrees=[ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 5, 5, 10 ]
+CUSPFIELDS orbits over Q (degree, F_p-degree): [ <10, 10>, <10, 5>, <2, 2>, <2, 2>, <2, 2>, <2, 2>, <2, 2>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1> ] ; predicted F_p cusp degrees match model: true
+CC complement degree <= 1: q mod 33 in [ 1, 2, 4, 5, 7, 8, 10, 13, 14, 16, 17, 19, 20, 23, 25, 26, 28, 29, 31, 32 ] ; usable q from list: [ 7 ]
+CC complement degree <= 2: q mod 33 in [ 1, 2, 4, 5, 7, 8, 10, 13, 14, 16, 17, 19, 20, 23, 25, 26, 28, 29, 31, 32 ] ; usable q from list: [ 7 ]
+CC complement degree <= 3: q mod 33 in [ 1, 2, 4, 5, 7, 8, 10, 13, 14, 16, 17, 19, 20, 23, 25, 26, 28, 29, 31, 32 ] ; usable q from list: [ 7 ]
+CC complement degree <= 4: q mod 33 in [ 1, 2, 4, 5, 7, 8, 10, 13, 14, 16, 17, 19, 20, 23, 25, 26, 28, 29, 31, 32 ] ; usable q from list: [ 7 ]
+CC complement degree <= 5: q mod 33 in [ 1, 4, 5, 14, 16, 20, 23, 25, 26, 31 ] ; usable q from list: []
+QLIST all (used when there is no cuspidal part): [ 7 ]
+DEGREES with points of the required type over F_p^d (d=1..6): [ false, true, true, true, true, true ]  time=12.780
+NONCUSP counts deg 1..6: [ 0, 10, 60, 230, 602, 2660 ]  time=35.830
+REPS up to diamond: [ 0, 1, 6, 24, 61, 269 ]  time=67.960
+TYPE [ 3, 3 ]: 360 divisors (up to diamond), qlist=[ 7 ]
+PROGRESS type=[ 3, 3 ] 100/360 survivors=0 time=332.830
+PROGRESS type=[ 3, 3 ] 200/360 survivors=0 time=581.250
+PROGRESS type=[ 3, 3 ] 300/360 survivors=0 time=830.850
+RESULT type=[ 3, 3 ] total=360 survivors=0 time=983.440
+TYPE [ 3, 2, 1 ]: no divisors
+TYPE [ 3, 1, 1, 1 ]: no divisors
+TYPE [ 2, 2, 2 ]: 55 divisors (up to diamond), qlist=[ 7 ]
+RESULT type=[ 2, 2, 2 ] total=55 survivors=0 time=1207.210
+TYPE [ 2, 2, 1, 1 ]: no divisors
+TYPE [ 2, 1, 1, 1, 1 ]: no divisors
+TYPE [ 1, 1, 1, 1, 1, 1 ]: no divisors
+SUMMARY N=33 M=1 p=5 D=6 shard=0/1 total_survivors=0 time=1207.280
+SIEVE_RESUME_DONE FromDegree=6 MaxPart=3

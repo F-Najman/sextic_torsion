@@ -1,0 +1,22 @@
+Phi(6): COMPLETE CLASSIFICATION
+Infinite-family groups: 44
+Known lower-bound groups: 48
+
+Minimal outside infinite families: 57
+C25, C32, C33, C34, C35, C36, C37, C38, C39, C40, C42, C44, C45, C48, C49, C51, C52, C54, C55, C56, C57, C60, C63, C65, C77, C81, C85, C91, C95, C119, C121, C133, C143, C169, C187, C209, C221, C247, C289, C323, C361, C2 x C22, C2 x C24, C2 x C26, C2 x C28, C2 x C30, C3 x C15, C3 x C18, C3 x C21, C3 x C24, C3 x C27, C4 x C12, C4 x C16, C4 x C20, C6 x C12, C7 x C7, C9 x C9
+
+Minimal outside known lower bound: 66
+C32, C33, C34, C35, C36, C38, C39, C40, C42, C44, C45, C48, C49, C50, C51, C52, C54, C55, C56, C57, C60, C63, C65, C74, C75, C77, C81, C85, C91, C95, C111, C119, C121, C125, C133, C143, C169, C185, C187, C209, C221, C247, C259, C289, C323, C361, C407, C481, C629, C703, C1369, C2 x C22, C2 x C26, C2 x C28, C2 x C30, C3 x C15, C3 x C18, C3 x C21, C3 x C24, C3 x C27, C4 x C16, C4 x C20, C4 x C24, C6 x C12, C7 x C7, C9 x C9
+
+After the 37-case: 57
+C32, C33, C34, C35, C36, C38, C39, C40, C42, C44, C45, C48, C49, C50, C51, C52, C54, C55, C56, C57, C60, C63, C65, C75, C77, C81, C85, C91, C95, C119, C121, C125, C133, C143, C169, C187, C209, C221, C247, C289, C323, C361, C2 x C22, C2 x C26, C2 x C28, C2 x C30, C3 x C15, C3 x C18, C3 x C21, C3 x C24, C3 x C27, C4 x C16, C4 x C20, C4 x C24, C6 x C12, C7 x C7, C9 x C9
+
+After global exclusions: 46
+C32, C33, C34, C35, C36, C38, C39, C40, C42, C44, C45, C48, C49, C50, C51, C52, C54, C55, C56, C57, C60, C63, C65, C75, C77, C81, C85, C91, C95, C133, C247, C2 x C22, C2 x C26, C2 x C28, C2 x C30, C3 x C15, C3 x C18, C3 x C21, C3 x C24, C3 x C27, C4 x C16, C4 x C20, C4 x C24, C6 x C12, C7 x C7, C9 x C9
+
+After all verified exclusions: 0
+
+
+CLASSIFICATION: Phi(6)=Phi_infinity(6) union {C25,C37,C4 x C12,C2 x C24}; 48 groups.
+Global exclusions invoke the rank/character and CM data of the quintic proof.
+CANDIDATES_DONE

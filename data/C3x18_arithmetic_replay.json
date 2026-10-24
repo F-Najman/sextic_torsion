@@ -1,0 +1,12 @@
+{
+  "independent_integer_lattice_replay": true,
+  "states": [
+    36,
+    36
+  ],
+  "cusp_group_order": 20253807,
+  "multiplier": 9,
+  "pairs_tested": 1296,
+  "compatible_pairs": 0,
+  "source_sha256": "1ea8021c8f42a9b424c9e8a933bcb418b69d4a1f7eaa27a68dc7b99ac81e5976"
+}

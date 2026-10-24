@@ -1,0 +1,11 @@
+GL2COUNT X_1(1,32) p=3: genus 17 | #Y(F_{p^d}) = [ 0, 0, 24, 32, 80, 864 ] | sextic model enumeration = [ 0, 0, 24, 32, 80, 864 ] | agree
+GL2COUNT X_1(1,34) p=3: genus 21 | #Y(F_{p^d}) = [ 0, 0, 0, 104, 160, 480 ] | sextic model enumeration = [ 0, 0, 0, 104, 160, 480 ] | agree
+GL2COUNT X_1(1,38) p=3: genus 28 | #Y(F_{p^d}) = [ 0, 0, 9, 0, 360, 531 ] | sextic model enumeration = [ 0, 0, 9, 0, 360, 531 ] | agree
+GL2COUNT X_1(1,33) p=5: genus 21 | #Y(F_{p^d}) = [ 0, 20, 180, 940, 3010, 16160 ] | sextic model enumeration = [ 0, 20, 180, 940, 3010, 16160 ] | agree
+GL2COUNT X_1(2,22) p=3: genus 16 | #Y(F_{p^d}) = [ 0, 0, 0, 0, 300, 600 ] | sextic model enumeration = [ 0, 0, 0, 0, 300, 600 ] | agree
+GL2COUNT X_1(1,39) p=2: genus 33 | #Y(F_{p^d}) = [ 0, 0, 0, 0, 0, 72 ] | sextic model enumeration = [ 0, 0, 0, 0, 0, 72 ] | agree
+GL2COUNT X_1(1,50) p=3: genus 48 | #Y(F_{p^d}) = [ 0, 0, 0, 0, 0, 360 ] | sextic model enumeration = [ 0, 0, 0, 0, 0, 360 ] | agree
+GL2COUNT X_1(1,40) p=3: genus 25 | #Y(F_{p^d}) = [ 0, 0, 0, 128, 360, 480 ] | sextic model enumeration = [ 0, 0, 0, 128, 360, 480 ] | agree
+GL2COUNT X_1(1,49) p=3: genus 69 | #Y(F_{p^d}) = [ 0, 0, 0, 84, 315, 924 ] | sextic model enumeration = [ 0, 0, 0, 84, 315, 924 ] | agree
+GL2COUNT X_1(2,26) p=3: genus 25 | #Y(F_{p^d}) = [ 0, 0, 0, 0, 180, 732 ] | sextic model enumeration = [ 0, 0, 0, 0, 180, 732 ] | agree
+GL2_POINT_COUNTS_DONE all_agree=true

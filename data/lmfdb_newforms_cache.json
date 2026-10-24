@@ -1,0 +1,4872 @@
+[
+ {
+  "label": "11.2.a.a",
+  "level": 11,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "13.2.e.a",
+  "level": 13,
+  "char_orbit": "e",
+  "conrey": 4,
+  "char_order": 6,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "15.2.a.a",
+  "level": 15,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "17.2.a.a",
+  "level": 17,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "17.2.d.a",
+  "level": 17,
+  "char_orbit": "d",
+  "conrey": 2,
+  "char_order": 8,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "19.2.a.a",
+  "level": 19,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "19.2.e.a",
+  "level": 19,
+  "char_orbit": "e",
+  "conrey": 4,
+  "char_order": 9,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "21.2.a.a",
+  "level": 21,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "21.2.e.a",
+  "level": 21,
+  "char_orbit": "e",
+  "conrey": 4,
+  "char_order": 3,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "21.2.g.a",
+  "level": 21,
+  "char_orbit": "g",
+  "conrey": 5,
+  "char_order": 6,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "25.2.d.a",
+  "level": 25,
+  "char_orbit": "d",
+  "conrey": 6,
+  "char_order": 5,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "25.2.e.a",
+  "level": 25,
+  "char_orbit": "e",
+  "conrey": 4,
+  "char_order": 10,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "51.2.a.a",
+  "level": 51,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "51.2.a.b",
+  "level": 51,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "51.2.d.a",
+  "level": 51,
+  "char_orbit": "d",
+  "conrey": 16,
+  "char_order": 2,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "51.2.d.b",
+  "level": 51,
+  "char_orbit": "d",
+  "conrey": 16,
+  "char_order": 2,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "51.2.e.a",
+  "level": 51,
+  "char_orbit": "e",
+  "conrey": 4,
+  "char_order": 4,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "51.2.h.a",
+  "level": 51,
+  "char_orbit": "h",
+  "conrey": 19,
+  "char_order": 8,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "51.2.i.a",
+  "level": 51,
+  "char_orbit": "i",
+  "conrey": 5,
+  "char_order": 16,
+  "dim": 32,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "55.2.a.a",
+  "level": 55,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "55.2.a.b",
+  "level": 55,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "55.2.b.a",
+  "level": 55,
+  "char_orbit": "b",
+  "conrey": 34,
+  "char_order": 2,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "55.2.e.a",
+  "level": 55,
+  "char_orbit": "e",
+  "conrey": 32,
+  "char_order": 4,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "55.2.e.b",
+  "level": 55,
+  "char_orbit": "e",
+  "conrey": 32,
+  "char_order": 4,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "55.2.g.a",
+  "level": 55,
+  "char_orbit": "g",
+  "conrey": 16,
+  "char_order": 5,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "55.2.g.b",
+  "level": 55,
+  "char_orbit": "g",
+  "conrey": 16,
+  "char_order": 5,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "55.2.j.a",
+  "level": 55,
+  "char_orbit": "j",
+  "conrey": 4,
+  "char_order": 10,
+  "dim": 16,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "55.2.l.a",
+  "level": 55,
+  "char_orbit": "l",
+  "conrey": 2,
+  "char_order": 20,
+  "dim": 32,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "57.2.a.a",
+  "level": 57,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "57.2.a.b",
+  "level": 57,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "57.2.a.c",
+  "level": 57,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "57.2.d.a",
+  "level": 57,
+  "char_orbit": "d",
+  "conrey": 56,
+  "char_order": 2,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "57.2.e.a",
+  "level": 57,
+  "char_orbit": "e",
+  "conrey": 7,
+  "char_order": 3,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "57.2.e.b",
+  "level": 57,
+  "char_orbit": "e",
+  "conrey": 7,
+  "char_order": 3,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "57.2.f.a",
+  "level": 57,
+  "char_orbit": "f",
+  "conrey": 8,
+  "char_order": 6,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "57.2.i.a",
+  "level": 57,
+  "char_orbit": "i",
+  "conrey": 4,
+  "char_order": 9,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "57.2.i.b",
+  "level": 57,
+  "char_orbit": "i",
+  "conrey": 4,
+  "char_order": 9,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "57.2.j.a",
+  "level": 57,
+  "char_orbit": "j",
+  "conrey": 2,
+  "char_order": 18,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "57.2.j.b",
+  "level": 57,
+  "char_orbit": "j",
+  "conrey": 2,
+  "char_order": 18,
+  "dim": 24,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "63.2.a.a",
+  "level": 63,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "63.2.a.b",
+  "level": 63,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "63.2.c.a",
+  "level": 63,
+  "char_orbit": "c",
+  "conrey": 62,
+  "char_order": 2,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "63.2.e.a",
+  "level": 63,
+  "char_orbit": "e",
+  "conrey": 37,
+  "char_order": 3,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "63.2.e.b",
+  "level": 63,
+  "char_orbit": "e",
+  "conrey": 37,
+  "char_order": 3,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "63.2.f.a",
+  "level": 63,
+  "char_orbit": "f",
+  "conrey": 22,
+  "char_order": 3,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "63.2.f.b",
+  "level": 63,
+  "char_orbit": "f",
+  "conrey": 22,
+  "char_order": 3,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "63.2.g.a",
+  "level": 63,
+  "char_orbit": "g",
+  "conrey": 4,
+  "char_order": 3,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "63.2.g.b",
+  "level": 63,
+  "char_orbit": "g",
+  "conrey": 4,
+  "char_order": 3,
+  "dim": 10,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "63.2.h.a",
+  "level": 63,
+  "char_orbit": "h",
+  "conrey": 25,
+  "char_order": 3,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "63.2.h.b",
+  "level": 63,
+  "char_orbit": "h",
+  "conrey": 25,
+  "char_order": 3,
+  "dim": 10,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "63.2.i.a",
+  "level": 63,
+  "char_orbit": "i",
+  "conrey": 5,
+  "char_order": 6,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "63.2.i.b",
+  "level": 63,
+  "char_orbit": "i",
+  "conrey": 5,
+  "char_order": 6,
+  "dim": 10,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "63.2.o.a",
+  "level": 63,
+  "char_orbit": "o",
+  "conrey": 20,
+  "char_order": 6,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "63.2.p.a",
+  "level": 63,
+  "char_orbit": "p",
+  "conrey": 17,
+  "char_order": 6,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "63.2.s.a",
+  "level": 63,
+  "char_orbit": "s",
+  "conrey": 47,
+  "char_order": 6,
+  "dim": 2,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "63.2.s.b",
+  "level": 63,
+  "char_orbit": "s",
+  "conrey": 47,
+  "char_order": 6,
+  "dim": 10,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "65.2.a.a",
+  "level": 65,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "65.2.a.b",
+  "level": 65,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "65.2.a.c",
+  "level": 65,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "65.2.b.a",
+  "level": 65,
+  "char_orbit": "b",
+  "conrey": 14,
+  "char_order": 2,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "65.2.c.a",
+  "level": 65,
+  "char_orbit": "c",
+  "conrey": 51,
+  "char_order": 2,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "65.2.d.a",
+  "level": 65,
+  "char_orbit": "d",
+  "conrey": 64,
+  "char_order": 2,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "65.2.d.b",
+  "level": 65,
+  "char_orbit": "d",
+  "conrey": 64,
+  "char_order": 2,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "65.2.e.a",
+  "level": 65,
+  "char_orbit": "e",
+  "conrey": 16,
+  "char_order": 3,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "65.2.e.b",
+  "level": 65,
+  "char_orbit": "e",
+  "conrey": 16,
+  "char_order": 3,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "65.2.f.a",
+  "level": 65,
+  "char_orbit": "f",
+  "conrey": 18,
+  "char_order": 4,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "65.2.f.b",
+  "level": 65,
+  "char_orbit": "f",
+  "conrey": 18,
+  "char_order": 4,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "65.2.k.a",
+  "level": 65,
+  "char_orbit": "k",
+  "conrey": 8,
+  "char_order": 4,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "65.2.k.b",
+  "level": 65,
+  "char_orbit": "k",
+  "conrey": 8,
+  "char_order": 4,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "65.2.l.a",
+  "level": 65,
+  "char_orbit": "l",
+  "conrey": 4,
+  "char_order": 6,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "65.2.m.a",
+  "level": 65,
+  "char_orbit": "m",
+  "conrey": 36,
+  "char_order": 6,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "65.2.n.a",
+  "level": 65,
+  "char_orbit": "n",
+  "conrey": 9,
+  "char_order": 6,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "65.2.o.a",
+  "level": 65,
+  "char_orbit": "o",
+  "conrey": 2,
+  "char_order": 12,
+  "dim": 20,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "65.2.t.a",
+  "level": 65,
+  "char_orbit": "t",
+  "conrey": 7,
+  "char_order": 12,
+  "dim": 20,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "75.2.a.a",
+  "level": 75,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "75.2.a.b",
+  "level": 75,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "75.2.a.c",
+  "level": 75,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "75.2.b.a",
+  "level": 75,
+  "char_orbit": "b",
+  "conrey": 49,
+  "char_order": 2,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "75.2.b.b",
+  "level": 75,
+  "char_orbit": "b",
+  "conrey": 49,
+  "char_order": 2,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "75.2.e.a",
+  "level": 75,
+  "char_orbit": "e",
+  "conrey": 32,
+  "char_order": 4,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "75.2.e.b",
+  "level": 75,
+  "char_orbit": "e",
+  "conrey": 32,
+  "char_order": 4,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "75.2.g.a",
+  "level": 75,
+  "char_orbit": "g",
+  "conrey": 16,
+  "char_order": 5,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "75.2.g.b",
+  "level": 75,
+  "char_orbit": "g",
+  "conrey": 16,
+  "char_order": 5,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "75.2.g.c",
+  "level": 75,
+  "char_orbit": "g",
+  "conrey": 16,
+  "char_order": 5,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "75.2.i.a",
+  "level": 75,
+  "char_orbit": "i",
+  "conrey": 4,
+  "char_order": 10,
+  "dim": 16,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "75.2.l.a",
+  "level": 75,
+  "char_orbit": "l",
+  "conrey": 2,
+  "char_order": 20,
+  "dim": 64,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "77.2.a.a",
+  "level": 77,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "77.2.a.b",
+  "level": 77,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "77.2.a.c",
+  "level": 77,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "77.2.a.d",
+  "level": 77,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "77.2.b.a",
+  "level": 77,
+  "char_orbit": "b",
+  "conrey": 76,
+  "char_order": 2,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "77.2.b.b",
+  "level": 77,
+  "char_orbit": "b",
+  "conrey": 76,
+  "char_order": 2,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "77.2.e.a",
+  "level": 77,
+  "char_orbit": "e",
+  "conrey": 23,
+  "char_order": 3,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "77.2.e.b",
+  "level": 77,
+  "char_orbit": "e",
+  "conrey": 23,
+  "char_order": 3,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "77.2.f.a",
+  "level": 77,
+  "char_orbit": "f",
+  "conrey": 15,
+  "char_order": 5,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "77.2.f.b",
+  "level": 77,
+  "char_orbit": "f",
+  "conrey": 15,
+  "char_order": 5,
+  "dim": 16,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "77.2.i.a",
+  "level": 77,
+  "char_orbit": "i",
+  "conrey": 10,
+  "char_order": 6,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "77.2.l.a",
+  "level": 77,
+  "char_orbit": "l",
+  "conrey": 6,
+  "char_order": 10,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "77.2.l.b",
+  "level": 77,
+  "char_orbit": "l",
+  "conrey": 6,
+  "char_order": 10,
+  "dim": 16,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "77.2.m.a",
+  "level": 77,
+  "char_orbit": "m",
+  "conrey": 4,
+  "char_order": 15,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "77.2.m.b",
+  "level": 77,
+  "char_orbit": "m",
+  "conrey": 4,
+  "char_order": 15,
+  "dim": 40,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "77.2.n.a",
+  "level": 77,
+  "char_orbit": "n",
+  "conrey": 17,
+  "char_order": 30,
+  "dim": 48,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "85.2.a.a",
+  "level": 85,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "85.2.a.b",
+  "level": 85,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "85.2.a.c",
+  "level": 85,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "85.2.b.a",
+  "level": 85,
+  "char_orbit": "b",
+  "conrey": 69,
+  "char_order": 2,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "85.2.c.a",
+  "level": 85,
+  "char_orbit": "c",
+  "conrey": 84,
+  "char_order": 2,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "85.2.d.a",
+  "level": 85,
+  "char_orbit": "d",
+  "conrey": 16,
+  "char_order": 2,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "85.2.e.a",
+  "level": 85,
+  "char_orbit": "e",
+  "conrey": 21,
+  "char_order": 4,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "85.2.j.a",
+  "level": 85,
+  "char_orbit": "j",
+  "conrey": 4,
+  "char_order": 4,
+  "dim": 2,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "85.2.j.b",
+  "level": 85,
+  "char_orbit": "j",
+  "conrey": 4,
+  "char_order": 4,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "85.2.j.c",
+  "level": 85,
+  "char_orbit": "j",
+  "conrey": 4,
+  "char_order": 4,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "85.2.l.a",
+  "level": 85,
+  "char_orbit": "l",
+  "conrey": 26,
+  "char_order": 8,
+  "dim": 24,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "85.2.m.a",
+  "level": 85,
+  "char_orbit": "m",
+  "conrey": 9,
+  "char_order": 8,
+  "dim": 24,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "85.2.o.a",
+  "level": 85,
+  "char_orbit": "o",
+  "conrey": 3,
+  "char_order": 16,
+  "dim": 56,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "85.2.r.a",
+  "level": 85,
+  "char_orbit": "r",
+  "conrey": 12,
+  "char_order": 16,
+  "dim": 56,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.a.a",
+  "level": 91,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.a.b",
+  "level": 91,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.a.c",
+  "level": 91,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.a.d",
+  "level": 91,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 3,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.ba.a",
+  "level": 91,
+  "char_orbit": "ba",
+  "conrey": 45,
+  "char_order": 12,
+  "dim": 28,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.bb.a",
+  "level": 91,
+  "char_orbit": "bb",
+  "conrey": 5,
+  "char_order": 12,
+  "dim": 32,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.bc.a",
+  "level": 91,
+  "char_orbit": "bc",
+  "conrey": 6,
+  "char_order": 12,
+  "dim": 32,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.c.a",
+  "level": 91,
+  "char_orbit": "c",
+  "conrey": 64,
+  "char_order": 2,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.e.a",
+  "level": 91,
+  "char_orbit": "e",
+  "conrey": 53,
+  "char_order": 3,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.e.b",
+  "level": 91,
+  "char_orbit": "e",
+  "conrey": 53,
+  "char_order": 3,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.e.c",
+  "level": 91,
+  "char_orbit": "e",
+  "conrey": 53,
+  "char_order": 3,
+  "dim": 10,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.f.a",
+  "level": 91,
+  "char_orbit": "f",
+  "conrey": 22,
+  "char_order": 3,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.f.b",
+  "level": 91,
+  "char_orbit": "f",
+  "conrey": 22,
+  "char_order": 3,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.f.c",
+  "level": 91,
+  "char_orbit": "f",
+  "conrey": 22,
+  "char_order": 3,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.g.a",
+  "level": 91,
+  "char_orbit": "g",
+  "conrey": 9,
+  "char_order": 3,
+  "dim": 2,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.g.b",
+  "level": 91,
+  "char_orbit": "g",
+  "conrey": 9,
+  "char_order": 3,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.h.a",
+  "level": 91,
+  "char_orbit": "h",
+  "conrey": 16,
+  "char_order": 3,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.h.b",
+  "level": 91,
+  "char_orbit": "h",
+  "conrey": 16,
+  "char_order": 3,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.i.a",
+  "level": 91,
+  "char_orbit": "i",
+  "conrey": 34,
+  "char_order": 4,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.k.a",
+  "level": 91,
+  "char_orbit": "k",
+  "conrey": 4,
+  "char_order": 6,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.k.b",
+  "level": 91,
+  "char_orbit": "k",
+  "conrey": 4,
+  "char_order": 6,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.q.a",
+  "level": 91,
+  "char_orbit": "q",
+  "conrey": 36,
+  "char_order": 6,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.r.a",
+  "level": 91,
+  "char_orbit": "r",
+  "conrey": 25,
+  "char_order": 6,
+  "dim": 16,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.u.a",
+  "level": 91,
+  "char_orbit": "u",
+  "conrey": 30,
+  "char_order": 6,
+  "dim": 2,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.u.b",
+  "level": 91,
+  "char_orbit": "u",
+  "conrey": 30,
+  "char_order": 6,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "91.2.w.a",
+  "level": 91,
+  "char_orbit": "w",
+  "conrey": 19,
+  "char_order": 12,
+  "dim": 28,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "95.2.a.a",
+  "level": 95,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 3,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "95.2.a.b",
+  "level": 95,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "95.2.b.a",
+  "level": 95,
+  "char_orbit": "b",
+  "conrey": 39,
+  "char_order": 2,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "95.2.b.b",
+  "level": 95,
+  "char_orbit": "b",
+  "conrey": 39,
+  "char_order": 2,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "95.2.e.a",
+  "level": 95,
+  "char_orbit": "e",
+  "conrey": 11,
+  "char_order": 3,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "95.2.e.b",
+  "level": 95,
+  "char_orbit": "e",
+  "conrey": 11,
+  "char_order": 3,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "95.2.e.c",
+  "level": 95,
+  "char_orbit": "e",
+  "conrey": 11,
+  "char_order": 3,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "95.2.g.a",
+  "level": 95,
+  "char_orbit": "g",
+  "conrey": 18,
+  "char_order": 4,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "95.2.g.b",
+  "level": 95,
+  "char_orbit": "g",
+  "conrey": 18,
+  "char_order": 4,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "95.2.i.a",
+  "level": 95,
+  "char_orbit": "i",
+  "conrey": 49,
+  "char_order": 6,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "95.2.i.b",
+  "level": 95,
+  "char_orbit": "i",
+  "conrey": 49,
+  "char_order": 6,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "95.2.k.a",
+  "level": 95,
+  "char_orbit": "k",
+  "conrey": 6,
+  "char_order": 9,
+  "dim": 18,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "95.2.k.b",
+  "level": 95,
+  "char_orbit": "k",
+  "conrey": 6,
+  "char_order": 9,
+  "dim": 18,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "95.2.l.a",
+  "level": 95,
+  "char_orbit": "l",
+  "conrey": 8,
+  "char_order": 12,
+  "dim": 4,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "95.2.l.b",
+  "level": 95,
+  "char_orbit": "l",
+  "conrey": 8,
+  "char_order": 12,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "95.2.l.c",
+  "level": 95,
+  "char_orbit": "l",
+  "conrey": 8,
+  "char_order": 12,
+  "dim": 24,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "95.2.p.a",
+  "level": 95,
+  "char_orbit": "p",
+  "conrey": 4,
+  "char_order": 18,
+  "dim": 48,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "95.2.r.a",
+  "level": 95,
+  "char_orbit": "r",
+  "conrey": 2,
+  "char_order": 36,
+  "dim": 96,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "119.2.a.a",
+  "level": 119,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "119.2.a.b",
+  "level": 119,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 5,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "119.2.b.a",
+  "level": 119,
+  "char_orbit": "b",
+  "conrey": 50,
+  "char_order": 2,
+  "dim": 10,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "119.2.e.a",
+  "level": 119,
+  "char_orbit": "e",
+  "conrey": 18,
+  "char_order": 3,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "119.2.e.b",
+  "level": 119,
+  "char_orbit": "e",
+  "conrey": 18,
+  "char_order": 3,
+  "dim": 14,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "119.2.g.a",
+  "level": 119,
+  "char_orbit": "g",
+  "conrey": 64,
+  "char_order": 4,
+  "dim": 20,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "119.2.j.a",
+  "level": 119,
+  "char_orbit": "j",
+  "conrey": 16,
+  "char_order": 6,
+  "dim": 20,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "119.2.k.a",
+  "level": 119,
+  "char_orbit": "k",
+  "conrey": 8,
+  "char_order": 8,
+  "dim": 32,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "119.2.n.a",
+  "level": 119,
+  "char_orbit": "n",
+  "conrey": 4,
+  "char_order": 12,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "119.2.n.b",
+  "level": 119,
+  "char_orbit": "n",
+  "conrey": 4,
+  "char_order": 12,
+  "dim": 32,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "119.2.p.a",
+  "level": 119,
+  "char_orbit": "p",
+  "conrey": 6,
+  "char_order": 16,
+  "dim": 80,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "119.2.q.a",
+  "level": 119,
+  "char_orbit": "q",
+  "conrey": 2,
+  "char_order": 24,
+  "dim": 80,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "119.2.s.a",
+  "level": 119,
+  "char_orbit": "s",
+  "conrey": 3,
+  "char_order": 48,
+  "dim": 160,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "121.2.a.a",
+  "level": 121,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "121.2.a.b",
+  "level": 121,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "121.2.a.c",
+  "level": 121,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "121.2.a.d",
+  "level": 121,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "121.2.c.a",
+  "level": 121,
+  "char_orbit": "c",
+  "conrey": 3,
+  "char_order": 5,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "121.2.c.b",
+  "level": 121,
+  "char_orbit": "c",
+  "conrey": 3,
+  "char_order": 5,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "121.2.c.c",
+  "level": 121,
+  "char_orbit": "c",
+  "conrey": 3,
+  "char_order": 5,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "121.2.c.d",
+  "level": 121,
+  "char_orbit": "c",
+  "conrey": 3,
+  "char_order": 5,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "121.2.c.e",
+  "level": 121,
+  "char_orbit": "c",
+  "conrey": 3,
+  "char_order": 5,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "121.2.e.a",
+  "level": 121,
+  "char_orbit": "e",
+  "conrey": 12,
+  "char_order": 11,
+  "dim": 100,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "121.2.g.a",
+  "level": 121,
+  "char_orbit": "g",
+  "conrey": 4,
+  "char_order": 55,
+  "dim": 400,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "125.2.a.a",
+  "level": 125,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "125.2.a.b",
+  "level": 125,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "125.2.a.c",
+  "level": 125,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "125.2.b.a",
+  "level": 125,
+  "char_orbit": "b",
+  "conrey": 124,
+  "char_order": 2,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "125.2.b.b",
+  "level": 125,
+  "char_orbit": "b",
+  "conrey": 124,
+  "char_order": 2,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "125.2.d.a",
+  "level": 125,
+  "char_orbit": "d",
+  "conrey": 26,
+  "char_order": 5,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "125.2.d.b",
+  "level": 125,
+  "char_orbit": "d",
+  "conrey": 26,
+  "char_order": 5,
+  "dim": 16,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "125.2.e.a",
+  "level": 125,
+  "char_orbit": "e",
+  "conrey": 24,
+  "char_order": 10,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "125.2.e.b",
+  "level": 125,
+  "char_orbit": "e",
+  "conrey": 24,
+  "char_order": 10,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "125.2.g.a",
+  "level": 125,
+  "char_orbit": "g",
+  "conrey": 6,
+  "char_order": 25,
+  "dim": 220,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "125.2.h.a",
+  "level": 125,
+  "char_orbit": "h",
+  "conrey": 4,
+  "char_order": 50,
+  "dim": 240,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.a.a",
+  "level": 133,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.a.b",
+  "level": 133,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.a.c",
+  "level": 133,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.a.d",
+  "level": 133,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 3,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.ba.a",
+  "level": 133,
+  "char_orbit": "ba",
+  "conrey": 13,
+  "char_order": 18,
+  "dim": 72,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.bb.a",
+  "level": 133,
+  "char_orbit": "bb",
+  "conrey": 3,
+  "char_order": 18,
+  "dim": 66,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.bf.a",
+  "level": 133,
+  "char_orbit": "bf",
+  "conrey": 10,
+  "char_order": 18,
+  "dim": 66,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.c.a",
+  "level": 133,
+  "char_orbit": "c",
+  "conrey": 132,
+  "char_order": 2,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.c.b",
+  "level": 133,
+  "char_orbit": "c",
+  "conrey": 132,
+  "char_order": 2,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.c.c",
+  "level": 133,
+  "char_orbit": "c",
+  "conrey": 132,
+  "char_order": 2,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.e.a",
+  "level": 133,
+  "char_orbit": "e",
+  "conrey": 64,
+  "char_order": 3,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.e.b",
+  "level": 133,
+  "char_orbit": "e",
+  "conrey": 64,
+  "char_order": 3,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.e.c",
+  "level": 133,
+  "char_orbit": "e",
+  "conrey": 64,
+  "char_order": 3,
+  "dim": 10,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.f.a",
+  "level": 133,
+  "char_orbit": "f",
+  "conrey": 39,
+  "char_order": 3,
+  "dim": 2,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.f.b",
+  "level": 133,
+  "char_orbit": "f",
+  "conrey": 39,
+  "char_order": 3,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.f.c",
+  "level": 133,
+  "char_orbit": "f",
+  "conrey": 39,
+  "char_order": 3,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.f.d",
+  "level": 133,
+  "char_orbit": "f",
+  "conrey": 39,
+  "char_order": 3,
+  "dim": 14,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.g.a",
+  "level": 133,
+  "char_orbit": "g",
+  "conrey": 30,
+  "char_order": 3,
+  "dim": 24,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.h.a",
+  "level": 133,
+  "char_orbit": "h",
+  "conrey": 11,
+  "char_order": 3,
+  "dim": 24,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.i.a",
+  "level": 133,
+  "char_orbit": "i",
+  "conrey": 12,
+  "char_order": 6,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.i.b",
+  "level": 133,
+  "char_orbit": "i",
+  "conrey": 12,
+  "char_order": 6,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.i.c",
+  "level": 133,
+  "char_orbit": "i",
+  "conrey": 12,
+  "char_order": 6,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.i.d",
+  "level": 133,
+  "char_orbit": "i",
+  "conrey": 12,
+  "char_order": 6,
+  "dim": 16,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.o.a",
+  "level": 133,
+  "char_orbit": "o",
+  "conrey": 75,
+  "char_order": 6,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.o.b",
+  "level": 133,
+  "char_orbit": "o",
+  "conrey": 75,
+  "char_order": 6,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.o.c",
+  "level": 133,
+  "char_orbit": "o",
+  "conrey": 75,
+  "char_order": 6,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.o.d",
+  "level": 133,
+  "char_orbit": "o",
+  "conrey": 75,
+  "char_order": 6,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.o.e",
+  "level": 133,
+  "char_orbit": "o",
+  "conrey": 75,
+  "char_order": 6,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.p.a",
+  "level": 133,
+  "char_orbit": "p",
+  "conrey": 27,
+  "char_order": 6,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.p.b",
+  "level": 133,
+  "char_orbit": "p",
+  "conrey": 27,
+  "char_order": 6,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.p.c",
+  "level": 133,
+  "char_orbit": "p",
+  "conrey": 27,
+  "char_order": 6,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.s.a",
+  "level": 133,
+  "char_orbit": "s",
+  "conrey": 31,
+  "char_order": 6,
+  "dim": 2,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.s.b",
+  "level": 133,
+  "char_orbit": "s",
+  "conrey": 31,
+  "char_order": 6,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.s.c",
+  "level": 133,
+  "char_orbit": "s",
+  "conrey": 31,
+  "char_order": 6,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.s.d",
+  "level": 133,
+  "char_orbit": "s",
+  "conrey": 31,
+  "char_order": 6,
+  "dim": 16,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.u.a",
+  "level": 133,
+  "char_orbit": "u",
+  "conrey": 9,
+  "char_order": 9,
+  "dim": 66,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.v.a",
+  "level": 133,
+  "char_orbit": "v",
+  "conrey": 36,
+  "char_order": 9,
+  "dim": 30,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.v.b",
+  "level": 133,
+  "char_orbit": "v",
+  "conrey": 36,
+  "char_order": 9,
+  "dim": 30,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "133.2.w.a",
+  "level": 133,
+  "char_orbit": "w",
+  "conrey": 4,
+  "char_order": 9,
+  "dim": 66,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "143.2.a.a",
+  "level": 143,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "143.2.a.b",
+  "level": 143,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "143.2.a.c",
+  "level": 143,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "143.2.b.a",
+  "level": 143,
+  "char_orbit": "b",
+  "conrey": 12,
+  "char_order": 2,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "143.2.e.a",
+  "level": 143,
+  "char_orbit": "e",
+  "conrey": 100,
+  "char_order": 3,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "143.2.e.b",
+  "level": 143,
+  "char_orbit": "e",
+  "conrey": 100,
+  "char_order": 3,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "143.2.e.c",
+  "level": 143,
+  "char_orbit": "e",
+  "conrey": 100,
+  "char_order": 3,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "143.2.g.a",
+  "level": 143,
+  "char_orbit": "g",
+  "conrey": 21,
+  "char_order": 4,
+  "dim": 24,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "143.2.h.a",
+  "level": 143,
+  "char_orbit": "h",
+  "conrey": 14,
+  "char_order": 5,
+  "dim": 4,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "143.2.h.b",
+  "level": 143,
+  "char_orbit": "h",
+  "conrey": 14,
+  "char_order": 5,
+  "dim": 16,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "143.2.h.c",
+  "level": 143,
+  "char_orbit": "h",
+  "conrey": 14,
+  "char_order": 5,
+  "dim": 28,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "143.2.j.a",
+  "level": 143,
+  "char_orbit": "j",
+  "conrey": 23,
+  "char_order": 6,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "143.2.j.b",
+  "level": 143,
+  "char_orbit": "j",
+  "conrey": 23,
+  "char_order": 6,
+  "dim": 16,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "143.2.n.a",
+  "level": 143,
+  "char_orbit": "n",
+  "conrey": 25,
+  "char_order": 10,
+  "dim": 48,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "143.2.o.a",
+  "level": 143,
+  "char_orbit": "o",
+  "conrey": 32,
+  "char_order": 12,
+  "dim": 48,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "143.2.q.a",
+  "level": 143,
+  "char_orbit": "q",
+  "conrey": 3,
+  "char_order": 15,
+  "dim": 96,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "143.2.s.a",
+  "level": 143,
+  "char_orbit": "s",
+  "conrey": 8,
+  "char_order": 20,
+  "dim": 96,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "143.2.u.a",
+  "level": 143,
+  "char_orbit": "u",
+  "conrey": 4,
+  "char_order": 30,
+  "dim": 96,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "143.2.w.a",
+  "level": 143,
+  "char_orbit": "w",
+  "conrey": 2,
+  "char_order": 60,
+  "dim": 192,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "169.2.a.a",
+  "level": 169,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "169.2.a.b",
+  "level": 169,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 3,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "169.2.a.c",
+  "level": 169,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 3,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "169.2.b.a",
+  "level": 169,
+  "char_orbit": "b",
+  "conrey": 168,
+  "char_order": 2,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "169.2.b.b",
+  "level": 169,
+  "char_orbit": "b",
+  "conrey": 168,
+  "char_order": 2,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "169.2.c.a",
+  "level": 169,
+  "char_orbit": "c",
+  "conrey": 22,
+  "char_order": 3,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "169.2.c.b",
+  "level": 169,
+  "char_orbit": "c",
+  "conrey": 22,
+  "char_order": 3,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "169.2.c.c",
+  "level": 169,
+  "char_orbit": "c",
+  "conrey": 22,
+  "char_order": 3,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "169.2.e.a",
+  "level": 169,
+  "char_orbit": "e",
+  "conrey": 23,
+  "char_order": 6,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "169.2.e.b",
+  "level": 169,
+  "char_orbit": "e",
+  "conrey": 23,
+  "char_order": 6,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "169.2.g.a",
+  "level": 169,
+  "char_orbit": "g",
+  "conrey": 14,
+  "char_order": 13,
+  "dim": 156,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "169.2.h.a",
+  "level": 169,
+  "char_orbit": "h",
+  "conrey": 12,
+  "char_order": 26,
+  "dim": 168,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "169.2.i.a",
+  "level": 169,
+  "char_orbit": "i",
+  "conrey": 3,
+  "char_order": 39,
+  "dim": 336,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "169.2.k.a",
+  "level": 169,
+  "char_orbit": "k",
+  "conrey": 4,
+  "char_order": 78,
+  "dim": 360,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "187.2.a.a",
+  "level": 187,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "187.2.a.b",
+  "level": 187,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "187.2.a.c",
+  "level": 187,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "187.2.a.d",
+  "level": 187,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "187.2.a.e",
+  "level": 187,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 3,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "187.2.a.f",
+  "level": 187,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "187.2.d.a",
+  "level": 187,
+  "char_orbit": "d",
+  "conrey": 67,
+  "char_order": 2,
+  "dim": 16,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "187.2.e.a",
+  "level": 187,
+  "char_orbit": "e",
+  "conrey": 89,
+  "char_order": 4,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "187.2.e.b",
+  "level": 187,
+  "char_orbit": "e",
+  "conrey": 89,
+  "char_order": 4,
+  "dim": 28,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "187.2.g.a",
+  "level": 187,
+  "char_orbit": "g",
+  "conrey": 69,
+  "char_order": 5,
+  "dim": 4,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "187.2.g.b",
+  "level": 187,
+  "char_orbit": "g",
+  "conrey": 69,
+  "char_order": 5,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "187.2.g.c",
+  "level": 187,
+  "char_orbit": "g",
+  "conrey": 69,
+  "char_order": 5,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "187.2.g.d",
+  "level": 187,
+  "char_orbit": "g",
+  "conrey": 69,
+  "char_order": 5,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "187.2.g.e",
+  "level": 187,
+  "char_orbit": "g",
+  "conrey": 69,
+  "char_order": 5,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "187.2.g.f",
+  "level": 187,
+  "char_orbit": "g",
+  "conrey": 69,
+  "char_order": 5,
+  "dim": 36,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "187.2.h.a",
+  "level": 187,
+  "char_orbit": "h",
+  "conrey": 100,
+  "char_order": 8,
+  "dim": 56,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "187.2.j.a",
+  "level": 187,
+  "char_orbit": "j",
+  "conrey": 16,
+  "char_order": 10,
+  "dim": 64,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "187.2.m.a",
+  "level": 187,
+  "char_orbit": "m",
+  "conrey": 10,
+  "char_order": 16,
+  "dim": 128,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "187.2.p.a",
+  "level": 187,
+  "char_orbit": "p",
+  "conrey": 4,
+  "char_order": 20,
+  "dim": 128,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "187.2.r.a",
+  "level": 187,
+  "char_orbit": "r",
+  "conrey": 9,
+  "char_order": 40,
+  "dim": 256,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "187.2.t.a",
+  "level": 187,
+  "char_orbit": "t",
+  "conrey": 6,
+  "char_order": 80,
+  "dim": 512,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.a.a",
+  "level": 209,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.a.b",
+  "level": 209,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.a.c",
+  "level": 209,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 5,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.a.d",
+  "level": 209,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 7,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.d.a",
+  "level": 209,
+  "char_orbit": "d",
+  "conrey": 208,
+  "char_order": 2,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.d.b",
+  "level": 209,
+  "char_orbit": "d",
+  "conrey": 208,
+  "char_order": 2,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.d.c",
+  "level": 209,
+  "char_orbit": "d",
+  "conrey": 208,
+  "char_order": 2,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.e.a",
+  "level": 209,
+  "char_orbit": "e",
+  "conrey": 45,
+  "char_order": 3,
+  "dim": 18,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.e.b",
+  "level": 209,
+  "char_orbit": "e",
+  "conrey": 45,
+  "char_order": 3,
+  "dim": 18,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.f.a",
+  "level": 209,
+  "char_orbit": "f",
+  "conrey": 20,
+  "char_order": 5,
+  "dim": 4,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.f.b",
+  "level": 209,
+  "char_orbit": "f",
+  "conrey": 20,
+  "char_order": 5,
+  "dim": 28,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.f.c",
+  "level": 209,
+  "char_orbit": "f",
+  "conrey": 20,
+  "char_order": 5,
+  "dim": 40,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.g.a",
+  "level": 209,
+  "char_orbit": "g",
+  "conrey": 65,
+  "char_order": 6,
+  "dim": 16,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.g.b",
+  "level": 209,
+  "char_orbit": "g",
+  "conrey": 65,
+  "char_order": 6,
+  "dim": 20,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.j.a",
+  "level": 209,
+  "char_orbit": "j",
+  "conrey": 23,
+  "char_order": 9,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.j.b",
+  "level": 209,
+  "char_orbit": "j",
+  "conrey": 23,
+  "char_order": 9,
+  "dim": 42,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.j.c",
+  "level": 209,
+  "char_orbit": "j",
+  "conrey": 23,
+  "char_order": 9,
+  "dim": 48,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.k.a",
+  "level": 209,
+  "char_orbit": "k",
+  "conrey": 18,
+  "char_order": 10,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.k.b",
+  "level": 209,
+  "char_orbit": "k",
+  "conrey": 18,
+  "char_order": 10,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.k.c",
+  "level": 209,
+  "char_orbit": "k",
+  "conrey": 18,
+  "char_order": 10,
+  "dim": 56,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.n.a",
+  "level": 209,
+  "char_orbit": "n",
+  "conrey": 26,
+  "char_order": 15,
+  "dim": 144,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.p.a",
+  "level": 209,
+  "char_orbit": "p",
+  "conrey": 10,
+  "char_order": 18,
+  "dim": 108,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.t.a",
+  "level": 209,
+  "char_orbit": "t",
+  "conrey": 8,
+  "char_order": 30,
+  "dim": 144,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.u.a",
+  "level": 209,
+  "char_orbit": "u",
+  "conrey": 4,
+  "char_order": 45,
+  "dim": 432,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "209.2.w.a",
+  "level": 209,
+  "char_orbit": "w",
+  "conrey": 2,
+  "char_order": 90,
+  "dim": 432,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.a.a",
+  "level": 221,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.a.b",
+  "level": 221,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.a.c",
+  "level": 221,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.a.d",
+  "level": 221,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.a.e",
+  "level": 221,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.a.f",
+  "level": 221,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 3,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.a.g",
+  "level": 221,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.b.a",
+  "level": 221,
+  "char_orbit": "b",
+  "conrey": 220,
+  "char_order": 2,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.b.b",
+  "level": 221,
+  "char_orbit": "b",
+  "conrey": 220,
+  "char_order": 2,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.b.c",
+  "level": 221,
+  "char_orbit": "b",
+  "conrey": 220,
+  "char_order": 2,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.b.d",
+  "level": 221,
+  "char_orbit": "b",
+  "conrey": 220,
+  "char_order": 2,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.ba.a",
+  "level": 221,
+  "char_orbit": "ba",
+  "conrey": 5,
+  "char_order": 16,
+  "dim": 152,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.bd.a",
+  "level": 221,
+  "char_orbit": "bd",
+  "conrey": 36,
+  "char_order": 24,
+  "dim": 144,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.be.a",
+  "level": 221,
+  "char_orbit": "be",
+  "conrey": 9,
+  "char_order": 24,
+  "dim": 160,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.bh.a",
+  "level": 221,
+  "char_orbit": "bh",
+  "conrey": 6,
+  "char_order": 48,
+  "dim": 304,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.bi.a",
+  "level": 221,
+  "char_orbit": "bi",
+  "conrey": 7,
+  "char_order": 48,
+  "dim": 304,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.c.a",
+  "level": 221,
+  "char_orbit": "c",
+  "conrey": 103,
+  "char_order": 2,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.c.b",
+  "level": 221,
+  "char_orbit": "c",
+  "conrey": 103,
+  "char_order": 2,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.c.c",
+  "level": 221,
+  "char_orbit": "c",
+  "conrey": 103,
+  "char_order": 2,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.c.d",
+  "level": 221,
+  "char_orbit": "c",
+  "conrey": 103,
+  "char_order": 2,
+  "dim": 10,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.d.a",
+  "level": 221,
+  "char_orbit": "d",
+  "conrey": 118,
+  "char_order": 2,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.d.b",
+  "level": 221,
+  "char_orbit": "d",
+  "conrey": 118,
+  "char_order": 2,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.d.c",
+  "level": 221,
+  "char_orbit": "d",
+  "conrey": 118,
+  "char_order": 2,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.d.d",
+  "level": 221,
+  "char_orbit": "d",
+  "conrey": 118,
+  "char_order": 2,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.e.a",
+  "level": 221,
+  "char_orbit": "e",
+  "conrey": 35,
+  "char_order": 3,
+  "dim": 14,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.e.b",
+  "level": 221,
+  "char_orbit": "e",
+  "conrey": 35,
+  "char_order": 3,
+  "dim": 22,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.f.a",
+  "level": 221,
+  "char_orbit": "f",
+  "conrey": 157,
+  "char_order": 4,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.f.b",
+  "level": 221,
+  "char_orbit": "f",
+  "conrey": 157,
+  "char_order": 4,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.f.c",
+  "level": 221,
+  "char_orbit": "f",
+  "conrey": 157,
+  "char_order": 4,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.f.d",
+  "level": 221,
+  "char_orbit": "f",
+  "conrey": 157,
+  "char_order": 4,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.f.e",
+  "level": 221,
+  "char_orbit": "f",
+  "conrey": 157,
+  "char_order": 4,
+  "dim": 16,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.k.a",
+  "level": 221,
+  "char_orbit": "k",
+  "conrey": 38,
+  "char_order": 4,
+  "dim": 40,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.l.a",
+  "level": 221,
+  "char_orbit": "l",
+  "conrey": 16,
+  "char_order": 6,
+  "dim": 36,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.m.a",
+  "level": 221,
+  "char_orbit": "m",
+  "conrey": 69,
+  "char_order": 6,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.m.b",
+  "level": 221,
+  "char_orbit": "m",
+  "conrey": 69,
+  "char_order": 6,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.m.c",
+  "level": 221,
+  "char_orbit": "m",
+  "conrey": 69,
+  "char_order": 6,
+  "dim": 22,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.n.a",
+  "level": 221,
+  "char_orbit": "n",
+  "conrey": 101,
+  "char_order": 6,
+  "dim": 40,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.p.a",
+  "level": 221,
+  "char_orbit": "p",
+  "conrey": 25,
+  "char_order": 8,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.p.b",
+  "level": 221,
+  "char_orbit": "p",
+  "conrey": 25,
+  "char_order": 8,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.p.c",
+  "level": 221,
+  "char_orbit": "p",
+  "conrey": 25,
+  "char_order": 8,
+  "dim": 64,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.q.a",
+  "level": 221,
+  "char_orbit": "q",
+  "conrey": 53,
+  "char_order": 8,
+  "dim": 32,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.q.b",
+  "level": 221,
+  "char_orbit": "q",
+  "conrey": 53,
+  "char_order": 8,
+  "dim": 40,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.s.a",
+  "level": 221,
+  "char_orbit": "s",
+  "conrey": 4,
+  "char_order": 12,
+  "dim": 80,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.x.a",
+  "level": 221,
+  "char_orbit": "x",
+  "conrey": 55,
+  "char_order": 12,
+  "dim": 72,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "221.2.z.a",
+  "level": 221,
+  "char_orbit": "z",
+  "conrey": 44,
+  "char_order": 16,
+  "dim": 152,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.a.a",
+  "level": 247,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.a.b",
+  "level": 247,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 3,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.a.c",
+  "level": 247,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 4,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.a.d",
+  "level": 247,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 5,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.a.e",
+  "level": 247,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 5,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.bd.a",
+  "level": 247,
+  "char_orbit": "bd",
+  "conrey": 37,
+  "char_order": 12,
+  "dim": 88,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.be.a",
+  "level": 247,
+  "char_orbit": "be",
+  "conrey": 8,
+  "char_order": 12,
+  "dim": 4,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.be.b",
+  "level": 247,
+  "char_orbit": "be",
+  "conrey": 8,
+  "char_order": 12,
+  "dim": 4,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.be.c",
+  "level": 247,
+  "char_orbit": "be",
+  "conrey": 8,
+  "char_order": 12,
+  "dim": 72,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.bf.a",
+  "level": 247,
+  "char_orbit": "bf",
+  "conrey": 46,
+  "char_order": 12,
+  "dim": 88,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.bi.a",
+  "level": 247,
+  "char_orbit": "bi",
+  "conrey": 4,
+  "char_order": 18,
+  "dim": 126,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.bn.a",
+  "level": 247,
+  "char_orbit": "bn",
+  "conrey": 25,
+  "char_order": 18,
+  "dim": 132,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.bo.a",
+  "level": 247,
+  "char_orbit": "bo",
+  "conrey": 17,
+  "char_order": 18,
+  "dim": 126,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.bq.a",
+  "level": 247,
+  "char_orbit": "bq",
+  "conrey": 15,
+  "char_order": 36,
+  "dim": 252,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.br.a",
+  "level": 247,
+  "char_orbit": "br",
+  "conrey": 2,
+  "char_order": 36,
+  "dim": 252,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.bs.a",
+  "level": 247,
+  "char_orbit": "bs",
+  "conrey": 21,
+  "char_order": 36,
+  "dim": 264,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.c.a",
+  "level": 247,
+  "char_orbit": "c",
+  "conrey": 77,
+  "char_order": 2,
+  "dim": 20,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.e.a",
+  "level": 247,
+  "char_orbit": "e",
+  "conrey": 87,
+  "char_order": 3,
+  "dim": 44,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.f.a",
+  "level": 247,
+  "char_orbit": "f",
+  "conrey": 144,
+  "char_order": 3,
+  "dim": 18,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.f.b",
+  "level": 247,
+  "char_orbit": "f",
+  "conrey": 144,
+  "char_order": 3,
+  "dim": 22,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.g.a",
+  "level": 247,
+  "char_orbit": "g",
+  "conrey": 172,
+  "char_order": 3,
+  "dim": 22,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.g.b",
+  "level": 247,
+  "char_orbit": "g",
+  "conrey": 172,
+  "char_order": 3,
+  "dim": 22,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.h.a",
+  "level": 247,
+  "char_orbit": "h",
+  "conrey": 68,
+  "char_order": 3,
+  "dim": 44,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.i.a",
+  "level": 247,
+  "char_orbit": "i",
+  "conrey": 18,
+  "char_order": 4,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.i.b",
+  "level": 247,
+  "char_orbit": "i",
+  "conrey": 18,
+  "char_order": 4,
+  "dim": 32,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.l.a",
+  "level": 247,
+  "char_orbit": "l",
+  "conrey": 49,
+  "char_order": 6,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.l.b",
+  "level": 247,
+  "char_orbit": "l",
+  "conrey": 49,
+  "char_order": 6,
+  "dim": 36,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.p.a",
+  "level": 247,
+  "char_orbit": "p",
+  "conrey": 134,
+  "char_order": 6,
+  "dim": 40,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.q.a",
+  "level": 247,
+  "char_orbit": "q",
+  "conrey": 64,
+  "char_order": 6,
+  "dim": 40,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.r.a",
+  "level": 247,
+  "char_orbit": "r",
+  "conrey": 30,
+  "char_order": 6,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.r.b",
+  "level": 247,
+  "char_orbit": "r",
+  "conrey": 30,
+  "char_order": 6,
+  "dim": 36,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.w.a",
+  "level": 247,
+  "char_orbit": "w",
+  "conrey": 35,
+  "char_order": 9,
+  "dim": 126,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.x.a",
+  "level": 247,
+  "char_orbit": "x",
+  "conrey": 66,
+  "char_order": 9,
+  "dim": 54,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.x.b",
+  "level": 247,
+  "char_orbit": "x",
+  "conrey": 66,
+  "char_order": 9,
+  "dim": 66,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.y.a",
+  "level": 247,
+  "char_orbit": "y",
+  "conrey": 9,
+  "char_order": 9,
+  "dim": 126,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "247.2.z.a",
+  "level": 247,
+  "char_orbit": "z",
+  "conrey": 141,
+  "char_order": 12,
+  "dim": 88,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.a.a",
+  "level": 289,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.a.b",
+  "level": 289,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.a.c",
+  "level": 289,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.a.d",
+  "level": 289,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 3,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.a.e",
+  "level": 289,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 3,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.a.f",
+  "level": 289,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.b.a",
+  "level": 289,
+  "char_orbit": "b",
+  "conrey": 288,
+  "char_order": 2,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.b.b",
+  "level": 289,
+  "char_orbit": "b",
+  "conrey": 288,
+  "char_order": 2,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.b.c",
+  "level": 289,
+  "char_orbit": "b",
+  "conrey": 288,
+  "char_order": 2,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.b.d",
+  "level": 289,
+  "char_orbit": "b",
+  "conrey": 288,
+  "char_order": 2,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.c.a",
+  "level": 289,
+  "char_orbit": "c",
+  "conrey": 38,
+  "char_order": 4,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.c.b",
+  "level": 289,
+  "char_orbit": "c",
+  "conrey": 38,
+  "char_order": 4,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.c.c",
+  "level": 289,
+  "char_orbit": "c",
+  "conrey": 38,
+  "char_order": 4,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.c.d",
+  "level": 289,
+  "char_orbit": "c",
+  "conrey": 38,
+  "char_order": 4,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.d.a",
+  "level": 289,
+  "char_orbit": "d",
+  "conrey": 110,
+  "char_order": 8,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.d.b",
+  "level": 289,
+  "char_orbit": "d",
+  "conrey": 110,
+  "char_order": 8,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.d.c",
+  "level": 289,
+  "char_orbit": "d",
+  "conrey": 110,
+  "char_order": 8,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.d.d",
+  "level": 289,
+  "char_orbit": "d",
+  "conrey": 110,
+  "char_order": 8,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.d.e",
+  "level": 289,
+  "char_orbit": "d",
+  "conrey": 110,
+  "char_order": 8,
+  "dim": 16,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.d.f",
+  "level": 289,
+  "char_orbit": "d",
+  "conrey": 110,
+  "char_order": 8,
+  "dim": 24,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.f.a",
+  "level": 289,
+  "char_orbit": "f",
+  "conrey": 18,
+  "char_order": 17,
+  "dim": 384,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.g.a",
+  "level": 289,
+  "char_orbit": "g",
+  "conrey": 16,
+  "char_order": 34,
+  "dim": 384,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.h.a",
+  "level": 289,
+  "char_orbit": "h",
+  "conrey": 4,
+  "char_order": 68,
+  "dim": 768,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "289.2.i.a",
+  "level": 289,
+  "char_orbit": "i",
+  "conrey": 2,
+  "char_order": 136,
+  "dim": 1600,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.a.a",
+  "level": 323,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.a.b",
+  "level": 323,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.a.c",
+  "level": 323,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 4,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.a.d",
+  "level": 323,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 5,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.a.e",
+  "level": 323,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.a.f",
+  "level": 323,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 7,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.bb.a",
+  "level": 323,
+  "char_orbit": "bb",
+  "conrey": 9,
+  "char_order": 72,
+  "dim": 672,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.bc.a",
+  "level": 323,
+  "char_orbit": "bc",
+  "conrey": 3,
+  "char_order": 144,
+  "dim": 1344,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.d.a",
+  "level": 323,
+  "char_orbit": "d",
+  "conrey": 305,
+  "char_order": 2,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.d.b",
+  "level": 323,
+  "char_orbit": "d",
+  "conrey": 305,
+  "char_order": 2,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.d.c",
+  "level": 323,
+  "char_orbit": "d",
+  "conrey": 305,
+  "char_order": 2,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.d.d",
+  "level": 323,
+  "char_orbit": "d",
+  "conrey": 305,
+  "char_order": 2,
+  "dim": 10,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.d.e",
+  "level": 323,
+  "char_orbit": "d",
+  "conrey": 305,
+  "char_order": 2,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.e.a",
+  "level": 323,
+  "char_orbit": "e",
+  "conrey": 239,
+  "char_order": 3,
+  "dim": 28,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.e.b",
+  "level": 323,
+  "char_orbit": "e",
+  "conrey": 239,
+  "char_order": 3,
+  "dim": 28,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.f.a",
+  "level": 323,
+  "char_orbit": "f",
+  "conrey": 115,
+  "char_order": 4,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.f.b",
+  "level": 323,
+  "char_orbit": "f",
+  "conrey": 115,
+  "char_order": 4,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.f.c",
+  "level": 323,
+  "char_orbit": "f",
+  "conrey": 115,
+  "char_order": 4,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.f.d",
+  "level": 323,
+  "char_orbit": "f",
+  "conrey": 115,
+  "char_order": 4,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.f.e",
+  "level": 323,
+  "char_orbit": "f",
+  "conrey": 115,
+  "char_order": 4,
+  "dim": 22,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.f.f",
+  "level": 323,
+  "char_orbit": "f",
+  "conrey": 115,
+  "char_order": 4,
+  "dim": 24,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.h.a",
+  "level": 323,
+  "char_orbit": "h",
+  "conrey": 220,
+  "char_order": 6,
+  "dim": 56,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.k.a",
+  "level": 323,
+  "char_orbit": "k",
+  "conrey": 77,
+  "char_order": 8,
+  "dim": 4,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.k.b",
+  "level": 323,
+  "char_orbit": "k",
+  "conrey": 77,
+  "char_order": 8,
+  "dim": 40,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.k.c",
+  "level": 323,
+  "char_orbit": "k",
+  "conrey": 77,
+  "char_order": 8,
+  "dim": 60,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.m.a",
+  "level": 323,
+  "char_orbit": "m",
+  "conrey": 35,
+  "char_order": 9,
+  "dim": 78,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.m.b",
+  "level": 323,
+  "char_orbit": "m",
+  "conrey": 35,
+  "char_order": 9,
+  "dim": 78,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.o.a",
+  "level": 323,
+  "char_orbit": "o",
+  "conrey": 30,
+  "char_order": 12,
+  "dim": 112,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.p.a",
+  "level": 323,
+  "char_orbit": "p",
+  "conrey": 37,
+  "char_order": 16,
+  "dim": 16,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.p.b",
+  "level": 323,
+  "char_orbit": "p",
+  "conrey": 37,
+  "char_order": 16,
+  "dim": 208,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.s.a",
+  "level": 323,
+  "char_orbit": "s",
+  "conrey": 16,
+  "char_order": 18,
+  "dim": 168,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.v.a",
+  "level": 323,
+  "char_orbit": "v",
+  "conrey": 26,
+  "char_order": 24,
+  "dim": 224,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.x.a",
+  "level": 323,
+  "char_orbit": "x",
+  "conrey": 4,
+  "char_order": 36,
+  "dim": 336,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "323.2.y.a",
+  "level": 323,
+  "char_orbit": "y",
+  "conrey": 12,
+  "char_order": 48,
+  "dim": 448,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.a.a",
+  "level": 361,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.a.b",
+  "level": 361,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 1,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.a.c",
+  "level": 361,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.a.d",
+  "level": 361,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.a.e",
+  "level": 361,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.a.f",
+  "level": 361,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.a.g",
+  "level": 361,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 3,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.a.h",
+  "level": 361,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 3,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.a.i",
+  "level": 361,
+  "char_orbit": "a",
+  "conrey": 1,
+  "char_order": 1,
+  "dim": 4,
+  "analytic_rank": 1,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.c.a",
+  "level": 361,
+  "char_orbit": "c",
+  "conrey": 68,
+  "char_order": 3,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.c.b",
+  "level": 361,
+  "char_orbit": "c",
+  "conrey": 68,
+  "char_order": 3,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.c.c",
+  "level": 361,
+  "char_orbit": "c",
+  "conrey": 68,
+  "char_order": 3,
+  "dim": 2,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.c.d",
+  "level": 361,
+  "char_orbit": "c",
+  "conrey": 68,
+  "char_order": 3,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.c.e",
+  "level": 361,
+  "char_orbit": "c",
+  "conrey": 68,
+  "char_order": 3,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.c.f",
+  "level": 361,
+  "char_orbit": "c",
+  "conrey": 68,
+  "char_order": 3,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.c.g",
+  "level": 361,
+  "char_orbit": "c",
+  "conrey": 68,
+  "char_order": 3,
+  "dim": 4,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.c.h",
+  "level": 361,
+  "char_orbit": "c",
+  "conrey": 68,
+  "char_order": 3,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.c.i",
+  "level": 361,
+  "char_orbit": "c",
+  "conrey": 68,
+  "char_order": 3,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.c.j",
+  "level": 361,
+  "char_orbit": "c",
+  "conrey": 68,
+  "char_order": 3,
+  "dim": 8,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.e.a",
+  "level": 361,
+  "char_orbit": "e",
+  "conrey": 28,
+  "char_order": 9,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.e.b",
+  "level": 361,
+  "char_orbit": "e",
+  "conrey": 28,
+  "char_order": 9,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.e.c",
+  "level": 361,
+  "char_orbit": "e",
+  "conrey": 28,
+  "char_order": 9,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.e.d",
+  "level": 361,
+  "char_orbit": "e",
+  "conrey": 28,
+  "char_order": 9,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.e.e",
+  "level": 361,
+  "char_orbit": "e",
+  "conrey": 28,
+  "char_order": 9,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.e.f",
+  "level": 361,
+  "char_orbit": "e",
+  "conrey": 28,
+  "char_order": 9,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.e.g",
+  "level": 361,
+  "char_orbit": "e",
+  "conrey": 28,
+  "char_order": 9,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.e.h",
+  "level": 361,
+  "char_orbit": "e",
+  "conrey": 28,
+  "char_order": 9,
+  "dim": 6,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.e.i",
+  "level": 361,
+  "char_orbit": "e",
+  "conrey": 28,
+  "char_order": 9,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.e.j",
+  "level": 361,
+  "char_orbit": "e",
+  "conrey": 28,
+  "char_order": 9,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.e.k",
+  "level": 361,
+  "char_orbit": "e",
+  "conrey": 28,
+  "char_order": 9,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.e.l",
+  "level": 361,
+  "char_orbit": "e",
+  "conrey": 28,
+  "char_order": 9,
+  "dim": 12,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.e.m",
+  "level": 361,
+  "char_orbit": "e",
+  "conrey": 28,
+  "char_order": 9,
+  "dim": 24,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.g.a",
+  "level": 361,
+  "char_orbit": "g",
+  "conrey": 20,
+  "char_order": 19,
+  "dim": 540,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.i.a",
+  "level": 361,
+  "char_orbit": "i",
+  "conrey": 7,
+  "char_order": 57,
+  "dim": 1080,
+  "analytic_rank": 0,
+  "rank_proved": true
+ },
+ {
+  "label": "361.2.k.a",
+  "level": 361,
+  "char_orbit": "k",
+  "conrey": 4,
+  "char_order": 171,
+  "dim": 3348,
+  "analytic_rank": 0,
+  "rank_proved": true
+ }
+]

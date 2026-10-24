@@ -1,0 +1,13 @@
+CHARACTER m=7 order=1 cuspidal_dimension=1
+SIMPLE_FACTOR m=7 level=49 dimension=1 winding_dimension=1
+CHARACTER m=7 order=3 cuspidal_dimension=1
+SIMPLE_FACTOR m=7 level=49 dimension=1 winding_dimension=1
+ALL_L_VALUES_NONZERO m=7 result=true
+CHARACTER m=9 order=1 cuspidal_dimension=4
+SIMPLE_FACTOR m=9 level=81 dimension=2 winding_dimension=2
+SIMPLE_FACTOR m=9 level=27 dimension=1 winding_dimension=1
+CHARACTER m=9 order=3 cuspidal_dimension=3
+SIMPLE_FACTOR m=9 level=81 dimension=1 winding_dimension=1
+SIMPLE_FACTOR m=9 level=81 dimension=2 winding_dimension=2
+ALL_L_VALUES_NONZERO m=9 result=true
+FULL_LEVEL_RANK_DONE

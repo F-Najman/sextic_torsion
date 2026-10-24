@@ -1,0 +1,79 @@
+COMBINED C49 RECORD: 18 completed A5 types, one completed A2 type, ten count-derived empty types.
+The interrupted A5 [6] header is not a completed test.
+
+=== ORIGINAL PREFIX ===
+SETUP N=49 M=1 p=3 genus=69 time=519.460
+CUSPS number=25 degrees=[ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 6, 6, 21 ]
+CUSPFIELDS orbits over Q (degree, F_p-degree): [ <21, 21>, <6, 6>, <6, 6>, <6, 6>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1> ] ; predicted F_p cusp degrees match model: true
+CC complement degree <= 1: q mod 49 in [ 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 36, 37, 38, 39, 40, 41, 43, 44, 45, 46, 47, 48 ] ; usable q from list: [ 5 ]
+CC complement degree <= 2: q mod 49 in [ 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 36, 37, 38, 39, 40, 41, 43, 44, 45, 46, 47, 48 ] ; usable q from list: [ 5 ]
+CC complement degree <= 3: q mod 49 in [ 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 36, 37, 38, 39, 40, 41, 43, 44, 45, 46, 47, 48 ] ; usable q from list: [ 5 ]
+CC complement degree <= 4: q mod 49 in [ 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 36, 37, 38, 39, 40, 41, 43, 44, 45, 46, 47, 48 ] ; usable q from list: [ 5 ]
+CC complement degree <= 5: q mod 49 in [ 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 36, 37, 38, 39, 40, 41, 43, 44, 45, 46, 47, 48 ] ; usable q from list: [ 5 ]
+QLIST all (used when there is no cuspidal part): [ 5 ]
+DEGREES with points of the required type over F_p^d (d=1..6): [ false, false, false, true, true, true ]  time=985.440
+NONCUSP counts deg 1..6: [ 0, 0, 0, 21, 63, 154 ]  time=1002.140
+REPS up to diamond: [ 0, 0, 0, 1, 3, 8 ]  time=1003.850
+TYPE [ 1 ]: no divisors
+TYPE [ 2 ]: no divisors
+TYPE [ 1, 1 ]: no divisors
+TYPE [ 3 ]: no divisors
+TYPE [ 2, 1 ]: no divisors
+TYPE [ 1, 1, 1 ]: no divisors
+TYPE [ 4 ]: 1 divisors (up to diamond), qlist=[ 5 ]
+RESULT type=[ 4 ] total=1 survivors=0 time=1201.000
+TYPE [ 3, 1 ]: no divisors
+TYPE [ 2, 2 ]: no divisors
+TYPE [ 2, 1, 1 ]: no divisors
+TYPE [ 1, 1, 1, 1 ]: no divisors
+TYPE [ 5 ]: 3 divisors (up to diamond), qlist=[ 5 ]
+RESULT type=[ 5 ] total=3 survivors=0 time=2097.000
+TYPE [ 4, 1 ]: no divisors
+TYPE [ 3, 2 ]: no divisors
+TYPE [ 3, 1, 1 ]: no divisors
+TYPE [ 2, 2, 1 ]: no divisors
+TYPE [ 2, 1, 1, 1 ]: no divisors
+TYPE [ 1, 1, 1, 1, 1 ]: no divisors
+TYPE [ 6 ]: 8 divisors (up to diamond), qlist=[ 5 ]
+
+=== COMPLETED A2 TEST ===
+C49_A2_SETUP genus=69 time=520.960
+C49_A2_PLACES total=154 representatives=8 time=538.610
+C49_A2_START i=1 time=538.610
+C49_A2_HECKE i=1 time=545.240
+C49_A2_DIAMOND i=1 time=546.730
+C49_A2_TEST i=1 principal=false time=559.800
+C49_A2_START i=2 time=559.800
+C49_A2_HECKE i=2 time=566.270
+C49_A2_DIAMOND i=2 time=567.730
+C49_A2_TEST i=2 principal=false time=580.540
+C49_A2_START i=3 time=580.540
+C49_A2_HECKE i=3 time=585.610
+C49_A2_DIAMOND i=3 time=587.090
+C49_A2_TEST i=3 principal=false time=599.950
+C49_A2_START i=4 time=599.950
+C49_A2_HECKE i=4 time=605.900
+C49_A2_DIAMOND i=4 time=607.490
+C49_A2_TEST i=4 principal=false time=620.020
+C49_A2_START i=5 time=620.020
+C49_A2_HECKE i=5 time=625.130
+C49_A2_DIAMOND i=5 time=626.610
+C49_A2_TEST i=5 principal=false time=639.010
+C49_A2_START i=6 time=639.010
+C49_A2_HECKE i=6 time=643.630
+C49_A2_DIAMOND i=6 time=645.070
+C49_A2_TEST i=6 principal=false time=658.850
+C49_A2_START i=7 time=658.850
+C49_A2_HECKE i=7 time=665.360
+C49_A2_DIAMOND i=7 time=666.800
+C49_A2_TEST i=7 principal=false time=679.550
+C49_A2_START i=8 time=679.550
+C49_A2_HECKE i=8 time=685.750
+C49_A2_DIAMOND i=8 time=687.310
+C49_A2_TEST i=8 principal=false time=700.170
+C49_A2_DONE total=8 survivors=0 data=[] time=700.340
+
+=== DERIVED EMPTY DEGREE-SIX TYPES ===
+[[1, 1, 1, 1, 1, 1], [2, 1, 1, 1, 1], [2, 2, 1, 1], [2, 2, 2], [3, 1, 1, 1], [3, 2, 1], [3, 3], [4, 1, 1], [4, 2], [5, 1]]
+Each listed type contains a part1,2,or3, where no noncuspidal places exist.
+COMBINED_C49_A2_DONE full_partition_coverage=true survivors=0

@@ -1,0 +1,7 @@
+TORSION n=49 p=2 : k with Z/49 over F_p^k = [] ; k with Z/2xZ/49 = []
+TORSION n=51 p=2 : k with Z/51 over F_p^k = [] ; k with Z/2xZ/51 = []
+TORSION n=55 p=2 : k with Z/55 over F_p^k = [] ; k with Z/2xZ/55 = []
+TORSION n=75 p=2 : k with Z/75 over F_p^k = [] ; k with Z/2xZ/75 = []
+TORSION n=77 p=2 : k with Z/77 over F_p^k = [] ; k with Z/2xZ/77 = []
+TORSION n=85 p=2 : k with Z/85 over F_p^k = [] ; k with Z/2xZ/85 = []
+DONE

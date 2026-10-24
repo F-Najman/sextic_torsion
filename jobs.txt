@@ -1,0 +1,198 @@
+# One job per line: log file TAB command TAB closing marker [TAB expected result (ERE)]
+# Every command is run from the repository root and its output replaces the named log.
+# verify_all.sh treats a job as successful only if the command exits 0 and the closing line
+# of the log is the marker (optionally followed by a space and details).  The closing line is
+# the last non-blank line, ignoring carriage returns, a trailing "Script done on ..." line
+# written by script(1), and trailing lines that consist of a CPU time only (Magma prints the
+# time on a line of its own after a sequence).
+# If a fourth column is present, the log must also match that extended regular expression.
+#
+# A command of the form "archived: ..." marks a log that no single command regenerates: an
+# interrupted run, or a continuation loaded by hand into a running Magma session.  The text
+# after "archived:" records how the log was produced.  verify_all.sh does not run these; the
+# README says how to reproduce the computation behind each of them.
+#
+# Provenance of the parameters.  The committed logs were produced by the original runs,
+# with copies of these scripts that differ from the ones here at most in file paths (see
+# README, "Provenance of the committed logs").  Most commands are recorded in the original
+# material, or are determined because the script takes no parameters.  The following are not
+# recorded anywhere; their parameters were read off the log (SETUP, QLIST, CC, SURVIVORS and
+# SIEVE_RESUME_DONE lines, RATIONAL_TWO_START) and the driver from the file times, and MemGB is
+# then left at the driver's default (memory limits do not change the output):
+#   logs/finite_fields/torsion_F2_49_51_55_75_77_85.log, logs/sieve/X1_32_p3.log,
+#   logs/sieve/X1_34_p3.log, logs/sieve/X1_38_p3.log, logs/sieve/X1_39_p2.log,
+#   logs/sieve/X1_50_p3.log, logs/sieve/X1_33_p5_resume.log, logs/sieve/X1_2_22_p3_resume.log,
+#   logs/sieve/X1_2_26_p3.log, logs/sieve/X1_2_28_p3.log (only Qs; 7 resp. 13 would be
+#   discarded by the driver anyway), logs/sieve/X1_49_p3_resume.log,
+#   logs/classes/X1_32_p3_class_membership.log, logs/rr/X1_21_F2_double_cusp_validation.log
+#   (DirectCheck), logs/homology/J1_57_two_torsion.log and logs/homology/J1_49_T2.log
+#   (MatrixFile; it only adds the export), and the archived lines marked [inferred].
+#
+# Logs that come from the original run and must be regenerated with the path-edited script
+# (the script differs from the one that produced the log only in a file path):
+#   logs/counts/gl2_point_counts.log, logs/counts/short_sieves.log, logs/counts/X1_27_p2.log,
+#   logs/counts/X1_42_p5.log, logs/counts/X1_2_24_p5.log, logs/counts/X1_35_p3_verify.log
+#     (gl2/magma.spec in place of sutherland-magma-current/magma.spec);
+#   logs/sieve/X1_2_26_p3.log, logs/sieve/X1_2_28_p3.log (data/cusp_conditions_m2.m);
+#   logs/sieve/X1_42_p5_shard{0,1,2,3}.log (data/c42_fixed_representatives.m);
+#   logs/cartier/Y65_rr_transport.log (data/fi65_genus41_rr_transport.m);
+#   logs/n30/other_quotients.log, logs/n30/a3_filter.log (data/m2_30_*.m, data/A3_m2_30_arithmetic.txt);
+#   and every Python job below (paths of the logs and data files they read and write).
+# The archived logs of edited continuation scripts are listed with their "archived:" lines.
+
+# ---- Z/37 and the examples for Z/25, Z/4 x Z/12, Z/2 x Z/24 ----
+logs/verify_37.log	magma -n -b verify_37.m	VERIFY_37_DONE	^DIVISION_FACTOR_DEGREES \[ <6, 1>, <6, 1>, <6, 1>, <666, 1> \]$
+logs/verify_known_examples.log	magma -n -b verify_known_examples.m	KNOWN_EXAMPLES_DONE	^C4_C12_EXAMPLE .* torsion=\[ 4, 12 \]$
+logs/n24/example_first.log	magma -n -b example_2_24_direct.m	M2N24_DIRECT_FULL_DONE exact=true
+logs/n24/example_second.log	magma -n -b example_2_24_second_direct.m	M2N24_SECOND_DIRECT_FULL_DONE exact=true
+logs/n24/example_first_isogenies.log	magma -n -b example_2_24_two_isogenies.m	N24_ALL_THREE_TWO_ISOGENIES_DONE exact=true
+logs/n24/example_second_isogenies.log	magma -n -b example_2_24_second_two_isogenies.m	N24_SECOND_ALL_THREE_TWO_ISOGENIES_DONE exact=true
+logs/n24/reduction_bounds_isogenies.log	magma -n -b reduction_bounds_n24_isogenies.m	N24_REDUCTION_BOUNDS_ALL_DONE exact=true
+logs/n24/X1_2_24_p5_cusp_reduction.log	magma -n -b fine_2_24_cusp_reduction.m	N24_CUSP_REDUCTION_DONE 2 2 complete=true	^N24_CUSP_REDUCTION_TYPE 6 684 2
+logs/n24/match_exact_points.log	magma -n -b match_n24_exact_points.m	N24_EXACT_POINT_MATCH_DONE complete=true
+logs/counts/X1_2_24_p5.log	magma -n -b independent_m2_24_counts.m	INDEPENDENT_M2N24_COUNTS_DONE complete=true
+logs/tests/test_diamond_hash_m2_explicit.log	magma -n -b test_diamond_hash_m2_direct.m	M2_DIRECT_HASH_TEST_DONE complete=true
+
+# ---- local arguments: diamonds, finite fields, full level ----
+logs/check_diamonds.log	magma -n -b check_diamonds.m	DIAMOND_CHECKS_DONE
+logs/finite_fields/torsion_F2_49_51_55_75_77_85.log	magma -n -b Ns:=49,51,55,75,77,85 Ps:=2 K:=6 torsion_over_Fq.m	DONE	^TORSION n=85 p=2 : k with Z/85 over F_p\^k = \[\]
+logs/finite_fields/torsion_F2_35_45_49_51_81.log	magma -n -b Ns:=35,45,49,51,81 Ps:=2 K:=6 torsion_over_Fq.m	DONE	^TORSION n=81 p=2 : k with Z/81 over F_p\^k = \[\]
+logs/finite_fields/C3xC27_F4_F16_F64.log	magma -n -b noncyclic_finite_fields.m	NONCYCLIC_FINITE_FIELDS_DONE
+logs/finite_fields/C3xCn_F4_F16_F64.log	magma -n -b check_local_3n.m	LOCAL_3N_DONE
+logs/finite_fields/good2_57_65_F64.log	magma -n -b check_good2_57_65.m	GOOD2_57_65_CHECK_DONE
+logs/finite_fields/C63_F64.log	magma -n -b finite_field_63.m	C63_F64_DONE no_order_divisible_by63=true
+logs/finite_fields/C4xC24_hasse.log	archived: output of an unrecorded Python one-liner (Hasse intervals over F_5, F_25, F_125 contain no multiple of 96); no script was archived	C4C24_HASSE_DONE no_possible_good_reduction=true
+logs/full_level_rank.log	magma -n -b full_level_rank.m	FULL_LEVEL_RANK_DONE	^ALL_L_VALUES_NONZERO m=9 result=true$
+
+# ---- Hecke sieves on X_1(n) and X_1(2,n) ----
+logs/sieve/X1_32_p3.log	magma -n -b N:=32 p:=3 Qs:=5,7,11 D:=6 M:=1 hecke_sieve_deg5_v6.m	SIEVE_DONE	^SUMMARY .* total_survivors=4([[:space:]]|$)
+logs/classes/X1_32_p3_class_membership.log	magma -n -b N:=32 p:=3 D:=6 SURV:=data/survivors_32_p3.txt analyze_survivors.m	ANALYZE_DONE (all survivors excluded by rational class-group membership)	^RATIONAL_CLASS_MEMBERSHIP \[ false, false, false, false \]$
+logs/sieve/X1_34_p3.log	magma -n -b N:=34 p:=3 Qs:=5,7,11 D:=6 M:=1 hecke_sieve_deg5_v6.m	SIEVE_DONE	^SUMMARY .* total_survivors=0([[:space:]]|$)
+logs/sieve/X1_38_p3.log	magma -n -b N:=38 p:=3 Qs:=5,7,11 D:=6 M:=1 hecke_sieve_deg5_v6.m	SIEVE_DONE	^SUMMARY .* total_survivors=0([[:space:]]|$)
+logs/sieve/X1_35_p3.log	magma -n -b N:=35 p:=3 Qs:=11,13 D:=6 M:=1 MemGB:=2 hecke_sieve_deg5_v6.m	SIEVE_DONE	^SUMMARY .* total_survivors=0([[:space:]]|$)
+logs/sieve/X1_39_p2.log	magma -n -b N:=39 p:=2 Qs:=5,7 D:=6 M:=1 hecke_sieve_deg5_v6.m	SIEVE_DONE	^SUMMARY .* total_survivors=0([[:space:]]|$)
+logs/tests/check_char2_hecke.log	magma -n -b check_char2_hecke.m	CHAR2_HECKE_DONE
+logs/sieve/X1_50_p3.log	magma -n -b N:=50 p:=3 Qs:=7,11 D:=6 M:=1 hecke_sieve_deg5_v6.m	SIEVE_DONE	^SUMMARY .* total_survivors=0([[:space:]]|$)
+logs/sieve/X1_40_p3.log	magma -n -b N:=40 p:=3 Qs:=7,11 D:=6 M:=1 MemGB:=3 hecke_sieve_cached.m	SIEVE_DONE	^SUMMARY .* total_survivors=0([[:space:]]|$)
+logs/sieve/X1_33_p5_prefix.log	archived: interrupted during type [3,3] (100 of 360 tests done) [inferred] run of: magma -n -b N:=33 p:=5 Qs:=7 D:=6 M:=1 hecke_sieve_deg5_v6.m	PROGRESS type=[ 3, 3 ] 100/360 survivors=0
+logs/sieve/X1_33_p5_resume.log	magma -n -b N:=33 p:=5 Qs:=7 D:=6 M:=1 FromDegree:=6 MaxPart:=3 hecke_sieve_cached.m	SIEVE_RESUME_DONE FromDegree=6 MaxPart=3	^SUMMARY .* total_survivors=0([[:space:]]|$)
+logs/sieve/X1_2_22_p3_prefix.log	archived: interrupted at the start of type [6] [inferred] run of: magma -n -b N:=22 p:=3 Qs:=5,7 D:=6 M:=2 sieve_M2_strong.m	TYPE [ 6 ]: 20 divisors (up to diamond), qlist=[ 5, 7 ]
+logs/sieve/X1_2_22_p3_resume.log	magma -n -b N:=22 p:=3 Qs:=5,7 D:=6 M:=2 FromDegree:=6 MaxPart:=6 sieve_M2_fast_cached.m	SIEVE_RESUME_DONE FromDegree=6 MaxPart=6	^SUMMARY .* total_survivors=0([[:space:]]|$)
+logs/tests/test_fast_hecke_11.log	magma -n -b test_fast_hecke_11.m	FAST_HECKE_11_TEST_DONE
+logs/tests/test_fast_hecke_22.log	magma -n -b test_fast_hecke_22.m	FAST_HECKE_22_TEST_DONE
+logs/tests/test_fast_diamonds_22.log	magma -n -b test_fast_diamonds_22.m	FAST_DIAMOND_22_TEST_DONE
+logs/sieve/X1_2_26_p3.log	magma -n -b N:=26 p:=3 Qs:=5,7 D:=6 M:=2 sieve_M2_tate_cached.m	SIEVE_DONE	^SUMMARY .* total_survivors=2([[:space:]]|$)
+logs/classes/X1_2_26_p3_classes.log	magma -n -b inspect_2_26_classes.m	M2N26_CLASS_INSPECT_DONE	^M2N26_RATIONAL_CUSPS_ONLY \[ 2, 14, 266, 3990, 11970 \]
+logs/classes/X1_2_26_p3_survivor_match.log	magma -n -b match_2_26_survivors.m	M2N26_SURVIVOR_MATCH_DONE
+logs/sieve/X1_2_28_p3.log	magma -n -b N:=28 p:=3 Qs:=5,11 D:=6 M:=2 sieve_M2_tate_cached.m	SIEVE_DONE	^SUMMARY .* total_survivors=0([[:space:]]|$)
+logs/sieve/X1_42_p5_prefix_session.log	archived: session of magma -b N:=42 M:=1 p:=5 D:=6 Qs:=11,13,17 MemGB:=16 hecke_sieve_42_roots.m, interrupted during type [6] (40 of 392 tests), in which export_42_fixed_reps.m was then loaded (it writes data/c42_fixed_representatives.m and tests the 8 divisors of type [3,3])	C42_CUBIC_PAIR_DONE total=8 survivors=0 complete=true
+logs/sieve/X1_42_p5_shard0.log	magma -n -b Shard:=0 sieve_42_fixed_shard.m	C42_FIXED_SHARD_DONE shard=0/4 tested=98 survivors=0 indices=[] complete=true
+logs/sieve/X1_42_p5_shard1.log	magma -n -b Shard:=1 sieve_42_fixed_shard.m	C42_FIXED_SHARD_DONE shard=1/4 tested=98 survivors=0 indices=[] complete=true
+logs/sieve/X1_42_p5_shard2.log	magma -n -b Shard:=2 sieve_42_fixed_shard.m	C42_FIXED_SHARD_DONE shard=2/4 tested=98 survivors=0 indices=[] complete=true
+logs/sieve/X1_42_p5_shard3.log	magma -n -b Shard:=3 sieve_42_fixed_shard.m	C42_FIXED_SHARD_DONE shard=3/4 tested=98 survivors=0 indices=[] complete=true
+logs/tests/probe_42_hecke_hash.log	magma -n -b probe_42_hecke_hash.m	C42_HECKE_PROBE_DONE
+logs/counts/X1_42_p5.log	magma -n -b count_42_gl2.m	GL2_COUNT_42_DONE
+logs/sieve/X1_49_p3_prefix.log	archived: interrupted at the start of type [6] [inferred] run of: magma -n -b N:=49 p:=3 Qs:=5 D:=6 M:=1 hecke_sieve_cached.m	TYPE [ 6 ]: 8 divisors (up to diamond), qlist=[ 5 ]
+logs/sieve/X1_49_p3_resume.log	magma -n -b N:=49 p:=3 Qs:=5 D:=6 M:=1 FromDegree:=6 MaxPart:=6 hecke_sieve_cyclic_commonzero.m	SIEVE_RESUME_DONE FromDegree=6 MaxPart=6	^SUMMARY .* total_survivors=0([[:space:]]|$)
+logs/tests/test_hecke_two_commonzero.log	magma -n -b test_hecke_two_commonzero.m	HECKE_TWO_COMMONZERO_TEST_DONE
+logs/sieve/X1_49_p3_A2.log	magma -n -b sieve_49_A2.m	C49_A2_DONE total=8 survivors=0 data=[]
+logs/homology/J1_49_T2.log	magma -n -b MatrixFile:=data/two_torsion_49_T2_matrices.m two_torsion_49_T2.m	TWO49_DONE zero=true
+
+# ---- Z/36: cuspidal divisor classes ----
+logs/classes/X1_36_p5_class_sieve.log	magma -n -b N:=36 p:=5 MemGB:=2 class_cuspidal_36_certificate.m	CLASS_CUSPIDAL_SIEVE_DONE N=36 p=5 D=6 remaining_classes=0 complete=true
+logs/classes/J1_36_F5_order.log	magma -n -b jacobian36_5.m	JAC36_F5_DONE
+
+# ---- doubled cuspidal Riemann-Roch at 2, and Z/54 ----
+logs/rr/X1_45_F2_double_cusp.log	magma -n -b N:=45 D:=6 DirectCheck:=3 UseJets:=1 cusp_double_rr_local_ref_lazy.m	CUSP_DOUBLE_FAST_DONE N=45 D=6 tested=19048 total=19048 exceptions=0 complete=true
+logs/rr/X1_21_F2_double_cusp_validation.log	magma -n -b N:=21 D:=2 DirectCheck:=24 UseJets:=1 cusp_double_rr_local_ref_lazy.m	CUSP_DOUBLE_FAST_DONE N=21 D=2 tested=24 total=24 exceptions=6 complete=true
+logs/rr/X1_3_21_F4_double_cusp.log	magma -n -b N:=21 D:=3 cusp_double_rr_3n.m	CUSP_DOUBLE_NONCYCLIC_DONE N=21 D=3 tested=2608 total=2608 exceptions=0 complete=true
+logs/rr/X1_3_15_F4_double_cusp.log	magma -n -b N:=15 D:=3 cusp_double_rr_3n_localref.m	CUSP_DOUBLE_LOCALREF_DONE N=15 D=3 tested=944 total=944 exceptions=32 complete=true	^ALL_EXCEPTIONS_SUPPORTED_ON_RATIONAL_CUSPS_WITH_H0_EQ_1 32$
+logs/classes/X1_3_15_reduction_injective.log	magma -n -b verify_3_15_reduction_injective.m	INJECTIVE_REDUCTION_3_15_DONE	^EQUAL_TWO_PRIMARY_ORDERS 8192 8192$
+logs/rr/X1_27_C54_certificate.log	magma -n -b certify_54_via27.m	C54_FINITE_CERTIFICATE_DONE complete=true	^C54_CERT_F5_ODD_GROUP 27 \[ 27 \]
+logs/counts/X1_27_p2.log	magma -n -b count_27_gl2.m	GL2_COUNT_27_DONE
+
+# ---- Hecke and class-group arguments on X_1(3,24), X_1(6,12), X_1(4,16), X_1(4,20), X_1(3,18) ----
+logs/sieve/X1_3_24_p7.log	magma -n -b sieve_3_24.m	SIEVE_3_24_DONE 12 0
+logs/counts/X1_3_18_and_3_24_p7.log	magma -n -b independent_m3_counts.m	INDEPENDENT_M3_COUNTS_DONE	^INDEPENDENT_M3_COUNTS 24 \[ 0, 0, 144 \]$
+logs/tests/test_moduli_point3.log	magma -n -b test_moduli_point3.m	MODULI_POINT3_TEST_DONE
+logs/tests/test_fast_hecke_3.log	magma -n -b test_fast_hecke_3.m	FAST_HECKE_3_TEST_DONE
+logs/sieve/X1_6_12_p7.log	magma -n -b sieve_6_12.m	SIEVE_6_12_DONE 48 0 []
+logs/counts/X1_6_12_p7.log	magma -n -b independent_m6_counts.m	M3N12_GENUS_CHECK 3	^INDEPENDENT_M6_COUNTS_DONE \[ 0, 0, 288 \]$
+logs/tests/test_moduli_612.log	magma -n -b test_moduli_612.m	M6_MODEL_TEST_DONE
+logs/tests/test_hecke_612.log	magma -n -b test_hecke_612.m	M6_HECKE_TEST_DONE
+logs/sieve/X1_4_16_p3.log	magma -n -b sieve_4_16_p3.m	SIEVE_4_16_P3_DONE 80 0 []
+logs/tests/preflight_4_16_p3.log	magma -n -b preflight_4_16_p3.m	M4N16_F9_PREFLIGHT_DONE
+logs/counts/X1_4_16_p3.log	magma -n -b independent_m4_p3_counts.m	INDEPENDENT_M4_P3_COUNTS_DONE [ 0, 0, 960 ]
+logs/sieve/X1_4_20_p3.log	magma -n -b sieve_4_20_p3.m	SIEVE_4_20_P3_DONE 104 0 []
+logs/tests/preflight_4_20_p3.log	magma -n -b preflight_4_20_p3.m	M4N20_PREFLIGHT_DONE
+logs/counts/X1_4_20_p3.log	magma -n -b independent_m4_20_p3_counts.m	INDEPENDENT_M4N20_P3_COUNTS_DONE [ 0, 192, 960 ]
+logs/classes/X1_3_18_diagonal_classes.log	magma -n -b diagonal_3_18_cusp_classes_certificate.m	M3N18_DIAGONAL_DONE 36 36 0 0 complete=true
+logs/counts/X1_3_18_p13.log	magma -n -b independent_m3_18_p13_counts.m	INDEPENDENT_M3N18_P13_COUNTS_DONE [ 0, 108, 2538 ]
+
+# ---- Z/57: rational 2-torsion of J_1(57) ----
+logs/homology/J1_57_two_torsion.log	magma -n -b Qs:=5 MatrixFile:=data/two_torsion_57_matrices.m rational_two_torsion.m	RATIONAL_TWO_DONE N=57 kernel_dimension=2 diamond_trivial=true
+
+# ---- Z/63, Z/51, Z/65: Cartier formal immersion on quotients ----
+logs/cartier/Y63_session.log	archived: standard output of the session of magma -b JetFile:=fi63_direct_cartier_jets.m cusp63_direct_cartier.m (other parameters at their defaults [inferred]), interrupted in cusp block 19, in which cartier_direct_63_diagnostic_continuation.m was then loaded	RANK0_CARTIER_DONE N=63 D=6 tested=6542 total=6542 exceptions=0 complete=true
+logs/cartier/Y63_continuation.log	archived: SetLogFile log of cartier_direct_63_diagnostic_continuation.m, loaded into the session of logs/cartier/Y63_session.log	RANK0_CARTIER_DONE N=63 D=6 tested=6542 total=6542 exceptions=0 complete=true
+logs/cartier/X1_63_character.log	magma -n -b rank_quotient_63_character.m	diamond8=-1	^C63_POSITIVE_CHARACTER_QUOTIENT_DONE \[ 47, 59 \]$
+logs/cartier/Y51_session.log	archived: standard output of the session of cusp51_direct_cartier.m (only its first four lines are used; the session also contains exploratory continuations that end in errors), into which cartier_direct_51_union_continuation.m and cusp51_retained_rr_kernels_continuation.m were later loaded	RANK0_CARTIER_DONE N=51 D=6 tested=54808 total=54808 exceptions=0 complete=true
+logs/cartier/Y51_cusp_union.log	archived: SetLogFile log of cartier_direct_51_union_continuation.m in the same session (used up to its RANK0_CARTIER_COUNT line)	> SetLogFile("work/large_levels_agent/cusp51_retained_rr_kernels.log");	^RANK0_CARTIER_COUNT N=51 total=54808
+logs/cartier/Y51_rr_kernels.log	archived: SetLogFile log of cusp51_retained_rr_kernels_continuation.m in the same session; standalone reproduction: magma -n -b cusp51_direct_rr_kernels_full.m	RANK0_CARTIER_DONE N=51 D=6 tested=54808 total=54808 exceptions=0 complete=true
+logs/cartier/X1_13_twist_parameter.log	magma -n -b setup13_twist_parameter_certified.m	FACTOR13_DONE
+logs/cartier/Y65_rr_transport.log	magma -n -b cusp65_genus41_rr_transport_full.m	RANK0_CARTIER_DONE N=65 D=6 tested=1792 total=1792 exceptions=0 complete=true
+
+# ---- Z/2 x Z/30 ----
+logs/n30/first_quotient_prefix.log	archived: TTY transcript of magma -b m2_30_quotient_prefilter.m, run with a source without the two a1=a3=0 assertions (see README); all five single-place types completed, then a parser error stopped the script and the session was kept	>
+logs/n30/first_quotient_mixed_continuation.log	archived: m2_30_mixed_continuation.m loaded into the session of logs/n30/first_quotient_prefix.log (it writes data/m2_30_quotient_survivors.m)	M2_30_QUOTIENT_RESUME_DONE survivors=68 class_maps=5466 single_types=5 mixed_types=5 complete=true
+logs/n30/normalization_guard.log	magma -n -b m2_30_normalization_guard.m	M2_30_NORMALIZATION_GUARD_DONE global_a1_zero=true global_a3_zero=true
+logs/n30/other_quotients.log	magma -n -b m2_30_other_quotients.m	M2_30_OTHER_QUOTIENTS_DONE input=68 pass2=10 pass3=10 remaining=10 class_maps=44 complete=true
+logs/n30/a3_map_test.log	magma -n -b test_a3_m2_30_map.m	A3_M2_30_MAP_TEST_DONE exact=true
+logs/n30/a3_frobenius.log	magma -n -b a3_m2_30_frobenius.m	A3_M2_30_FROBENIUS_DONE exact=true
+logs/n30/a3_filter.log	magma -n -b filter_a3_m2_30.m	A3_M2_30_FILTER_DONE input=10 remaining=0 class_maps=8 complete=true
+
+# ---- independent point counts ----
+logs/counts/gl2_point_counts.log	magma -n -b independent_counts.m	GL2_POINT_COUNTS_DONE all_agree=true
+logs/counts/short_sieves.log	magma -n -b count_short_sieves.m	SHORT_SIEVE_COUNT_DONE
+logs/counts/X1_35_p3_verify.log	magma -n -b verify_35.m	VERIFY_35_DONE
+
+# ---- Python-only jobs (run after the Magma jobs, one at a time, in this order) ----
+logs/sieve/cusp_conditions_m2.log	python3 cusp_conditions_m2.py	M2_CUSP_CONDITIONS_DONE
+logs/sieve/X1_33_p5.log	python3 combine_sieve33.py > /dev/null	COMBINED_SIEVE_DONE coveragevalidated=true all_survivors=0
+logs/sieve/X1_2_22_p3.log	python3 combine_sieve2_22.py > /dev/null	COMBINED_SIEVE_DONE coveragevalidated=true all_survivors=0
+logs/sieve/X1_42_p5.log	python3 combine_sieve42.py > /dev/null	SIEVE_DONE	^COMBINED_C42_DONE complete=true indexed_sextic_witnesses=392$
+logs/homology/J1_49_T2_replay.log	python3 verify_two49_T2.py	{'N': 49, 'integral_homology_rank': 138, 'kernel_A5': 2, 'kernel_A5_T2': 0, 'independent_binary_replay': True}
+logs/sieve/X1_49_p3.log	python3 combine_sieve49.py > /dev/null	COMBINED_C49_A2_DONE full_partition_coverage=true survivors=0
+logs/classes/X1_3_18_arithmetic_replay.log	python3 verify_c3x18_arithmetic.py	C3X18_INDEPENDENT_ARITHMETIC_DONE	"compatible_pairs": 0,
+logs/homology/J1_57_two_torsion_replay.log	python3 verify_two_torsion.py data/two_torsion_57_matrices.m	{'level': 57, 'integral_homology_rank': 170, 'kernel_dimension': 2, 'diamond_two_trivial': True, 'independent_binary_replay': True}
+logs/cartier/Y63_projection_replay.log	python3 replay_cartier_projection.py data/fi63_direct_cartier_jets.m	{'level': 63, 'genus': 49, 'cartier_image_dimension': 45, 'cusps': 22, 'projected_jet_matrices': 82, 'independent_projection_replay': True}
+logs/cartier/Y63_rank_replay.log	python3 replay_fi_jets.py data/fi63_direct_cartier_jets.m	FI_REPLAY_DONE	"exceptions": 0, "complete": true
+logs/cartier/Y51_cusp_orbits.log	python3 audit_c51_cusp_orbits.py	}	"all_degree6_cusp_divisors": 54808,
+logs/cartier/Y51_kernel_transport_replay.log	python3 verify_rr_transport.py data/fi51_retained_rr_kernels.m	RR_TRANSPORT_INDEPENDENT_DONE	"source_kernel_spaces": 100
+logs/cartier/Y51_kernel_replay.log	python3 replay_rr_kernels.py data/fi51_retained_rr_kernels.m	{'level': 51, 'genus': 33, 'exact_kernel_equalities': 100, 'transported_blocks': 0, 'independent_kernel_transport_replay': True}
+logs/cartier/Y51_projection_replay.log	python3 replay_cartier_projection.py data/fi51_retained_rr_kernels.m	{'level': 51, 'genus': 33, 'cartier_image_dimension': 30, 'cusps': 20, 'projected_jet_matrices': 100, 'independent_projection_replay': True}
+logs/cartier/Y51_rank_replay.log	python3 replay_fi_jets.py data/fi51_retained_rr_kernels.m	FI_REPLAY_DONE	"exceptions": 0, "complete": true
+logs/cartier/Y65_cusp_orbits.log	python3 audit_c65_cusp_orbits.py	}	"admissible_degree6_divisors": 1792,
+logs/cartier/Y65_kernel_transport_replay.log	python3 verify_rr_transport.py data/fi65_genus41_rr_transport.m	RR_TRANSPORT_INDEPENDENT_DONE	"transport_edges": 32
+logs/cartier/Y65_kernel_replay.log	python3 replay_rr_kernels.py data/fi65_genus41_rr_transport.m	{'level': 65, 'genus': 41, 'exact_kernel_equalities': 11, 'transported_blocks': 16, 'independent_kernel_transport_replay': True}
+logs/cartier/Y65_projection_replay.log	python3 replay_cartier_projection.py data/fi65_genus41_rr_transport.m	{'level': 65, 'genus': 41, 'cartier_image_dimension': 28, 'cusps': 16, 'projected_jet_matrices': 64, 'independent_projection_replay': True}
+logs/cartier/Y65_rank_replay.log	python3 replay_fi_jets.py data/fi65_genus41_rr_transport.m	FI_REPLAY_DONE	"exceptions": 0, "complete": true
+logs/n30/quotient_coverage_audit.log	python3 audit_m2_30_quotients.py	M2_30_QUOTIENT_COVERAGE complete=true patterns=10 tests=22706 first_survivors=68 pass2=10 remaining=10
+logs/n30/a3_arithmetic_replay.log	python3 verify_a3_n30_arithmetic.py	A3_N30_INDEPENDENT_ARITHMETIC_DONE	"remaining": 0
+logs/n30/a3_projection_replay.log	python3 replay_a3_projection.py	A3_ELEMENTARY_PROJECTION_REPLAY_DONE input=10 nonzero=10 complete=true
+logs/n30/final_audit.log	python3 audit_n30_final.py	N30_FINAL_AUDIT_DONE complete=true support_patterns=10 tests=22706 stages=68,10,0 remaining=0
+logs/candidates.log	python3 candidates.py	CANDIDATES_DONE	^Phi\(6\): COMPLETE CLASSIFICATION$
+logs/classification_glue_audit.log	python3 audit_classification_glue.py data/candidates.json	{"after_37": 57, "independent_maximal_subgroup_enumeration": true, "infinite_groups": 44, "inherited_global_rows": 11, "known_groups": 48, "minimal_obstructions": 66, "remaining": []}
+# ---- scripts added with the manuscript ----
+logs/classes/X1_3_15_cusp_orbits.log	python3 cusp_orbits.py	CUSP_ORBITS_3_15_DONE	^Galois action 4 orbit counts \{1: 16, 2: 8\}$
+logs/group_list.log	python3 group_list.py	GROUPLIST_DONE
+logs/global_table.log	python3 global_table.py	GLOBALTABLE_DONE
+logs/lmfdb_ranks.log	python3 lmfdb_ranks.py	RANKS_DONE OK
+logs/verify_sporadic_curves.log	magma -n -b verify_sporadic_curves.m	SPORADIC_DONE
+# ---- independent recomputations (see README, "Independent recomputations") ----
+independent/logs/doubled_cuspidal_45.log	magma -n -b independent/doubled_cuspidal_45.m	C45_DOUBLED_CHECK_DONE	^C45_DOUBLED_CHECK_DONE divisors 19048 failures 0 
+independent/logs/doubled_cuspidal_3_21.log	magma -n -b independent/doubled_cuspidal_3_21.m	C3C21_DOUBLED_CHECK_DONE	^C3C21_DOUBLED_CHECK_DONE divisors 2608 failures 0 
+independent/logs/two_torsion_57_49.log	magma -n -b independent/two_torsion_57_49.m	TWO_TORSION_CHECK_DONE
+independent/logs/cartier_51.log	magma -n -b Case:=51 independent/cartier_51_63.m	CARTIER_CHECK_DONE	^CARTIER_CHECK_DONE case 51: divisors 54808 failures 0 
+independent/logs/cartier_63.log	magma -n -b Case:=63 independent/cartier_51_63.m	CARTIER_CHECK_DONE	^CARTIER_CHECK_DONE case 63: divisors 6542 failures 0 
+independent/logs/cartier_65.log	magma -n -b independent/cartier_65.m	C65_CHECK_DONE	^admissible: 1792, admissible failures: 0,

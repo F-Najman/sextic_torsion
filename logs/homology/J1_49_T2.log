@@ -1,0 +1,4 @@
+TWO49_START exact_JOne=true sign=0
+TWO49_HOMOLOGY dimension=69 rank=138 time=0.880
+TWO49_KERNEL kernel_A5=2 kernel_A5_T2=0 time=6.030
+TWO49_DONE zero=true time=6.040

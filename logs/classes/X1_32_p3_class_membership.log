@@ -1,0 +1,6 @@
+SETUP X_1(32) over F_3, genus 17
+SURVIVORS reconstructed: 4, degrees [ 6, 6, 6, 6 ]
+MATCHED 0 of 4 survivors
+G = image of ClCusp_Q in Cl(X_Fp): invariants [ 2, 2, 2, 4, 120, 11640 ] (expected order of J(Q)_tors from DEHMZ table)
+RATIONAL_CLASS_MEMBERSHIP [ false, false, false, false ]
+ANALYZE_DONE (all survivors excluded by rational class-group membership)

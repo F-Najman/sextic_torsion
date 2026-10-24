@@ -1,0 +1,165 @@
+SETUP N=26 M=2 p=3 genus=25 time=5.650
+CUSPS number=24 degrees=[ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 3, 3, 3, 3, 3 ]
+Loading "work/degree6/cusp_conditions_m2.m"
+TATE_CUSP_CONDITION complement=1 allowed=[ 1, 3, 5, 7, 9, 11, 15, 17, 19, 21, 23, 25 ] usable=[ 5, 7 ]
+TATE_CUSP_CONDITION complement=2 allowed=[ 1, 3, 5, 7, 9, 11, 15, 17, 19, 21, 23, 25 ] usable=[ 5, 7 ]
+TATE_CUSP_CONDITION complement=3 allowed=[ 1, 3, 9, 17, 23, 25 ] usable=[]
+TATE_CUSP_CONDITION complement=4 allowed=[ 1, 3, 9, 17, 23, 25 ] usable=[]
+TATE_CUSP_CONDITION complement=5 allowed=[ 1, 3, 9, 17, 23, 25 ] usable=[]
+TATE_CUSP_DEGREES_MATCH true QLIST=[ 5, 7 ]
+DEGREES with points of the required type over F_p^d (d=1..6): [ false, false, false, false, true, true ]  time=7.970
+NONCUSP counts deg 1..6: [ 0, 0, 0, 0, 36, 122 ]  time=8.950
+REPS up to diamond: [ 0, 0, 0, 0, 6, 26 ]  time=10.210
+TYPE [ 1 ]: no divisors
+TYPE [ 2 ]: no divisors
+TYPE [ 1, 1 ]: no divisors
+TYPE [ 3 ]: no divisors
+TYPE [ 2, 1 ]: no divisors
+TYPE [ 1, 1, 1 ]: no divisors
+TYPE [ 4 ]: no divisors
+TYPE [ 3, 1 ]: no divisors
+TYPE [ 2, 2 ]: no divisors
+TYPE [ 2, 1, 1 ]: no divisors
+TYPE [ 1, 1, 1, 1 ]: no divisors
+TYPE [ 5 ]: 6 divisors (up to diamond), qlist=[ 5, 7 ]
+HECKE_STAGE type=[ 5 ] candidate=1 q=5 place_degree=5 cpu=12.720
+DIAMOND_STAGE type=[ 5 ] candidate=1 q=5 cpu=1.840
+PRINCIPAL_STAGE type=[ 5 ] candidate=1 q=5 principal=false cpu=0.590
+HECKE_STAGE type=[ 5 ] candidate=2 q=5 place_degree=5 cpu=12.700
+DIAMOND_STAGE type=[ 5 ] candidate=2 q=5 cpu=1.760
+PRINCIPAL_STAGE type=[ 5 ] candidate=2 q=5 principal=false cpu=0.590
+HECKE_STAGE type=[ 5 ] candidate=3 q=5 place_degree=5 cpu=12.720
+DIAMOND_STAGE type=[ 5 ] candidate=3 q=5 cpu=1.800
+PRINCIPAL_STAGE type=[ 5 ] candidate=3 q=5 principal=false cpu=0.550
+HECKE_STAGE type=[ 5 ] candidate=4 q=5 place_degree=5 cpu=12.780
+DIAMOND_STAGE type=[ 5 ] candidate=4 q=5 cpu=1.820
+PRINCIPAL_STAGE type=[ 5 ] candidate=4 q=5 principal=false cpu=0.600
+HECKE_STAGE type=[ 5 ] candidate=5 q=5 place_degree=5 cpu=12.980
+DIAMOND_STAGE type=[ 5 ] candidate=5 q=5 cpu=1.830
+PRINCIPAL_STAGE type=[ 5 ] candidate=5 q=5 principal=false cpu=0.570
+HECKE_STAGE type=[ 5 ] candidate=6 q=5 place_degree=5 cpu=12.800
+DIAMOND_STAGE type=[ 5 ] candidate=6 q=5 cpu=1.790
+PRINCIPAL_STAGE type=[ 5 ] candidate=6 q=5 principal=false cpu=0.580
+RESULT type=[ 5 ] total=6 survivors=0 time=101.240
+TYPE [ 4, 1 ]: no divisors
+TYPE [ 3, 2 ]: no divisors
+TYPE [ 3, 1, 1 ]: no divisors
+TYPE [ 2, 2, 1 ]: no divisors
+TYPE [ 2, 1, 1, 1 ]: no divisors
+TYPE [ 1, 1, 1, 1, 1 ]: no divisors
+TYPE [ 6 ]: 26 divisors (up to diamond), qlist=[ 5, 7 ]
+HECKE_STAGE type=[ 6 ] candidate=1 q=5 place_degree=6 cpu=14.630
+DIAMOND_STAGE type=[ 6 ] candidate=1 q=5 cpu=2.250
+PRINCIPAL_STAGE type=[ 6 ] candidate=1 q=5 principal=false cpu=0.710
+HECKE_STAGE type=[ 6 ] candidate=2 q=5 place_degree=6 cpu=14.560
+DIAMOND_STAGE type=[ 6 ] candidate=2 q=5 cpu=2.270
+PRINCIPAL_STAGE type=[ 6 ] candidate=2 q=5 principal=false cpu=0.750
+HECKE_STAGE type=[ 6 ] candidate=3 q=5 place_degree=6 cpu=14.420
+DIAMOND_STAGE type=[ 6 ] candidate=3 q=5 cpu=2.200
+PRINCIPAL_STAGE type=[ 6 ] candidate=3 q=5 principal=false cpu=0.880
+HECKE_STAGE type=[ 6 ] candidate=4 q=5 place_degree=6 cpu=17.240
+DIAMOND_STAGE type=[ 6 ] candidate=4 q=5 cpu=2.240
+PRINCIPAL_STAGE type=[ 6 ] candidate=4 q=5 principal=false cpu=0.580
+HECKE_STAGE type=[ 6 ] candidate=5 q=5 place_degree=6 cpu=17.190
+DIAMOND_STAGE type=[ 6 ] candidate=5 q=5 cpu=2.220
+PRINCIPAL_STAGE type=[ 6 ] candidate=5 q=5 principal=false cpu=0.580
+HECKE_STAGE type=[ 6 ] candidate=6 q=5 place_degree=6 cpu=17.650
+DIAMOND_STAGE type=[ 6 ] candidate=6 q=5 cpu=2.190
+PRINCIPAL_STAGE type=[ 6 ] candidate=6 q=5 principal=false cpu=0.510
+HECKE_STAGE type=[ 6 ] candidate=7 q=5 place_degree=6 cpu=17.170
+DIAMOND_STAGE type=[ 6 ] candidate=7 q=5 cpu=2.230
+PRINCIPAL_STAGE type=[ 6 ] candidate=7 q=5 principal=false cpu=0.590
+HECKE_STAGE type=[ 6 ] candidate=8 q=5 place_degree=6 cpu=17.010
+DIAMOND_STAGE type=[ 6 ] candidate=8 q=5 cpu=2.190
+PRINCIPAL_STAGE type=[ 6 ] candidate=8 q=5 principal=false cpu=0.640
+HECKE_STAGE type=[ 6 ] candidate=9 q=5 place_degree=6 cpu=17.130
+DIAMOND_STAGE type=[ 6 ] candidate=9 q=5 cpu=2.250
+PRINCIPAL_STAGE type=[ 6 ] candidate=9 q=5 principal=false cpu=0.590
+HECKE_STAGE type=[ 6 ] candidate=10 q=5 place_degree=6 cpu=13.090
+DIAMOND_STAGE type=[ 6 ] candidate=10 q=5 cpu=2.170
+PRINCIPAL_STAGE type=[ 6 ] candidate=10 q=5 principal=true cpu=0.520
+HECKE_STAGE type=[ 6 ] candidate=10 q=7 place_degree=6 cpu=17.590
+DIAMOND_STAGE type=[ 6 ] candidate=10 q=7 cpu=2.150
+PRINCIPAL_STAGE type=[ 6 ] candidate=10 q=7 principal=true cpu=0.510
+SURVIVOR type=[ 6 ] err=false divisor=[ <1, 6, 0> ]
+SURVIVOR_DATA type=[ 6 ] data=[* [* 6, 1,
+[ 2, 0, 0, 1, 2, 2, 1 ],
+[
+[ 2, 1, 0, 0, 2, 1 ],
+[ 0, 1, 0, 0, 0, 0 ],
+[ 1, 0, 0, 0, 0, 0 ]
+]
+*] *]
+HECKE_STAGE type=[ 6 ] candidate=11 q=5 place_degree=6 cpu=13.210
+DIAMOND_STAGE type=[ 6 ] candidate=11 q=5 cpu=2.170
+PRINCIPAL_STAGE type=[ 6 ] candidate=11 q=5 principal=false cpu=0.650
+HECKE_STAGE type=[ 6 ] candidate=12 q=5 place_degree=6 cpu=13.210
+DIAMOND_STAGE type=[ 6 ] candidate=12 q=5 cpu=2.140
+PRINCIPAL_STAGE type=[ 6 ] candidate=12 q=5 principal=false cpu=0.770
+HECKE_STAGE type=[ 6 ] candidate=13 q=5 place_degree=6 cpu=13.470
+DIAMOND_STAGE type=[ 6 ] candidate=13 q=5 cpu=2.220
+PRINCIPAL_STAGE type=[ 6 ] candidate=13 q=5 principal=false cpu=0.660
+HECKE_STAGE type=[ 6 ] candidate=14 q=5 place_degree=6 cpu=13.260
+DIAMOND_STAGE type=[ 6 ] candidate=14 q=5 cpu=2.180
+PRINCIPAL_STAGE type=[ 6 ] candidate=14 q=5 principal=false cpu=0.250
+HECKE_STAGE type=[ 6 ] candidate=15 q=5 place_degree=6 cpu=13.440
+DIAMOND_STAGE type=[ 6 ] candidate=15 q=5 cpu=2.230
+PRINCIPAL_STAGE type=[ 6 ] candidate=15 q=5 principal=false cpu=0.280
+HECKE_STAGE type=[ 6 ] candidate=16 q=5 place_degree=6 cpu=13.620
+DIAMOND_STAGE type=[ 6 ] candidate=16 q=5 cpu=2.210
+PRINCIPAL_STAGE type=[ 6 ] candidate=16 q=5 principal=true cpu=0.490
+HECKE_STAGE type=[ 6 ] candidate=16 q=7 place_degree=6 cpu=17.780
+DIAMOND_STAGE type=[ 6 ] candidate=16 q=7 cpu=2.240
+PRINCIPAL_STAGE type=[ 6 ] candidate=16 q=7 principal=true cpu=0.500
+SURVIVOR type=[ 6 ] err=false divisor=[ <1, 6, 0> ]
+SURVIVOR_DATA type=[ 6 ] data=[* [* 6, 1,
+[ 2, 0, 2, 0, 1, 1, 1 ],
+[
+[ 2, 0, 2, 0, 2, 1 ],
+[ 0, 1, 0, 0, 0, 0 ],
+[ 1, 0, 0, 0, 0, 0 ]
+]
+*] *]
+HECKE_STAGE type=[ 6 ] candidate=17 q=5 place_degree=6 cpu=13.570
+DIAMOND_STAGE type=[ 6 ] candidate=17 q=5 cpu=2.190
+PRINCIPAL_STAGE type=[ 6 ] candidate=17 q=5 principal=false cpu=0.300
+HECKE_STAGE type=[ 6 ] candidate=18 q=5 place_degree=6 cpu=17.320
+DIAMOND_STAGE type=[ 6 ] candidate=18 q=5 cpu=1.050
+PRINCIPAL_STAGE type=[ 6 ] candidate=18 q=5 principal=false cpu=0.710
+HECKE_STAGE type=[ 6 ] candidate=19 q=5 place_degree=6 cpu=17.370
+DIAMOND_STAGE type=[ 6 ] candidate=19 q=5 cpu=2.220
+PRINCIPAL_STAGE type=[ 6 ] candidate=19 q=5 principal=false cpu=0.540
+HECKE_STAGE type=[ 6 ] candidate=20 q=5 place_degree=6 cpu=17.260
+DIAMOND_STAGE type=[ 6 ] candidate=20 q=5 cpu=2.250
+PRINCIPAL_STAGE type=[ 6 ] candidate=20 q=5 principal=false cpu=0.600
+HECKE_STAGE type=[ 6 ] candidate=21 q=5 place_degree=6 cpu=17.430
+DIAMOND_STAGE type=[ 6 ] candidate=21 q=5 cpu=2.250
+PRINCIPAL_STAGE type=[ 6 ] candidate=21 q=5 principal=false cpu=0.640
+HECKE_STAGE type=[ 6 ] candidate=22 q=5 place_degree=6 cpu=17.280
+DIAMOND_STAGE type=[ 6 ] candidate=22 q=5 cpu=2.260
+PRINCIPAL_STAGE type=[ 6 ] candidate=22 q=5 principal=false cpu=0.520
+HECKE_STAGE type=[ 6 ] candidate=23 q=5 place_degree=6 cpu=17.190
+DIAMOND_STAGE type=[ 6 ] candidate=23 q=5 cpu=2.250
+PRINCIPAL_STAGE type=[ 6 ] candidate=23 q=5 principal=false cpu=0.490
+HECKE_STAGE type=[ 6 ] candidate=24 q=5 place_degree=6 cpu=14.160
+DIAMOND_STAGE type=[ 6 ] candidate=24 q=5 cpu=2.190
+PRINCIPAL_STAGE type=[ 6 ] candidate=24 q=5 principal=false cpu=0.800
+HECKE_STAGE type=[ 6 ] candidate=25 q=5 place_degree=6 cpu=14.430
+DIAMOND_STAGE type=[ 6 ] candidate=25 q=5 cpu=2.180
+PRINCIPAL_STAGE type=[ 6 ] candidate=25 q=5 principal=false cpu=0.760
+HECKE_STAGE type=[ 6 ] candidate=26 q=5 place_degree=6 cpu=14.430
+DIAMOND_STAGE type=[ 6 ] candidate=26 q=5 cpu=2.210
+PRINCIPAL_STAGE type=[ 6 ] candidate=26 q=5 principal=false cpu=0.690
+RESULT type=[ 6 ] total=26 survivors=2 time=614.670
+TYPE [ 5, 1 ]: no divisors
+TYPE [ 4, 2 ]: no divisors
+TYPE [ 4, 1, 1 ]: no divisors
+TYPE [ 3, 3 ]: no divisors
+TYPE [ 3, 2, 1 ]: no divisors
+TYPE [ 3, 1, 1, 1 ]: no divisors
+TYPE [ 2, 2, 2 ]: no divisors
+TYPE [ 2, 2, 1, 1 ]: no divisors
+TYPE [ 2, 1, 1, 1, 1 ]: no divisors
+TYPE [ 1, 1, 1, 1, 1, 1 ]: no divisors
+SUMMARY N=26 M=2 p=3 D=6 shard=0/1 total_survivors=2 time=614.690
+SIEVE_DONE

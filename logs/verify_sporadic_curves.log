@@ -1,0 +1,11 @@
+Z37: one field (cyclic, 6.6.300125.1), one curve up to isomorphism, torsion order 37
+Z25: torsion [25] over 6.2.28037.1
+Z4xZ12: torsion [4,12] over 6.0.419904.2
+Z2xZ24: torsion [2,24]; #Aut(K)=2 and E^sigma ~ E; j cubic (disc -139); conductor norm 6
+Z2xZ24: both points of the Derickx-Sutherland model give this curve
+Z48: the 2-isogenous curves have torsion [
+    [ 24 ],
+    [ 2, 12 ],
+    [ 24 ]
+]
+SPORADIC_DONE

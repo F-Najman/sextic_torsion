@@ -1,0 +1,18 @@
+SetColumns(0);
+SetMemoryLimit(1500000000);
+AttachSpec("mdmagma/v2/mdmagma.spec");
+Attach("fast_hecke_11.m");
+X := MDX11(2,22,GF(3));
+time xs := NoncuspidalPlaces(X,5);
+print "POINTS",#xs;
+assert #xs eq 60;
+time fastreps := PlacesUpToDiamondFast(X,xs);
+print "FAST_DIAMOND_REPS",#fastreps;
+assert #fastreps eq 12;
+x:=xs[1];
+time fast := HeckeOperatorFast(X,5,x);
+time reference := HeckeOperator(X,5,x);
+assert fast eq reference;
+print "HECKE_FAST_REFERENCE_EQUAL",2,22,3,5,5,Degree(fast);
+print "FAST_HECKE_22_TEST_DONE";
+quit;

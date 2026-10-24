@@ -1,0 +1,9 @@
+psi3 irreducible true
+y-eq irreducible true
+remaining cubic factors: [ 3 ]
+genus 25 (88.950 s)
+constant field Finite field of size 2^2
+cusp degrees: [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 3, 3, 3, 3, 3, 3, 3 ] (total 48)
+kernel spaces 160 (2152.700 s)
+degree-3 cuspidal divisors: 2608
+C3C21_DOUBLED_CHECK_DONE divisors 2608 failures 0 (2152.760 s)

@@ -1,0 +1,13 @@
+FACTOR13_QUOTIENT genus=0 degree=3 time=0.140
+Conic over GF(2) defined by
+x*y + y^2 + x*z
+FACTOR13_J degree=28 time=0.160
+FACTOR13_J_FUNCTION (z0^16 + z0^4 + 1)/(z0^28 + z0^25 + z0^24 + z0^21 + z0^20 + z0^17 + z0^16 + z0^13)
+FACTOR13_PARAMETER_CHANGE z0 + 1
+FACTOR13_AF Univariate rational function field over GF(2)
+Variables: z0
+FACTOR13_AF_J (z0^16 + z0^4 + 1)/(z0^28 + z0^25 + z0^24 + z0^21 + z0^20 + z0^17 + z0^16 + z0^13)
+FACTOR13_AF_INVOLUTION z0 + 1
+FACTOR13_TWIST_PARAMETER (z0^7 + z0^6 + z0^2 + z0)/(z0^4 + z0 + 1)
+FACTOR13_TWIST_LIFT z0
+FACTOR13_DONE time=0.210

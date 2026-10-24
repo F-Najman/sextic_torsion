@@ -1,0 +1,11 @@
+A3_PROJECTION_WITNESS index=1 type=[6] image=(0, 618)
+A3_PROJECTION_WITNESS index=2 type=[6] image=(12, 282)
+A3_PROJECTION_WITNESS index=3 type=[6] image=(3, 1218)
+A3_PROJECTION_WITNESS index=4 type=[6] image=(0, 384)
+A3_PROJECTION_WITNESS index=5 type=[2, 2, 2] image=(3, 0)
+A3_PROJECTION_WITNESS index=6 type=[2, 2, 2] image=(12, 390)
+A3_PROJECTION_WITNESS index=7 type=[2, 2, 2] image=(39, 0)
+A3_PROJECTION_WITNESS index=8 type=[2, 2, 2] image=(3, 1092)
+A3_PROJECTION_WITNESS index=9 type=[2, 2, 2] image=(39, 0)
+A3_PROJECTION_WITNESS index=10 type=[2, 2, 2] image=(12, 390)
+A3_ELEMENTARY_PROJECTION_REPLAY_DONE input=10 nonzero=10 complete=true

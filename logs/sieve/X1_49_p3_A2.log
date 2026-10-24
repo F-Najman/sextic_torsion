@@ -1,0 +1,35 @@
+C49_A2_SETUP genus=69 time=520.960
+C49_A2_PLACES total=154 representatives=8 time=538.610
+C49_A2_START i=1 time=538.610
+C49_A2_HECKE i=1 time=545.240
+C49_A2_DIAMOND i=1 time=546.730
+C49_A2_TEST i=1 principal=false time=559.800
+C49_A2_START i=2 time=559.800
+C49_A2_HECKE i=2 time=566.270
+C49_A2_DIAMOND i=2 time=567.730
+C49_A2_TEST i=2 principal=false time=580.540
+C49_A2_START i=3 time=580.540
+C49_A2_HECKE i=3 time=585.610
+C49_A2_DIAMOND i=3 time=587.090
+C49_A2_TEST i=3 principal=false time=599.950
+C49_A2_START i=4 time=599.950
+C49_A2_HECKE i=4 time=605.900
+C49_A2_DIAMOND i=4 time=607.490
+C49_A2_TEST i=4 principal=false time=620.020
+C49_A2_START i=5 time=620.020
+C49_A2_HECKE i=5 time=625.130
+C49_A2_DIAMOND i=5 time=626.610
+C49_A2_TEST i=5 principal=false time=639.010
+C49_A2_START i=6 time=639.010
+C49_A2_HECKE i=6 time=643.630
+C49_A2_DIAMOND i=6 time=645.070
+C49_A2_TEST i=6 principal=false time=658.850
+C49_A2_START i=7 time=658.850
+C49_A2_HECKE i=7 time=665.360
+C49_A2_DIAMOND i=7 time=666.800
+C49_A2_TEST i=7 principal=false time=679.550
+C49_A2_START i=8 time=679.550
+C49_A2_HECKE i=8 time=685.750
+C49_A2_DIAMOND i=8 time=687.310
+C49_A2_TEST i=8 principal=false time=700.170
+C49_A2_DONE total=8 survivors=0 data=[] time=700.340

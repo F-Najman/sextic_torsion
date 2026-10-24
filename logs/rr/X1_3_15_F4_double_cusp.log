@@ -1,0 +1,60 @@
+CUSP_DOUBLE_LOCALREF_SETUP N=15 genus=9 cusp_degrees=[ 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1 ] time=0.430
+CUSP_DOUBLE_LOCALREF_COUNT N=15 effective_divisors=944 time=0.460
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=1/24 time=0.540
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=2/24 time=0.590
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=3/24 time=0.660
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=4/24 time=0.730
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=5/24 time=0.770
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=6/24 time=0.840
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=7/24 time=0.930
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=8/24 time=1.030
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=9/24 time=1.110
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=10/24 time=1.200
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=11/24 time=1.290
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=12/24 time=1.350
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=13/24 time=1.430
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=14/24 time=1.550
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=15/24 time=1.620
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=16/24 time=1.690
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=17/24 time=1.760
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=18/24 time=1.830
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=19/24 time=1.900
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=20/24 time=1.970
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=21/24 time=2.140
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=22/24 time=3.470
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=23/24 time=4.030
+CUSP_DOUBLE_LOCALREF_LOCAL N=15 cusp=24/24 time=5.440
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=1 dim=2 vector=[ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=4 dim=2 vector=[ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=10 dim=2 vector=[ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=20 dim=2 vector=[ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=65 dim=2 vector=[ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=92 dim=2 vector=[ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=94 dim=2 vector=[ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=126 dim=2 vector=[ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=168 dim=2 vector=[ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=237 dim=2 vector=[ 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=273 dim=2 vector=[ 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=288 dim=2 vector=[ 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=300 dim=2 vector=[ 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=319 dim=2 vector=[ 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=374 dim=2 vector=[ 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=399 dim=2 vector=[ 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=460 dim=2 vector=[ 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=495 dim=2 vector=[ 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=506 dim=2 vector=[ 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=559 dim=2 vector=[ 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=611 dim=2 vector=[ 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=613 dim=2 vector=[ 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=652 dim=2 vector=[ 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=672 dim=2 vector=[ 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=692 dim=2 vector=[ 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=741 dim=2 vector=[ 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=749 dim=2 vector=[ 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=800 dim=2 vector=[ 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=824 dim=2 vector=[ 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=867 dim=2 vector=[ 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=879 dim=2 vector=[ 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+CUSP_DOUBLE_LOCALREF_EXCEPTION N=15 index=944 dim=2 vector=[ 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+ALL_EXCEPTIONS_SUPPORTED_ON_RATIONAL_CUSPS_WITH_H0_EQ_1 32
+CUSP_DOUBLE_LOCALREF_DONE N=15 D=3 tested=944 total=944 exceptions=32 complete=true time=5.660

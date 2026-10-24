@@ -1,0 +1,25 @@
+diff --git a/v2/curves/divisors.m b/v2/curves/divisors.m
+index aff4dd1..35b2d04 100644
+--- a/v2/curves/divisors.m
++++ b/v2/curves/divisors.m
+@@ -39,4 +39,4 @@ intrinsic MDPlace(coordinates::[FldFunFracSchElt], values::[FldElt]) -> PlcCrvEl
+   places := [x : x in Zeros(f1) | Evaluate(g1,x) eq 0];
+   assert #places eq 1;
+   return places[1];
+-end intrinsic
+\ No newline at end of file
++end intrinsic;
+\ No newline at end of file
+diff --git a/v2/modular_curves/base_curve.m b/v2/modular_curves/base_curve.m
+index eff94eb..c9ea73f 100644
+--- a/v2/modular_curves/base_curve.m
++++ b/v2/modular_curves/base_curve.m
+@@ -65,7 +65,7 @@ intrinsic  DiscriminantMap(X::MDCrvMod) -> CrvEll
+ { Return the discriminant of the universal elliptic curve over X }
+     E := EllipticCurve(X`_E);
+     return Discriminant(E);
+-end intrinsic
++end intrinsic;
+ 
+ intrinsic IsCusp(X::MDCrvMod, x::PlcCrvElt) -> BoolElt
+ { Returns whether the place x on X  is a cusp}

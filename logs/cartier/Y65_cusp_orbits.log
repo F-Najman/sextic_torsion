@@ -1,0 +1,71 @@
+{
+  "source_signature": [
+    [
+      1,
+      24
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      12,
+      2
+    ]
+  ],
+  "target_signature": [
+    [
+      1,
+      8
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      4,
+      4
+    ]
+  ],
+  "cusp_types": [
+    {
+      "d": 1,
+      "source_degree": 1,
+      "target_degree": 1,
+      "coefficient_step": 1,
+      "source_places": 3,
+      "target_places": 8
+    },
+    {
+      "d": 5,
+      "source_degree": 4,
+      "target_degree": 4,
+      "coefficient_step": 1,
+      "source_places": 3,
+      "target_places": 2
+    },
+    {
+      "d": 13,
+      "source_degree": 12,
+      "target_degree": 4,
+      "coefficient_step": 3,
+      "source_places": 1,
+      "target_places": 2
+    },
+    {
+      "d": 65,
+      "source_degree": 6,
+      "target_degree": 2,
+      "coefficient_step": 3,
+      "source_places": 1,
+      "target_places": 4
+    }
+  ],
+  "admissible_degree6_divisors": 1792,
+  "residual_diamond_group_order": 8,
+  "exact": true
+}

@@ -1,0 +1,6 @@
+TORSION n=35 p=2 : k with Z/35 over F_p^k = [ 6 ] ; k with Z/2xZ/35 = []
+TORSION n=45 p=2 : k with Z/45 over F_p^k = [] ; k with Z/2xZ/45 = []
+TORSION n=49 p=2 : k with Z/49 over F_p^k = [] ; k with Z/2xZ/49 = []
+TORSION n=51 p=2 : k with Z/51 over F_p^k = [] ; k with Z/2xZ/51 = []
+TORSION n=81 p=2 : k with Z/81 over F_p^k = [] ; k with Z/2xZ/81 = []
+DONE

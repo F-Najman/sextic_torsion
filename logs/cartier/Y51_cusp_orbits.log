@@ -1,0 +1,29 @@
+{
+  "source_signature": [
+    [
+      1,
+      16
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      8,
+      4
+    ]
+  ],
+  "quotient_signature": [
+    [
+      1,
+      16
+    ],
+    [
+      4,
+      4
+    ]
+  ],
+  "all_degree6_cusp_divisors": 54808,
+  "quotient_etale": true,
+  "exact": true
+}

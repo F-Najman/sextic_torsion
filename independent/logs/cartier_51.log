@@ -1,0 +1,10 @@
+factors of x(8P)-x(9P): [ <1, 1>, <10, 1> ]
+factor of bidegree (5,7): genus 5
+psi_3: degree 4, irreducible true, separable true
+genus 33  (146.530 s)
+degree of j: 576
+cusp degrees: [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 4, 4, 4, 1, 1, 1, 1 ]
+dim U = image of (Cartier-1): 30  (361.630 s)
+kernel spaces: 100 (1055.170 s)
+degree-6 cuspidal divisors: 54808
+CARTIER_CHECK_DONE case 51: divisors 54808 failures 0 (1057.040 s)

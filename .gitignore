@@ -1,0 +1,13 @@
+# editors / notebooks
+.idea
+.ipynb_checkpoints
+
+# magma signature caches and scratch
+*.sig
+scratch
+
+# Python bytecode caches
+__pycache__/
+
+# local notes, not part of the release
+notes_for_author.md

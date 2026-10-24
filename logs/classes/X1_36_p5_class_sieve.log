@@ -1,0 +1,15 @@
+CLASS_CUSPIDAL_SETUP N=36 p=5 genus=17 cusp_degrees=[ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 6, 6 ] Qorbit_degrees=[ 1, 6, 4, 2, 1, 1, 2, 3, 6, 1, 1, 2, 1, 1, 1, 2, 2, 2, 1 ] time=17.600
+CLASS_CUSPIDAL_CLASSGROUP invariants=[ 4, 4, 12, 12, 36, 7812, 7812, 0 ] time=1178.560
+CLASS_CUSPIDAL_GROUPS N=36 p=5 Jorder=5061852020736 Hall=[ 3, 36, 7812, 7812 ] Hallorder=6590953152 HQ=[ 12, 252, 7812 ] HQorder=23623488 quotient_index=768 time=1179.190
+CLASS_CUSPIDAL_COMPLEMENTS degree=0 effective_divisors=1 classes=1 cosets=1 time=1179.210
+CLASS_CUSPIDAL_COMPLEMENTS degree=1 effective_divisors=15 classes=15 cosets=7 time=1179.210
+CLASS_CUSPIDAL_COMPLEMENTS degree=2 effective_divisors=125 classes=125 cosets=27 time=1179.210
+CLASS_CUSPIDAL_COMPLEMENTS degree=3 effective_divisors=756 classes=756 cosets=77 time=1179.210
+CLASS_CUSPIDAL_Q_EFFECTIVE degree=6 divisors=7247 classes=7247 time=1179.260
+CLASS_CUSPIDAL_NONCUSP counts=[ 0, 0, 48, 144, 660, 2856 ] time=1184.220
+CLASS_CUSPIDAL_TYPE type=[3] total=48 Hall_pass=0 HQ_complement_pass=0 Qeffective_matches=0 cumulative_candidates=0 time=1184.640
+CLASS_CUSPIDAL_TYPE type=[4] total=144 Hall_pass=0 HQ_complement_pass=0 Qeffective_matches=0 cumulative_candidates=0 time=1184.640
+CLASS_CUSPIDAL_TYPE type=[5] total=660 Hall_pass=0 HQ_complement_pass=0 Qeffective_matches=0 cumulative_candidates=0 time=1184.640
+CLASS_CUSPIDAL_TYPE type=[6] total=2856 Hall_pass=0 HQ_complement_pass=0 Qeffective_matches=0 cumulative_candidates=0 time=1184.650
+CLASS_CUSPIDAL_TYPE type=[3,3] total=1176 Hall_pass=0 HQ_complement_pass=0 Qeffective_matches=0 cumulative_candidates=0 time=1184.720
+CLASS_CUSPIDAL_SIEVE_DONE N=36 p=5 D=6 remaining_classes=0 complete=true time=1184.740

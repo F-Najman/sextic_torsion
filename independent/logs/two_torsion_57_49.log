@@ -1,0 +1,9 @@
+J1(57) dim 85
+57: dim ker A5 mod 2 = 2
+57: (<2>-1) vanishes on ker A5: true   (9.660 s)
+57: <2>^9 = 1 mod 2: true
+57 (transposed convention): dim 2, (<2>-1) vanishes: true
+J1(49) dim 69
+49 (transposed): dim ker A5 = 2, meet ker T2 = 0
+49: dim ker A5 = 2, dim (ker A5 meet ker T2) = 0  (15.540 s)
+TWO_TORSION_CHECK_DONE

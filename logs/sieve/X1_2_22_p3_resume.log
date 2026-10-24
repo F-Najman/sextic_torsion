@@ -1,0 +1,21 @@
+SETUP N=22 M=2 p=3 genus=16 time=0.570
+CUSPS number=18 degrees=[ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 5, 5, 5 ]
+STRONG_CUSP_CONDITION modulus=44 subgroup={ 1, 3, 37, 5, 23, 25, 9, 27, 31, 15 } usable=[ 5 ]
+QLIST all=[ 5, 7 ]
+DEGREES with points of the required type over F_p^d (d=1..6): [ false, false, false, false, true, true ]  time=1.110
+NONCUSP counts deg 1..6: [ 0, 0, 0, 0, 60, 100 ]  time=1.560
+REPS up to diamond: [ 0, 0, 0, 0, 12, 20 ]  time=2.300
+TYPE [ 6 ]: 20 divisors (up to diamond), qlist=[ 5, 7 ]
+RESULT type=[ 6 ] total=20 survivors=0 time=1363.830
+TYPE [ 5, 1 ]: no divisors
+TYPE [ 4, 2 ]: no divisors
+TYPE [ 4, 1, 1 ]: no divisors
+TYPE [ 3, 3 ]: no divisors
+TYPE [ 3, 2, 1 ]: no divisors
+TYPE [ 3, 1, 1, 1 ]: no divisors
+TYPE [ 2, 2, 2 ]: no divisors
+TYPE [ 2, 2, 1, 1 ]: no divisors
+TYPE [ 2, 1, 1, 1, 1 ]: no divisors
+TYPE [ 1, 1, 1, 1, 1, 1 ]: no divisors
+SUMMARY N=22 M=2 p=3 D=6 shard=0/1 total_survivors=0 time=1363.860
+SIEVE_RESUME_DONE FromDegree=6 MaxPart=6

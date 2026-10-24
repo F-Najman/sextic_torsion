@@ -1,0 +1,18 @@
+SetColumns(0);
+SetMemoryLimit(1500000000);
+AttachSpec("mdmagma/v2/mdmagma.spec");
+X4:=MDX11(3,15,GF(4));
+X7:=MDX11(3,15,GF(7));
+time H4:=CuspidalClassGroup(X4,1);
+time G7:=ClassGroup(X7);
+i4:=Invariants(H4);i7:=Invariants(G7);
+print "CUSP_GROUP_F4",i4;
+print "JACOBIAN_F7",i7;
+assert i4 eq [3,3,24,96,96,0];
+assert i7 eq [3,3,3,24,480,480,0];
+v4:=&+[Valuation(a,2):a in i4|a gt 0];
+v7:=&+[Valuation(a,2):a in i7|a gt 0];
+assert v4 eq 13 and v7 eq 13;
+print "EQUAL_TWO_PRIMARY_ORDERS",2^v4,2^v7;
+print "INJECTIVE_REDUCTION_3_15_DONE";
+quit;

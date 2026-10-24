@@ -1,0 +1,17 @@
+fibre product polynomial irreducible: true
+genus Y0 = 21  (7.850 s)
+genus Y = 41  (41.890 s)
+cusp degrees: [ 4, 1, 1, 1, 1, 1, 1, 1, 1, 4, 4, 2, 2, 2, 2, 4 ]
+j valuations at cusps: [ -5, -65, -65, -65, -65, -65, -65, -65, -65, -5, -13, -1, -1, -1, -1, -13 ]
+degree of j = 672  (2619.920 s)
+tauT respects eqs: true true
+tauU respects eqs: true true
+orders/commute: true true true
+Cartier rank 41, rank(C-1) 34
+dim diamond image = 35
+dim U = 28  (3382.570 s)
+kernel spaces computed (35623.430 s)
+quartic cusps above z=0,1: [ 11, 16 ]
+total degree-6 cuspidal divisors: 3576
+admissible: 1792, admissible failures: 0, failures among all: 0
+C65_CHECK_DONE 35627.640 s

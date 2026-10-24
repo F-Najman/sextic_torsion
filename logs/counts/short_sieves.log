@@ -1,0 +1,6 @@
+SHORT_SIEVE_COUNT m=2 n=26 p=3 genus=25 rational_point_counts=[ 0, 0, 0, 0, 180, 732 ] closed_place_counts=[ 0, 0, 0, 0, 36, 122 ]
+SHORT_SIEVE_COUNT m=2 n=28 p=3 genus=25 rational_point_counts=[ 0, 0, 0, 0, 240, 384 ] closed_place_counts=[ 0, 0, 0, 0, 48, 64 ]
+SHORT_SIEVE_COUNT m=1 n=36 p=5 genus=17 rational_point_counts=[ 0, 0, 144, 576, 3300, 17280 ] closed_place_counts=[ 0, 0, 48, 144, 660, 2856 ]
+SHORT_SIEVE_COUNT m=1 n=40 p=3 genus=25 rational_point_counts=[ 0, 0, 0, 128, 360, 480 ] closed_place_counts=[ 0, 0, 0, 32, 72, 80 ]
+SHORT_SIEVE_COUNT m=1 n=54 p=5 genus=52 rational_point_counts=[ 0, 0, 162, 1044, 3060, 18360 ] closed_place_counts=[ 0, 0, 54, 261, 612, 3033 ]
+SHORT_SIEVE_COUNT_DONE

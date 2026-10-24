@@ -1,0 +1,17 @@
+{
+  "complete": true,
+  "support_patterns": 10,
+  "first_tests": 22706,
+  "first_survivors": 68,
+  "three_map_survivors": 10,
+  "remaining": 0,
+  "sha256": {
+    "m2_30_quotient_prefix.log": "6a3a9f32c81e43f161602e5f35d7180b7f359adbd42f1040e3d2aa64a5d9c34b",
+    "m2_30_mixed_continuation.log": "fc0fdd02c9b18de1a4ea15003c09aa6879a7f78449bd920e293568fcbb02648f",
+    "m2_30_other_quotients.log": "85f4cf33f37f0b013f3472431a0706e7092cb71c50e7d9c3c1ec8c712f4f1f08",
+    "m2_30_quotient_survivors.m": "c8fb32808019c85b54ca999db01aa7155169d483a86c986858aef60b6fbb4240",
+    "m2_30_three_quotient_survivors.m": "a24bf407b48c2c163b07fd67b6b79404f038c72b6c201095400fdbc01f58a595",
+    "filter_a3_m2_30.log": "7cdf59ec5f8fcd193a4e0db16f657a7957136ae59b70bbb5cfd563894180f019",
+    "A3_m2_30_arithmetic.txt": "5458be3ef1a29d527dc53293727ee6fb2ebe8cac610679248f857c468e8aa025"
+  }
+}

@@ -1,0 +1,36 @@
+CUSP_DOUBLE_LOCAL_REF_SETUP N=21 genus=5 cusp_degrees=[ 2, 1, 1, 1, 2, 1, 1, 1, 2 ] time=0.080
+CUSP_DOUBLE_FAST_COUNT N=21 effective_divisors=24 time=0.080
+CUSP_DOUBLE_CUSP_BEGIN N=21 cusp=1 time=0.090
+CUSP_DOUBLE_LOCAL_REFERENCE N=21 cusp=1 basis_index=2 original_order=1
+CUSP_DOUBLE_FAST_LOCAL N=21 cusp=1/9 time=0.100
+CUSP_DOUBLE_CUSP_BEGIN N=21 cusp=2 time=0.100
+CUSP_DOUBLE_LOCAL_REFERENCE N=21 cusp=2 basis_index=1 original_order=0
+CUSP_DOUBLE_FAST_LOCAL N=21 cusp=2/9 time=0.100
+CUSP_DOUBLE_CUSP_BEGIN N=21 cusp=3 time=0.100
+CUSP_DOUBLE_LOCAL_REFERENCE N=21 cusp=3 basis_index=4 original_order=1
+CUSP_DOUBLE_FAST_LOCAL N=21 cusp=3/9 time=0.130
+CUSP_DOUBLE_CUSP_BEGIN N=21 cusp=4 time=0.130
+CUSP_DOUBLE_LOCAL_REFERENCE N=21 cusp=4 basis_index=5 original_order=1
+CUSP_DOUBLE_FAST_LOCAL N=21 cusp=4/9 time=0.140
+CUSP_DOUBLE_CUSP_BEGIN N=21 cusp=5 time=0.140
+CUSP_DOUBLE_LOCAL_REFERENCE N=21 cusp=5 basis_index=2 original_order=1
+CUSP_DOUBLE_FAST_LOCAL N=21 cusp=5/9 time=0.150
+CUSP_DOUBLE_CUSP_BEGIN N=21 cusp=6 time=0.150
+CUSP_DOUBLE_LOCAL_REFERENCE N=21 cusp=6 basis_index=3 original_order=1
+CUSP_DOUBLE_FAST_LOCAL N=21 cusp=6/9 time=0.160
+CUSP_DOUBLE_CUSP_BEGIN N=21 cusp=7 time=0.160
+CUSP_DOUBLE_LOCAL_REFERENCE N=21 cusp=7 basis_index=2 original_order=1
+CUSP_DOUBLE_FAST_LOCAL N=21 cusp=7/9 time=0.170
+CUSP_DOUBLE_CUSP_BEGIN N=21 cusp=8 time=0.170
+CUSP_DOUBLE_LOCAL_REFERENCE N=21 cusp=8 basis_index=1 original_order=0
+CUSP_DOUBLE_FAST_LOCAL N=21 cusp=8/9 time=0.180
+CUSP_DOUBLE_CUSP_BEGIN N=21 cusp=9 time=0.180
+CUSP_DOUBLE_LOCAL_REFERENCE N=21 cusp=9 basis_index=1 original_order=0
+CUSP_DOUBLE_FAST_LOCAL N=21 cusp=9/9 time=0.190
+CUSP_DOUBLE_FAST_EXCEPTION N=21 index=1 dim=2 vector=[ 0, 0, 0, 0, 0, 0, 0, 0, 1 ]
+CUSP_DOUBLE_FAST_EXCEPTION N=21 index=8 dim=2 vector=[ 0, 0, 0, 0, 1, 0, 0, 0, 0 ]
+CUSP_DOUBLE_FAST_EXCEPTION N=21 index=10 dim=2 vector=[ 0, 0, 0, 1, 0, 0, 1, 0, 0 ]
+CUSP_DOUBLE_FAST_EXCEPTION N=21 index=15 dim=2 vector=[ 0, 0, 1, 0, 0, 1, 0, 0, 0 ]
+CUSP_DOUBLE_FAST_EXCEPTION N=21 index=18 dim=2 vector=[ 0, 1, 0, 0, 0, 0, 0, 1, 0 ]
+CUSP_DOUBLE_FAST_EXCEPTION N=21 index=24 dim=2 vector=[ 1, 0, 0, 0, 0, 0, 0, 0, 0 ]
+CUSP_DOUBLE_FAST_DONE N=21 D=2 tested=24 total=24 exceptions=6 complete=true time=0.220

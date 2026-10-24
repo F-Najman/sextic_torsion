@@ -1,0 +1,4 @@
+GL2_COUNT_35 p=3 noncuspidal_rational_point_counts=[ 0, 0, 36, 0, 180, 792 ] agree=true
+HECKE_REFERENCE_35 p=3 place_degree=3 q=11 exact_divisors_agree=true
+HECKE_REFERENCE_35 p=3 place_degree=3 q=13 exact_divisors_agree=true
+VERIFY_35_DONE

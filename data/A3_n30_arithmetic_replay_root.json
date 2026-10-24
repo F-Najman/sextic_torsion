@@ -1,0 +1,56 @@
+{
+  "independent_integer_lattice_replay": true,
+  "finite_group_order": 69249024,
+  "rational_cusp_group_order": 256,
+  "quotient_order": 270504,
+  "divisors_tested": 10,
+  "remaining": 0,
+  "projection_moduli": [
+    51,
+    1326
+  ],
+  "nonzero_projection_images": [
+    [
+      0,
+      618
+    ],
+    [
+      12,
+      282
+    ],
+    [
+      3,
+      1218
+    ],
+    [
+      0,
+      384
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      12,
+      390
+    ],
+    [
+      39,
+      0
+    ],
+    [
+      3,
+      1092
+    ],
+    [
+      39,
+      0
+    ],
+    [
+      12,
+      390
+    ]
+  ],
+  "source_sha256": "5458be3ef1a29d527dc53293727ee6fb2ebe8cac610679248f857c468e8aa025",
+  "input_divisors_sha256": "a24bf407b48c2c163b07fd67b6b79404f038c72b6c201095400fdbc01f58a595"
+}

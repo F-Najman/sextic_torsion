@@ -1,0 +1,8 @@
+{
+  "complete": true,
+  "expected_partition_types": 29,
+  "verified_partition_types": 29,
+  "missing_types": [],
+  "prefix_sha256": "3b89c40928e5bc90cdeeefd505b6535ff1a1619f1e0cef2a0fa22204e222e757",
+  "resume_sha256": "f7734f4be2ea33c7ad75dd2af143aec24a13e857612ffc9b3d75edb4e88a778d"
+}

@@ -1,0 +1,7 @@
+RATIONAL_TWO_START N=57 Qs=[ 5 ] sign=0 exact_JOne=true
+RATIONAL_TWO_JONE N=57 dimension=85 time=1.180
+RATIONAL_TWO_HOMOLOGY N=57 rank=170 time=1.180
+RATIONAL_TWO_DIAMOND N=57 dimension=170 time=9.490
+RATIONAL_TWO_HECKE_START N=57 q=5 time=9.500
+RATIONAL_TWO_KERNEL N=57 q=5 kernel_dimension=2 diamond_difference_rank=0 time=9.600
+RATIONAL_TWO_DONE N=57 kernel_dimension=2 diamond_trivial=true time=9.600

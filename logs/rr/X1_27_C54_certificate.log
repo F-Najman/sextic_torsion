@@ -1,0 +1,5 @@
+C54_CERT_RR p=2 dimension=1 degrees=[ 6 ] multiplicities=[ 1 ] time=1.060
+C54_CERT_F2_PLACES counts=[ 0, 0, 0, 0, 0, 9 ] reference_diamond_orbit_size=9 time=1.200
+C54_CERT_RR p=5 dimension=1 degrees=[ 2, 4 ] multiplicities=[ 1, 1 ] time=4.150
+C54_CERT_F5_ODD_GROUP 27 [ 27 ]
+C54_FINITE_CERTIFICATE_DONE complete=true time=4.150

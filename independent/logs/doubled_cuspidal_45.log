@@ -1,0 +1,9 @@
+psi_5 degree 12 irreducible true
+y-equation irreducible true
+genus 41 (44.460 s)
+cusp degrees: [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 4, 4, 4, 4, 4, 6, 6, 12 ]
+degree of j = 864
+cusps of degree <= 6: [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 4, 4, 4, 4, 4, 6, 6 ]
+kernel spaces: 187 (1320.920 s)
+degree-6 cuspidal divisors: 19048
+C45_DOUBLED_CHECK_DONE divisors 19048 failures 0 (1321.510 s)

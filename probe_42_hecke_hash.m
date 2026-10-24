@@ -1,0 +1,33 @@
+/* Bounded timing probe, not an exhaustive sextic-point exclusion. */
+SetColumns(0);SetMemoryLimit(16*10^9);t0:=Cputime();
+AttachSpec("mdmagma/v2/mdmagma.spec");
+Attach("fast_hecke.m");
+Attach("fast_hecke_11.m");
+Attach("fast_hecke_cyclic_commonzero.m");
+Attach("fast_diamond_hash_m2.m");
+Attach("fast_diamond_hash_roots.m");
+X:=MDX1(42,GF(5));assert Genus(X) eq 25;
+print "C42_HECKE_PROBE_SETUP",Cputime(t0);
+xs3:=NoncuspidalPlaces(X,3);assert #xs3 eq 4;
+rs3:=PlacesUpToDiamondTateHashRoots(X,xs3);
+old3:=PlacesUpToDiamondFast(X,xs3);assert #rs3 eq #old3;
+assert #PlacesUpToDiamondTateHashRoots(X,rs3 cat old3) eq #rs3;
+print "C42_HASH_CUBIC_VALIDATED",#rs3,Cputime(t0);
+xs:=NoncuspidalPlaces(X,6);assert #xs eq 2286;
+print "C42_HECKE_PROBE_PLACES",#xs,Cputime(t0);
+rs:=PlacesUpToDiamondTateHashRoots(X,xs);
+print "C42_HECKE_PROBE_REPS",#rs,Cputime(t0);
+procedure CheckOne(X,x,q,index)
+ ti:=Cputime();D:=Divisor(x);T:=HeckeOperatorCommonZeros(X,q,x);
+ print "C42_HECKE_PROBE_T",Degree(x),index,q,Degree(T),Cputime(ti);
+ tj:=Cputime();E:=EllipticCurve(X,x);P:=LevelStructure(X,x)`P;
+ y:=ModuliPointCyclicCommonZeros(X,E,rec<recformat<P:PtEll>|P:=q*P>);
+ assert Degree(y) eq Degree(x);
+ A:=T-q*Divisor(y)-D;assert Degree(A) eq 0;
+ print "C42_HECKE_PROBE_DIAMOND",Degree(x),index,q,Cputime(tj);
+ tj:=Cputime();principal:=IsPrincipal(A);
+ print "C42_HECKE_PROBE_RESULT",Degree(x),index,q,principal,Cputime(tj),Cputime(ti);
+end procedure;
+for i in [1..Minimum(3,#rs)] do CheckOne(X,rs[i],11,i);end for;
+CheckOne(X,rs3[1],17,1);
+print "C42_HECKE_PROBE_DONE",Cputime(t0);quit;

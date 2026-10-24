@@ -1,0 +1,505 @@
+Y63_EQUATION degree=24 separable=true time=0.010
+Y63_IRREDUCIBLE time=0.010
+RANK0_CARTIER_SETUP N=63 D=6 genus=49 direct_AF_model=true time=49.330
+RANK0_CARTIER_FORMS N=63 image_dimension=45 time=54.790
+Y63_ALL_CUSPS pole_degree=864 signature={* 1^^9, 2^^3, 3^^9, 6 *} time=81.580
+RANK0_CARTIER_CUSPS N=63 signature={* 1^^9, 2^^3, 3^^9, 6 *} time=107.530
+RANK0_CARTIER_COUNT N=63 total=6542 time=107.710
+RANK0_CARTIER_JET_START N=63 cusp=1/22 degree=3 reference_order=0 precision=4 time=107.810
+RANK0_CARTIER_COMPLETION N=63 cusp=1 time=107.830
+RANK0_CARTIER_EXPANDED N=63 cusp=1 sufficient_precision=true time=171.830
+RANK0_CARTIER_JET N=63 cusp=1/22 degree=3 reference_order=0 time=171.830
+RANK0_CARTIER_JET_START N=63 cusp=2/22 degree=1 reference_order=6 precision=8 time=172.030
+RANK0_CARTIER_COMPLETION N=63 cusp=2 time=172.050
+RANK0_CARTIER_EXPANDED N=63 cusp=2 sufficient_precision=true time=237.660
+RANK0_CARTIER_JET N=63 cusp=2/22 degree=1 reference_order=6 time=237.660
+RANK0_CARTIER_JET_START N=63 cusp=3/22 degree=1 reference_order=6 precision=8 time=237.820
+RANK0_CARTIER_COMPLETION N=63 cusp=3 time=237.860
+RANK0_CARTIER_EXPANDED N=63 cusp=3 sufficient_precision=true time=364.860
+RANK0_CARTIER_JET N=63 cusp=3/22 degree=1 reference_order=6 time=364.860
+RANK0_CARTIER_JET_START N=63 cusp=4/22 degree=1 reference_order=6 precision=8 time=365.010
+RANK0_CARTIER_COMPLETION N=63 cusp=4 time=365.050
+RANK0_CARTIER_EXPANDED N=63 cusp=4 sufficient_precision=true time=485.810
+RANK0_CARTIER_JET N=63 cusp=4/22 degree=1 reference_order=6 time=485.810
+RANK0_CARTIER_JET_START N=63 cusp=5/22 degree=3 reference_order=0 precision=4 time=485.890
+RANK0_CARTIER_COMPLETION N=63 cusp=5 time=485.920
+RANK0_CARTIER_EXPANDED N=63 cusp=5 sufficient_precision=true time=498.910
+RANK0_CARTIER_JET N=63 cusp=5/22 degree=3 reference_order=0 time=498.910
+RANK0_CARTIER_JET_START N=63 cusp=6/22 degree=1 reference_order=6 precision=8 time=499.050
+RANK0_CARTIER_COMPLETION N=63 cusp=6 time=499.100
+RANK0_CARTIER_EXPANDED N=63 cusp=6 sufficient_precision=true time=542.270
+RANK0_CARTIER_JET N=63 cusp=6/22 degree=1 reference_order=6 time=542.270
+RANK0_CARTIER_JET_START N=63 cusp=7/22 degree=1 reference_order=6 precision=8 time=542.550
+RANK0_CARTIER_COMPLETION N=63 cusp=7 time=542.590
+RANK0_CARTIER_EXPANDED N=63 cusp=7 sufficient_precision=true time=595.220
+RANK0_CARTIER_JET N=63 cusp=7/22 degree=1 reference_order=6 time=595.220
+RANK0_CARTIER_JET_START N=63 cusp=8/22 degree=1 reference_order=6 precision=8 time=595.480
+RANK0_CARTIER_COMPLETION N=63 cusp=8 time=595.510
+RANK0_CARTIER_EXPANDED N=63 cusp=8 sufficient_precision=true time=642.260
+RANK0_CARTIER_JET N=63 cusp=8/22 degree=1 reference_order=6 time=642.260
+RANK0_CARTIER_JET_START N=63 cusp=9/22 degree=6 reference_order=0 precision=3 time=642.380
+RANK0_CARTIER_COMPLETION N=63 cusp=9 time=642.430
+RANK0_CARTIER_EXPANDED N=63 cusp=9 sufficient_precision=true time=666.580
+RANK0_CARTIER_JET N=63 cusp=9/22 degree=6 reference_order=0 time=666.580
+RANK0_CARTIER_JET_START N=63 cusp=10/22 degree=2 reference_order=6 precision=5 time=666.670
+RANK0_CARTIER_COMPLETION N=63 cusp=10 time=666.700
+RANK0_CARTIER_EXPANDED N=63 cusp=10 sufficient_precision=true time=699.370
+RANK0_CARTIER_JET N=63 cusp=10/22 degree=2 reference_order=6 time=699.370
+RANK0_CARTIER_JET_START N=63 cusp=11/22 degree=2 reference_order=6 precision=5 time=699.530
+RANK0_CARTIER_COMPLETION N=63 cusp=11 time=699.570
+RANK0_CARTIER_EXPANDED N=63 cusp=11 sufficient_precision=true time=747.860
+RANK0_CARTIER_JET N=63 cusp=11/22 degree=2 reference_order=6 time=747.870
+RANK0_CARTIER_JET_START N=63 cusp=12/22 degree=2 reference_order=6 precision=5 time=747.980
+RANK0_CARTIER_COMPLETION N=63 cusp=12 time=748.000
+RANK0_CARTIER_EXPANDED N=63 cusp=12 sufficient_precision=true time=786.440
+RANK0_CARTIER_JET N=63 cusp=12/22 degree=2 reference_order=6 time=786.450
+RANK0_CARTIER_JET_START N=63 cusp=13/22 degree=3 reference_order=0 precision=4 time=786.610
+RANK0_CARTIER_COMPLETION N=63 cusp=13 time=786.680
+RANK0_CARTIER_EXPANDED N=63 cusp=13 sufficient_precision=true time=830.280
+RANK0_CARTIER_JET N=63 cusp=13/22 degree=3 reference_order=0 time=830.280
+RANK0_CARTIER_JET_START N=63 cusp=14/22 degree=3 reference_order=0 precision=4 time=830.430
+RANK0_CARTIER_COMPLETION N=63 cusp=14 time=830.500
+RANK0_CARTIER_EXPANDED N=63 cusp=14 sufficient_precision=true time=870.460
+RANK0_CARTIER_JET N=63 cusp=14/22 degree=3 reference_order=0 time=870.460
+RANK0_CARTIER_JET_START N=63 cusp=15/22 degree=3 reference_order=0 precision=4 time=870.620
+RANK0_CARTIER_COMPLETION N=63 cusp=15 time=870.690
+RANK0_CARTIER_EXPANDED N=63 cusp=15 sufficient_precision=true time=909.580
+RANK0_CARTIER_JET N=63 cusp=15/22 degree=3 reference_order=0 time=909.580
+RANK0_CARTIER_JET_START N=63 cusp=16/22 degree=3 reference_order=6 precision=4 time=909.740
+RANK0_CARTIER_COMPLETION N=63 cusp=16 time=909.790
+RANK0_CARTIER_EXPANDED N=63 cusp=16 sufficient_precision=true time=971.010
+RANK0_CARTIER_JET N=63 cusp=16/22 degree=3 reference_order=6 time=971.010
+RANK0_CARTIER_JET_START N=63 cusp=17/22 degree=3 reference_order=6 precision=4 time=971.170
+RANK0_CARTIER_COMPLETION N=63 cusp=17 time=971.210
+RANK0_CARTIER_EXPANDED N=63 cusp=17 sufficient_precision=true time=1034.250
+RANK0_CARTIER_JET N=63 cusp=17/22 degree=3 reference_order=6 time=1034.250
+RANK0_CARTIER_JET_START N=63 cusp=18/22 degree=3 reference_order=6 precision=4 time=1034.390
+RANK0_CARTIER_COMPLETION N=63 cusp=18 time=1034.410
+RANK0_CARTIER_EXPANDED N=63 cusp=18 sufficient_precision=true time=1093.240
+RANK0_CARTIER_JET N=63 cusp=18/22 degree=3 reference_order=6 time=1093.240
+RANK0_CARTIER_JET_START N=63 cusp=19/22 degree=3 reference_order=-2 precision=6 time=1094.410
+RANK0_CARTIER_COMPLETION N=63 cusp=19 time=1094.510
+
+[Interrupted]
+Loading "work/large_levels_agent/cartier_direct_63_diagnostic_continuation.m"
+Y63_DIAGNOSTIC_CONTINUATION preserved_blocks=18 time=1825.430
+RANK0_CARTIER_JET_START N=63 cusp=19/22 degree=3 reference_order=-2 precision=6 time=1826.610
+RANK0_CARTIER_COMPLETION N=63 cusp=19 time=1826.710
+Y63_RESIDUE_FIELDS cusp=19 same_parent=true degree_place=3 degree_series=3 defining_place=t^3 + t + 1 defining_series=t^3 + t + 1
+Y63_BASIS_START cusp=19 basis=1/49 time=1826.710
+Y63_BASIS_DONE cusp=19 basis=1 precision=7 time=1826.750
+Y63_BASIS_START cusp=19 basis=2/49 time=1826.750
+Y63_BASIS_DONE cusp=19 basis=2 precision=6 time=1826.780
+Y63_BASIS_START cusp=19 basis=3/49 time=1826.780
+Y63_BASIS_DONE cusp=19 basis=3 precision=7 time=1826.810
+Y63_BASIS_START cusp=19 basis=4/49 time=1826.810
+Y63_BASIS_DONE cusp=19 basis=4 precision=6 time=1826.850
+Y63_BASIS_START cusp=19 basis=5/49 time=1826.850
+Y63_BASIS_DONE cusp=19 basis=5 precision=7 time=1826.880
+Y63_BASIS_START cusp=19 basis=6/49 time=1826.880
+Y63_BASIS_DONE cusp=19 basis=6 precision=6 time=1826.910
+Y63_BASIS_START cusp=19 basis=7/49 time=1826.910
+Y63_BASIS_DONE cusp=19 basis=7 precision=7 time=1838.030
+Y63_BASIS_START cusp=19 basis=8/49 time=1838.030
+Y63_BASIS_DONE cusp=19 basis=8 precision=6 time=1838.070
+Y63_BASIS_START cusp=19 basis=9/49 time=1838.070
+Y63_BASIS_DONE cusp=19 basis=9 precision=7 time=1838.100
+Y63_BASIS_START cusp=19 basis=10/49 time=1838.100
+Y63_BASIS_DONE cusp=19 basis=10 precision=6 time=1838.140
+Y63_BASIS_START cusp=19 basis=11/49 time=1838.140
+Y63_BASIS_DONE cusp=19 basis=11 precision=7 time=1838.170
+Y63_BASIS_START cusp=19 basis=12/49 time=1838.170
+Y63_BASIS_DONE cusp=19 basis=12 precision=6 time=1838.200
+Y63_BASIS_START cusp=19 basis=13/49 time=1838.200
+Y63_BASIS_DONE cusp=19 basis=13 precision=7 time=1838.240
+Y63_BASIS_START cusp=19 basis=14/49 time=1838.240
+Y63_BASIS_DONE cusp=19 basis=14 precision=6 time=1838.270
+Y63_BASIS_START cusp=19 basis=15/49 time=1838.270
+Y63_BASIS_DONE cusp=19 basis=15 precision=7 time=1838.310
+Y63_BASIS_START cusp=19 basis=16/49 time=1838.310
+Y63_BASIS_DONE cusp=19 basis=16 precision=6 time=1838.340
+Y63_BASIS_START cusp=19 basis=17/49 time=1838.340
+Y63_BASIS_DONE cusp=19 basis=17 precision=7 time=1838.380
+Y63_BASIS_START cusp=19 basis=18/49 time=1838.380
+Y63_BASIS_DONE cusp=19 basis=18 precision=6 time=1838.410
+Y63_BASIS_START cusp=19 basis=19/49 time=1838.410
+Y63_BASIS_DONE cusp=19 basis=19 precision=7 time=1838.440
+Y63_BASIS_START cusp=19 basis=20/49 time=1838.440
+Y63_BASIS_DONE cusp=19 basis=20 precision=6 time=1838.480
+Y63_BASIS_START cusp=19 basis=21/49 time=1838.480
+Y63_BASIS_DONE cusp=19 basis=21 precision=7 time=1838.510
+Y63_BASIS_START cusp=19 basis=22/49 time=1838.510
+Y63_BASIS_DONE cusp=19 basis=22 precision=6 time=1838.540
+Y63_BASIS_START cusp=19 basis=23/49 time=1838.540
+Y63_BASIS_DONE cusp=19 basis=23 precision=7 time=1838.580
+Y63_BASIS_START cusp=19 basis=24/49 time=1838.580
+Y63_BASIS_DONE cusp=19 basis=24 precision=6 time=1838.610
+Y63_BASIS_START cusp=19 basis=25/49 time=1838.610
+Y63_BASIS_DONE cusp=19 basis=25 precision=8 time=1838.640
+Y63_BASIS_START cusp=19 basis=26/49 time=1838.640
+Y63_BASIS_DONE cusp=19 basis=26 precision=7 time=1838.680
+Y63_BASIS_START cusp=19 basis=27/49 time=1838.680
+Y63_BASIS_DONE cusp=19 basis=27 precision=8 time=1838.710
+Y63_BASIS_START cusp=19 basis=28/49 time=1838.710
+Y63_BASIS_DONE cusp=19 basis=28 precision=7 time=1838.740
+Y63_BASIS_START cusp=19 basis=29/49 time=1838.740
+Y63_BASIS_DONE cusp=19 basis=29 precision=8 time=1838.780
+Y63_BASIS_START cusp=19 basis=30/49 time=1838.780
+Y63_BASIS_DONE cusp=19 basis=30 precision=7 time=1838.810
+Y63_BASIS_START cusp=19 basis=31/49 time=1838.810
+Y63_BASIS_DONE cusp=19 basis=31 precision=7 time=1838.850
+Y63_BASIS_START cusp=19 basis=32/49 time=1838.850
+Y63_BASIS_DONE cusp=19 basis=32 precision=6 time=1838.880
+Y63_BASIS_START cusp=19 basis=33/49 time=1838.880
+Y63_BASIS_DONE cusp=19 basis=33 precision=7 time=1838.910
+Y63_BASIS_START cusp=19 basis=34/49 time=1838.910
+Y63_BASIS_DONE cusp=19 basis=34 precision=6 time=1838.940
+Y63_BASIS_START cusp=19 basis=35/49 time=1838.940
+Y63_BASIS_DONE cusp=19 basis=35 precision=7 time=1838.970
+Y63_BASIS_START cusp=19 basis=36/49 time=1838.970
+Y63_BASIS_DONE cusp=19 basis=36 precision=6 time=1839.010
+Y63_BASIS_START cusp=19 basis=37/49 time=1839.010
+Y63_BASIS_DONE cusp=19 basis=37 precision=8 time=1839.040
+Y63_BASIS_START cusp=19 basis=38/49 time=1839.040
+Y63_BASIS_DONE cusp=19 basis=38 precision=7 time=1839.080
+Y63_BASIS_START cusp=19 basis=39/49 time=1839.080
+Y63_BASIS_DONE cusp=19 basis=39 precision=7 time=1839.110
+Y63_BASIS_START cusp=19 basis=40/49 time=1839.110
+Y63_BASIS_DONE cusp=19 basis=40 precision=6 time=1839.140
+Y63_BASIS_START cusp=19 basis=41/49 time=1839.140
+Y63_BASIS_DONE cusp=19 basis=41 precision=7 time=1839.180
+Y63_BASIS_START cusp=19 basis=42/49 time=1839.180
+Y63_BASIS_DONE cusp=19 basis=42 precision=6 time=1839.210
+Y63_BASIS_START cusp=19 basis=43/49 time=1839.210
+Y63_BASIS_DONE cusp=19 basis=43 precision=8 time=1839.250
+Y63_BASIS_START cusp=19 basis=44/49 time=1839.250
+Y63_BASIS_DONE cusp=19 basis=44 precision=7 time=1839.280
+Y63_BASIS_START cusp=19 basis=45/49 time=1839.280
+Y63_BASIS_DONE cusp=19 basis=45 precision=6 time=1839.310
+Y63_BASIS_START cusp=19 basis=46/49 time=1839.310
+Y63_BASIS_DONE cusp=19 basis=46 precision=9 time=1839.340
+Y63_BASIS_START cusp=19 basis=47/49 time=1839.340
+Y63_BASIS_DONE cusp=19 basis=47 precision=8 time=1839.380
+Y63_BASIS_START cusp=19 basis=48/49 time=1839.380
+Y63_BASIS_DONE cusp=19 basis=48 precision=7 time=1839.410
+Y63_BASIS_START cusp=19 basis=49/49 time=1839.410
+Y63_BASIS_DONE cusp=19 basis=49 precision=6 time=1839.440
+RANK0_CARTIER_EXPANDED N=63 cusp=19 sufficient_precision=true time=1839.440
+RANK0_CARTIER_JET N=63 cusp=19/22 degree=3 reference_order=-2 time=1839.440
+RANK0_CARTIER_JET_START N=63 cusp=20/22 degree=1 reference_order=-8 precision=16 time=1839.810
+RANK0_CARTIER_COMPLETION N=63 cusp=20 time=1839.850
+Y63_RESIDUE_FIELDS cusp=20 same_parent=true degree_place=1 degree_series=1 defining_place=t + 1 defining_series=t + 1
+Y63_BASIS_START cusp=20 basis=1/49 time=1839.850
+Y63_BASIS_DONE cusp=20 basis=1 precision=23 time=2004.030
+Y63_BASIS_START cusp=20 basis=2/49 time=2004.030
+Y63_BASIS_DONE cusp=20 basis=2 precision=16 time=2004.460
+Y63_BASIS_START cusp=20 basis=3/49 time=2004.460
+Y63_BASIS_DONE cusp=20 basis=3 precision=23 time=2004.880
+Y63_BASIS_START cusp=20 basis=4/49 time=2004.880
+Y63_BASIS_DONE cusp=20 basis=4 precision=16 time=2005.310
+Y63_BASIS_START cusp=20 basis=5/49 time=2005.310
+Y63_BASIS_DONE cusp=20 basis=5 precision=23 time=2005.720
+Y63_BASIS_START cusp=20 basis=6/49 time=2005.720
+Y63_BASIS_DONE cusp=20 basis=6 precision=16 time=2006.140
+Y63_BASIS_START cusp=20 basis=7/49 time=2006.140
+Y63_BASIS_DONE cusp=20 basis=7 precision=24 time=2049.520
+Y63_BASIS_START cusp=20 basis=8/49 time=2049.520
+Y63_BASIS_DONE cusp=20 basis=8 precision=17 time=2049.970
+Y63_BASIS_START cusp=20 basis=9/49 time=2049.970
+Y63_BASIS_DONE cusp=20 basis=9 precision=26 time=2050.410
+Y63_BASIS_START cusp=20 basis=10/49 time=2050.410
+Y63_BASIS_DONE cusp=20 basis=10 precision=19 time=2050.850
+Y63_BASIS_START cusp=20 basis=11/49 time=2050.850
+Y63_BASIS_DONE cusp=20 basis=11 precision=24 time=2051.290
+Y63_BASIS_START cusp=20 basis=12/49 time=2051.290
+Y63_BASIS_DONE cusp=20 basis=12 precision=17 time=2051.720
+Y63_BASIS_START cusp=20 basis=13/49 time=2051.720
+Y63_BASIS_DONE cusp=20 basis=13 precision=23 time=2052.170
+Y63_BASIS_START cusp=20 basis=14/49 time=2052.170
+Y63_BASIS_DONE cusp=20 basis=14 precision=16 time=2052.610
+Y63_BASIS_START cusp=20 basis=15/49 time=2052.610
+Y63_BASIS_DONE cusp=20 basis=15 precision=23 time=2053.040
+Y63_BASIS_START cusp=20 basis=16/49 time=2053.040
+Y63_BASIS_DONE cusp=20 basis=16 precision=16 time=2053.470
+Y63_BASIS_START cusp=20 basis=17/49 time=2053.470
+Y63_BASIS_DONE cusp=20 basis=17 precision=23 time=2053.920
+Y63_BASIS_START cusp=20 basis=18/49 time=2053.920
+Y63_BASIS_DONE cusp=20 basis=18 precision=16 time=2054.380
+Y63_BASIS_START cusp=20 basis=19/49 time=2054.380
+Y63_BASIS_DONE cusp=20 basis=19 precision=23 time=2054.800
+Y63_BASIS_START cusp=20 basis=20/49 time=2054.800
+Y63_BASIS_DONE cusp=20 basis=20 precision=16 time=2055.220
+Y63_BASIS_START cusp=20 basis=21/49 time=2055.220
+Y63_BASIS_DONE cusp=20 basis=21 precision=23 time=2055.620
+Y63_BASIS_START cusp=20 basis=22/49 time=2055.620
+Y63_BASIS_DONE cusp=20 basis=22 precision=16 time=2055.970
+Y63_BASIS_START cusp=20 basis=23/49 time=2055.970
+Y63_BASIS_DONE cusp=20 basis=23 precision=23 time=2056.390
+Y63_BASIS_START cusp=20 basis=24/49 time=2056.390
+Y63_BASIS_DONE cusp=20 basis=24 precision=16 time=2056.810
+Y63_BASIS_START cusp=20 basis=25/49 time=2056.810
+Y63_BASIS_DONE cusp=20 basis=25 precision=23 time=2057.240
+Y63_BASIS_START cusp=20 basis=26/49 time=2057.240
+Y63_BASIS_DONE cusp=20 basis=26 precision=16 time=2057.670
+Y63_BASIS_START cusp=20 basis=27/49 time=2057.670
+Y63_BASIS_DONE cusp=20 basis=27 precision=23 time=2058.100
+Y63_BASIS_START cusp=20 basis=28/49 time=2058.100
+Y63_BASIS_DONE cusp=20 basis=28 precision=16 time=2058.550
+Y63_BASIS_START cusp=20 basis=29/49 time=2058.550
+Y63_BASIS_DONE cusp=20 basis=29 precision=23 time=2058.980
+Y63_BASIS_START cusp=20 basis=30/49 time=2058.980
+Y63_BASIS_DONE cusp=20 basis=30 precision=16 time=2059.410
+Y63_BASIS_START cusp=20 basis=31/49 time=2059.410
+Y63_BASIS_DONE cusp=20 basis=31 precision=25 time=2059.840
+Y63_BASIS_START cusp=20 basis=32/49 time=2059.840
+Y63_BASIS_DONE cusp=20 basis=32 precision=18 time=2060.280
+Y63_BASIS_START cusp=20 basis=33/49 time=2060.280
+Y63_BASIS_DONE cusp=20 basis=33 precision=24 time=2060.690
+Y63_BASIS_START cusp=20 basis=34/49 time=2060.690
+Y63_BASIS_DONE cusp=20 basis=34 precision=17 time=2061.100
+Y63_BASIS_START cusp=20 basis=35/49 time=2061.100
+Y63_BASIS_DONE cusp=20 basis=35 precision=25 time=2061.540
+Y63_BASIS_START cusp=20 basis=36/49 time=2061.540
+Y63_BASIS_DONE cusp=20 basis=36 precision=18 time=2061.970
+Y63_BASIS_START cusp=20 basis=37/49 time=2061.970
+Y63_BASIS_DONE cusp=20 basis=37 precision=31 time=2062.410
+Y63_BASIS_START cusp=20 basis=38/49 time=2062.410
+Y63_BASIS_DONE cusp=20 basis=38 precision=24 time=2062.850
+Y63_BASIS_START cusp=20 basis=39/49 time=2062.850
+Y63_BASIS_DONE cusp=20 basis=39 precision=26 time=2063.280
+Y63_BASIS_START cusp=20 basis=40/49 time=2063.280
+Y63_BASIS_DONE cusp=20 basis=40 precision=19 time=2063.710
+Y63_BASIS_START cusp=20 basis=41/49 time=2063.710
+Y63_BASIS_DONE cusp=20 basis=41 precision=24 time=2064.160
+Y63_BASIS_START cusp=20 basis=42/49 time=2064.160
+Y63_BASIS_DONE cusp=20 basis=42 precision=17 time=2064.610
+Y63_BASIS_START cusp=20 basis=43/49 time=2064.610
+Y63_BASIS_DONE cusp=20 basis=43 precision=31 time=2065.040
+Y63_BASIS_START cusp=20 basis=44/49 time=2065.040
+Y63_BASIS_DONE cusp=20 basis=44 precision=24 time=2065.470
+Y63_BASIS_START cusp=20 basis=45/49 time=2065.470
+Y63_BASIS_DONE cusp=20 basis=45 precision=17 time=2065.890
+Y63_BASIS_START cusp=20 basis=46/49 time=2065.890
+Y63_BASIS_DONE cusp=20 basis=46 precision=37 time=2066.310
+Y63_BASIS_START cusp=20 basis=47/49 time=2066.310
+Y63_BASIS_DONE cusp=20 basis=47 precision=30 time=2066.730
+Y63_BASIS_START cusp=20 basis=48/49 time=2066.730
+Y63_BASIS_DONE cusp=20 basis=48 precision=23 time=2067.150
+Y63_BASIS_START cusp=20 basis=49/49 time=2067.150
+Y63_BASIS_DONE cusp=20 basis=49 precision=16 time=2067.560
+RANK0_CARTIER_EXPANDED N=63 cusp=20 sufficient_precision=true time=2067.560
+RANK0_CARTIER_JET N=63 cusp=20/22 degree=1 reference_order=-8 time=2067.560
+RANK0_CARTIER_JET_START N=63 cusp=21/22 degree=1 reference_order=-8 precision=16 time=2070.680
+RANK0_CARTIER_COMPLETION N=63 cusp=21 time=2070.760
+Y63_RESIDUE_FIELDS cusp=21 same_parent=true degree_place=1 degree_series=1 defining_place=t + 1 defining_series=t + 1
+Y63_BASIS_START cusp=21 basis=1/49 time=2070.760
+Y63_BASIS_DONE cusp=21 basis=1 precision=25 time=2475.210
+Y63_BASIS_START cusp=21 basis=2/49 time=2475.210
+Y63_BASIS_DONE cusp=21 basis=2 precision=18 time=2475.640
+Y63_BASIS_START cusp=21 basis=3/49 time=2475.640
+Y63_BASIS_DONE cusp=21 basis=3 precision=23 time=2476.060
+Y63_BASIS_START cusp=21 basis=4/49 time=2476.060
+Y63_BASIS_DONE cusp=21 basis=4 precision=16 time=2476.490
+Y63_BASIS_START cusp=21 basis=5/49 time=2476.490
+Y63_BASIS_DONE cusp=21 basis=5 precision=23 time=2476.880
+Y63_BASIS_START cusp=21 basis=6/49 time=2476.880
+Y63_BASIS_DONE cusp=21 basis=6 precision=16 time=2477.290
+Y63_BASIS_START cusp=21 basis=7/49 time=2477.290
+Y63_BASIS_DONE cusp=21 basis=7 precision=23 time=2643.670
+Y63_BASIS_START cusp=21 basis=8/49 time=2643.670
+Y63_BASIS_DONE cusp=21 basis=8 precision=16 time=2644.120
+Y63_BASIS_START cusp=21 basis=9/49 time=2644.120
+Y63_BASIS_DONE cusp=21 basis=9 precision=23 time=2644.560
+Y63_BASIS_START cusp=21 basis=10/49 time=2644.560
+Y63_BASIS_DONE cusp=21 basis=10 precision=16 time=2645.000
+Y63_BASIS_START cusp=21 basis=11/49 time=2645.000
+Y63_BASIS_DONE cusp=21 basis=11 precision=23 time=2645.430
+Y63_BASIS_START cusp=21 basis=12/49 time=2645.430
+Y63_BASIS_DONE cusp=21 basis=12 precision=16 time=2645.870
+Y63_BASIS_START cusp=21 basis=13/49 time=2645.870
+Y63_BASIS_DONE cusp=21 basis=13 precision=24 time=2646.310
+Y63_BASIS_START cusp=21 basis=14/49 time=2646.310
+Y63_BASIS_DONE cusp=21 basis=14 precision=17 time=2646.720
+Y63_BASIS_START cusp=21 basis=15/49 time=2646.720
+Y63_BASIS_DONE cusp=21 basis=15 precision=24 time=2647.150
+Y63_BASIS_START cusp=21 basis=16/49 time=2647.150
+Y63_BASIS_DONE cusp=21 basis=16 precision=17 time=2647.580
+Y63_BASIS_START cusp=21 basis=17/49 time=2647.580
+Y63_BASIS_DONE cusp=21 basis=17 precision=23 time=2648.040
+Y63_BASIS_START cusp=21 basis=18/49 time=2648.040
+Y63_BASIS_DONE cusp=21 basis=18 precision=16 time=2648.490
+Y63_BASIS_START cusp=21 basis=19/49 time=2648.490
+Y63_BASIS_DONE cusp=21 basis=19 precision=24 time=2648.920
+Y63_BASIS_START cusp=21 basis=20/49 time=2648.920
+Y63_BASIS_DONE cusp=21 basis=20 precision=17 time=2649.340
+Y63_BASIS_START cusp=21 basis=21/49 time=2649.340
+Y63_BASIS_DONE cusp=21 basis=21 precision=24 time=2649.760
+Y63_BASIS_START cusp=21 basis=22/49 time=2649.760
+Y63_BASIS_DONE cusp=21 basis=22 precision=17 time=2650.180
+Y63_BASIS_START cusp=21 basis=23/49 time=2650.180
+Y63_BASIS_DONE cusp=21 basis=23 precision=23 time=2650.600
+Y63_BASIS_START cusp=21 basis=24/49 time=2650.600
+Y63_BASIS_DONE cusp=21 basis=24 precision=16 time=2651.010
+Y63_BASIS_START cusp=21 basis=25/49 time=2651.010
+Y63_BASIS_DONE cusp=21 basis=25 precision=24 time=2651.410
+Y63_BASIS_START cusp=21 basis=26/49 time=2651.410
+Y63_BASIS_DONE cusp=21 basis=26 precision=17 time=2651.850
+Y63_BASIS_START cusp=21 basis=27/49 time=2651.850
+Y63_BASIS_DONE cusp=21 basis=27 precision=23 time=2652.240
+Y63_BASIS_START cusp=21 basis=28/49 time=2652.250
+Y63_BASIS_DONE cusp=21 basis=28 precision=16 time=2652.690
+Y63_BASIS_START cusp=21 basis=29/49 time=2652.690
+Y63_BASIS_DONE cusp=21 basis=29 precision=25 time=2653.120
+Y63_BASIS_START cusp=21 basis=30/49 time=2653.120
+Y63_BASIS_DONE cusp=21 basis=30 precision=18 time=2653.550
+Y63_BASIS_START cusp=21 basis=31/49 time=2653.550
+Y63_BASIS_DONE cusp=21 basis=31 precision=25 time=2654.000
+Y63_BASIS_START cusp=21 basis=32/49 time=2654.000
+Y63_BASIS_DONE cusp=21 basis=32 precision=18 time=2654.440
+Y63_BASIS_START cusp=21 basis=33/49 time=2654.440
+Y63_BASIS_DONE cusp=21 basis=33 precision=26 time=2654.860
+Y63_BASIS_START cusp=21 basis=34/49 time=2654.860
+Y63_BASIS_DONE cusp=21 basis=34 precision=19 time=2655.270
+Y63_BASIS_START cusp=21 basis=35/49 time=2655.270
+Y63_BASIS_DONE cusp=21 basis=35 precision=23 time=2655.700
+Y63_BASIS_START cusp=21 basis=36/49 time=2655.700
+Y63_BASIS_DONE cusp=21 basis=36 precision=16 time=2656.130
+Y63_BASIS_START cusp=21 basis=37/49 time=2656.130
+Y63_BASIS_DONE cusp=21 basis=37 precision=32 time=2656.570
+Y63_BASIS_START cusp=21 basis=38/49 time=2656.570
+Y63_BASIS_DONE cusp=21 basis=38 precision=25 time=2657.020
+Y63_BASIS_START cusp=21 basis=39/49 time=2657.020
+Y63_BASIS_DONE cusp=21 basis=39 precision=25 time=2657.450
+Y63_BASIS_START cusp=21 basis=40/49 time=2657.450
+Y63_BASIS_DONE cusp=21 basis=40 precision=18 time=2657.880
+Y63_BASIS_START cusp=21 basis=41/49 time=2657.880
+Y63_BASIS_DONE cusp=21 basis=41 precision=25 time=2658.330
+Y63_BASIS_START cusp=21 basis=42/49 time=2658.340
+Y63_BASIS_DONE cusp=21 basis=42 precision=18 time=2658.790
+Y63_BASIS_START cusp=21 basis=43/49 time=2658.790
+Y63_BASIS_DONE cusp=21 basis=43 precision=31 time=2659.230
+Y63_BASIS_START cusp=21 basis=44/49 time=2659.230
+Y63_BASIS_DONE cusp=21 basis=44 precision=24 time=2659.660
+Y63_BASIS_START cusp=21 basis=45/49 time=2659.660
+Y63_BASIS_DONE cusp=21 basis=45 precision=17 time=2660.090
+Y63_BASIS_START cusp=21 basis=46/49 time=2660.090
+Y63_BASIS_DONE cusp=21 basis=46 precision=37 time=2660.510
+Y63_BASIS_START cusp=21 basis=47/49 time=2660.510
+Y63_BASIS_DONE cusp=21 basis=47 precision=30 time=2660.930
+Y63_BASIS_START cusp=21 basis=48/49 time=2660.930
+Y63_BASIS_DONE cusp=21 basis=48 precision=23 time=2661.350
+Y63_BASIS_START cusp=21 basis=49/49 time=2661.350
+Y63_BASIS_DONE cusp=21 basis=49 precision=16 time=2661.770
+RANK0_CARTIER_EXPANDED N=63 cusp=21 sufficient_precision=true time=2661.770
+RANK0_CARTIER_JET N=63 cusp=21/22 degree=1 reference_order=-8 time=2661.770
+RANK0_CARTIER_JET_START N=63 cusp=22/22 degree=1 reference_order=-8 precision=16 time=2665.490
+RANK0_CARTIER_COMPLETION N=63 cusp=22 time=2665.590
+Y63_RESIDUE_FIELDS cusp=22 same_parent=true degree_place=1 degree_series=1 defining_place=t + 1 defining_series=t + 1
+Y63_BASIS_START cusp=22 basis=1/49 time=2665.590
+Y63_BASIS_DONE cusp=22 basis=1 precision=25 time=2693.260
+Y63_BASIS_START cusp=22 basis=2/49 time=2693.260
+Y63_BASIS_DONE cusp=22 basis=2 precision=18 time=2693.270
+Y63_BASIS_START cusp=22 basis=3/49 time=2693.270
+Y63_BASIS_DONE cusp=22 basis=3 precision=23 time=2693.270
+Y63_BASIS_START cusp=22 basis=4/49 time=2693.270
+Y63_BASIS_DONE cusp=22 basis=4 precision=16 time=2693.270
+Y63_BASIS_START cusp=22 basis=5/49 time=2693.270
+Y63_BASIS_DONE cusp=22 basis=5 precision=27 time=2693.270
+Y63_BASIS_START cusp=22 basis=6/49 time=2693.270
+Y63_BASIS_DONE cusp=22 basis=6 precision=20 time=2693.270
+Y63_BASIS_START cusp=22 basis=7/49 time=2693.270
+Y63_BASIS_DONE cusp=22 basis=7 precision=23 time=2693.280
+Y63_BASIS_START cusp=22 basis=8/49 time=2693.280
+Y63_BASIS_DONE cusp=22 basis=8 precision=16 time=2693.280
+Y63_BASIS_START cusp=22 basis=9/49 time=2693.280
+Y63_BASIS_DONE cusp=22 basis=9 precision=24 time=2693.280
+Y63_BASIS_START cusp=22 basis=10/49 time=2693.280
+Y63_BASIS_DONE cusp=22 basis=10 precision=17 time=2693.280
+Y63_BASIS_START cusp=22 basis=11/49 time=2693.280
+Y63_BASIS_DONE cusp=22 basis=11 precision=24 time=2693.280
+Y63_BASIS_START cusp=22 basis=12/49 time=2693.280
+Y63_BASIS_DONE cusp=22 basis=12 precision=17 time=2693.290
+Y63_BASIS_START cusp=22 basis=13/49 time=2693.290
+Y63_BASIS_DONE cusp=22 basis=13 precision=23 time=2693.290
+Y63_BASIS_START cusp=22 basis=14/49 time=2693.290
+Y63_BASIS_DONE cusp=22 basis=14 precision=16 time=2693.290
+Y63_BASIS_START cusp=22 basis=15/49 time=2693.290
+Y63_BASIS_DONE cusp=22 basis=15 precision=23 time=2693.290
+Y63_BASIS_START cusp=22 basis=16/49 time=2693.290
+Y63_BASIS_DONE cusp=22 basis=16 precision=16 time=2693.290
+Y63_BASIS_START cusp=22 basis=17/49 time=2693.290
+Y63_BASIS_DONE cusp=22 basis=17 precision=24 time=2693.300
+Y63_BASIS_START cusp=22 basis=18/49 time=2693.300
+Y63_BASIS_DONE cusp=22 basis=18 precision=17 time=2693.300
+Y63_BASIS_START cusp=22 basis=19/49 time=2693.300
+Y63_BASIS_DONE cusp=22 basis=19 precision=23 time=2693.300
+Y63_BASIS_START cusp=22 basis=20/49 time=2693.300
+Y63_BASIS_DONE cusp=22 basis=20 precision=16 time=2693.300
+Y63_BASIS_START cusp=22 basis=21/49 time=2693.300
+Y63_BASIS_DONE cusp=22 basis=21 precision=23 time=2693.300
+Y63_BASIS_START cusp=22 basis=22/49 time=2693.300
+Y63_BASIS_DONE cusp=22 basis=22 precision=16 time=2693.310
+Y63_BASIS_START cusp=22 basis=23/49 time=2693.310
+Y63_BASIS_DONE cusp=22 basis=23 precision=23 time=2693.310
+Y63_BASIS_START cusp=22 basis=24/49 time=2693.310
+Y63_BASIS_DONE cusp=22 basis=24 precision=16 time=2693.310
+Y63_BASIS_START cusp=22 basis=25/49 time=2693.310
+Y63_BASIS_DONE cusp=22 basis=25 precision=23 time=2693.310
+Y63_BASIS_START cusp=22 basis=26/49 time=2693.310
+Y63_BASIS_DONE cusp=22 basis=26 precision=16 time=2693.310
+Y63_BASIS_START cusp=22 basis=27/49 time=2693.310
+Y63_BASIS_DONE cusp=22 basis=27 precision=23 time=2693.320
+Y63_BASIS_START cusp=22 basis=28/49 time=2693.320
+Y63_BASIS_DONE cusp=22 basis=28 precision=16 time=2693.320
+Y63_BASIS_START cusp=22 basis=29/49 time=2693.320
+Y63_BASIS_DONE cusp=22 basis=29 precision=26 time=2693.320
+Y63_BASIS_START cusp=22 basis=30/49 time=2693.320
+Y63_BASIS_DONE cusp=22 basis=30 precision=19 time=2693.320
+Y63_BASIS_START cusp=22 basis=31/49 time=2693.320
+Y63_BASIS_DONE cusp=22 basis=31 precision=25 time=2693.320
+Y63_BASIS_START cusp=22 basis=32/49 time=2693.320
+Y63_BASIS_DONE cusp=22 basis=32 precision=18 time=2693.330
+Y63_BASIS_START cusp=22 basis=33/49 time=2693.330
+Y63_BASIS_DONE cusp=22 basis=33 precision=23 time=2693.330
+Y63_BASIS_START cusp=22 basis=34/49 time=2693.330
+Y63_BASIS_DONE cusp=22 basis=34 precision=16 time=2693.330
+Y63_BASIS_START cusp=22 basis=35/49 time=2693.330
+Y63_BASIS_DONE cusp=22 basis=35 precision=24 time=2693.330
+Y63_BASIS_START cusp=22 basis=36/49 time=2693.330
+Y63_BASIS_DONE cusp=22 basis=36 precision=17 time=2693.330
+Y63_BASIS_START cusp=22 basis=37/49 time=2693.330
+Y63_BASIS_DONE cusp=22 basis=37 precision=28 time=2693.340
+Y63_BASIS_START cusp=22 basis=38/49 time=2693.340
+Y63_BASIS_DONE cusp=22 basis=38 precision=21 time=2693.340
+Y63_BASIS_START cusp=22 basis=39/49 time=2693.340
+Y63_BASIS_DONE cusp=22 basis=39 precision=23 time=2693.340
+Y63_BASIS_START cusp=22 basis=40/49 time=2693.340
+Y63_BASIS_DONE cusp=22 basis=40 precision=16 time=2693.340
+Y63_BASIS_START cusp=22 basis=41/49 time=2693.340
+Y63_BASIS_DONE cusp=22 basis=41 precision=23 time=2693.340
+Y63_BASIS_START cusp=22 basis=42/49 time=2693.340
+Y63_BASIS_DONE cusp=22 basis=42 precision=16 time=2693.350
+Y63_BASIS_START cusp=22 basis=43/49 time=2693.350
+Y63_BASIS_DONE cusp=22 basis=43 precision=31 time=2693.350
+Y63_BASIS_START cusp=22 basis=44/49 time=2693.350
+Y63_BASIS_DONE cusp=22 basis=44 precision=24 time=2693.350
+Y63_BASIS_START cusp=22 basis=45/49 time=2693.350
+Y63_BASIS_DONE cusp=22 basis=45 precision=17 time=2693.350
+Y63_BASIS_START cusp=22 basis=46/49 time=2693.350
+Y63_BASIS_DONE cusp=22 basis=46 precision=37 time=2693.350
+Y63_BASIS_START cusp=22 basis=47/49 time=2693.350
+Y63_BASIS_DONE cusp=22 basis=47 precision=30 time=2693.360
+Y63_BASIS_START cusp=22 basis=48/49 time=2693.360
+Y63_BASIS_DONE cusp=22 basis=48 precision=23 time=2693.360
+Y63_BASIS_START cusp=22 basis=49/49 time=2693.360
+Y63_BASIS_DONE cusp=22 basis=49 precision=16 time=2693.360
+RANK0_CARTIER_EXPANDED N=63 cusp=22 sufficient_precision=true time=2693.360
+RANK0_CARTIER_JET N=63 cusp=22/22 degree=1 reference_order=-8 time=2693.360
+RANK0_CARTIER_DIRECT N=63 index=1 jet_rank=6 direct_rank=6 time=2727.420
+RANK0_CARTIER_PROGRESS N=63 tested=1000 total=6542 exceptions=0 time=2727.430
+RANK0_CARTIER_PROGRESS N=63 tested=2000 total=6542 exceptions=0 time=2727.440
+RANK0_CARTIER_PROGRESS N=63 tested=3000 total=6542 exceptions=0 time=2727.450
+RANK0_CARTIER_PROGRESS N=63 tested=4000 total=6542 exceptions=0 time=2727.460
+RANK0_CARTIER_PROGRESS N=63 tested=5000 total=6542 exceptions=0 time=2727.470
+RANK0_CARTIER_PROGRESS N=63 tested=6000 total=6542 exceptions=0 time=2727.490
+RANK0_CARTIER_DONE N=63 D=6 tested=6542 total=6542 exceptions=0 complete=true time=2727.600
