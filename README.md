@@ -255,7 +255,8 @@ Numbering refers to the manuscript (version of 24 October 2026), and the rows fo
 | **Proposition 8.5.** `Z/63`: the character of the only newform of positive analytic rank takes the value −1 at 8; no curve over `F_64` has order divisible by 63 | `rank_quotient_63_character.m`, `finite_field_63.m` | `logs/cartier/X1_63_character.log`, `logs/finite_fields/C63_F64.log` |
 | **Proposition 9.1.** `Z/57`, `Z/65`: no good reduction above 2 (over `F_64` only `j = 0`, with the stated multipliers; the cubic field of the `X_0(65)` points has two primes above 2) | `check_good2_57_65.m` | `logs/finite_fields/good2_57_65_F64.log` |
 | **Lemma 9.2.** `Z/57`: `⟨2⟩` acts trivially on `J_1(57)(Q)[2]`: on the integral homology of `JOne(57)` (rank 170), `ker A_5` mod 2 has dimension 2 and is fixed by `⟨2⟩` | `rational_two_torsion.m`; independent binary replay `verify_two_torsion.py` | `logs/homology/J1_57_two_torsion.log`, `logs/homology/J1_57_two_torsion_replay.log`; `data/two_torsion_57_matrices.m`, `data/two_torsion_57_replay.json` |
-| **Section 9, before Lemma 9.4.** The coordinate `z` on `X_1(13)/⟨3⟩`, the `j`-map `j_13(z)` and the invariant `A_13` over `F_2` | `setup13_twist_parameter_certified.m` | `logs/cartier/X1_13_twist_parameter.log` |
+| **Section 9, before Lemma 9.4.** The coordinate `z` on `X_1(13)/⟨3⟩`, the `j`-map `j_13(z)` and the invariant `A_13` over `F_2`; the diamond operator `⟨2⟩` acts on `z` by `z ↦ z+1` (marker `FACTOR13_AF_INVOLUTION`), which is used in the proof of Lemma 9.4 | `setup13_twist_parameter_certified.m` | `logs/cartier/X1_13_twist_parameter.log` |
+| **Lemma 9.4 (identification of `τ_T`, `τ_U`).** On `X_1(5)`, with the Tate normal form `b = c = t`, the diamond operators `⟨2⟩ = ⟨3⟩` act by `t ↦ -1/t` over `Q` and by `t ↦ 1/t` over `F_2` | `check_65_diamonds.m` | `logs/cartier/X1_5_diamond.log` |
 | **Lemma 9.4 and Proposition 9.5.** `Z/65`: `Y = X_1(65)/⟨4⟩` has genus 41 and `τ_T`, `τ_U` are commuting automorphisms of order 4; the image of `C − 1` on the summed diamond images (dimensions 35 and 28) restricts with rank 6 to each of the 1792 admissible cuspidal divisors of degree 6 over `F_2` | `cusp65_genus41_rr_transport_full.m`; replays as for `Z/51`; cusp count `audit_c65_cusp_orbits.py` | `logs/cartier/Y65_rr_transport.log`, `logs/cartier/Y65_*_replay.log`, `logs/cartier/Y65_cusp_orbits.log`; `data/fi65_genus41_rr_transport.m` |
 | **Proposition 10.1.** `Z/37`: the 37-division polynomial of `E_0` (j = −9317) has factor degrees 6, 6, 6, 666; for each sextic factor the point on the corresponding twist has order 37, and the reductions at degree-one primes above 29 and 41 have 37 points, so the torsion is `Z/37`; the three sextic factors define one cyclic field and give one curve up to isomorphism | `verify_37.m`; `verify_sporadic_curves.m` | `logs/verify_37.log`, `logs/verify_sporadic_curves.log` |
 | **Proposition 10.2.** `Z/25` occurs: van Hoeij's sextic point gives `(0,0)` of exact order 25, and good reductions above 17 and 19 have order 25. `Z/4 × Z/12` occurs: the base change of 162.d2 (Cremona label 162d1) to `Q(α, i)`, `α^3 − 3α − 4 = 0`, has torsion `[4, 12]` | `verify_known_examples.m`; `verify_sporadic_curves.m` | `logs/verify_known_examples.log`, `logs/verify_sporadic_curves.log` |
@@ -360,7 +361,8 @@ paths, so their logs were produced by the unedited version:
   that `data/n30_final_coverage.json` stays valid).
 
 The scripts written together with the manuscript (`group_list.py`, `global_table.py`,
-`lmfdb_ranks.py`, `verify_sporadic_curves.m` and the folder `independent/`) and `cusp_orbits.py`,
+`lmfdb_ranks.py`, `verify_sporadic_curves.m`, `check_65_diamonds.m` and the folder
+`independent/`) and `cusp_orbits.py`,
 to which a closing line was added (its original run left no log), were run as they stand here.
 
 Magma's `Write` appends to an existing file. So that a rerun replaces the exported data instead of

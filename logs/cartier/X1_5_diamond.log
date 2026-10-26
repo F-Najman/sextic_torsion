@@ -1,0 +1,3 @@
+X1_5_DIAMOND char=0 <2>,<3>: t -> -1/t
+X1_5_DIAMOND char=2 <2>,<3>: t -> 1/t
+CHECK65_DIAMONDS_DONE

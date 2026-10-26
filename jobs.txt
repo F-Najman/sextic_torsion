@@ -140,6 +140,7 @@ logs/cartier/Y51_session.log	archived: standard output of the session of cusp51_
 logs/cartier/Y51_cusp_union.log	archived: SetLogFile log of cartier_direct_51_union_continuation.m in the same session (used up to its RANK0_CARTIER_COUNT line)	> SetLogFile("work/large_levels_agent/cusp51_retained_rr_kernels.log");	^RANK0_CARTIER_COUNT N=51 total=54808
 logs/cartier/Y51_rr_kernels.log	archived: SetLogFile log of cusp51_retained_rr_kernels_continuation.m in the same session; standalone reproduction: magma -n -b cusp51_direct_rr_kernels_full.m	RANK0_CARTIER_DONE N=51 D=6 tested=54808 total=54808 exceptions=0 complete=true
 logs/cartier/X1_13_twist_parameter.log	magma -n -b setup13_twist_parameter_certified.m	FACTOR13_DONE
+logs/cartier/X1_5_diamond.log	magma -n -b check_65_diamonds.m	CHECK65_DIAMONDS_DONE
 logs/cartier/Y65_rr_transport.log	magma -n -b cusp65_genus41_rr_transport_full.m	RANK0_CARTIER_DONE N=65 D=6 tested=1792 total=1792 exceptions=0 complete=true
 
 # ---- Z/2 x Z/30 ----
