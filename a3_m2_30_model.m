@@ -1,5 +1,7 @@
 /* Exact A3 quotient model and oriented finite-place map.
-   Load after the v2 mdmagma spec and cyclic common-zero inverse. */
+   Load after the v2 mdmagma spec and cyclic common-zero inverse.
+   Library without a log of its own: it is loaded by filter_a3_m2_30.m and test_a3_m2_30_map.m,
+   and the genus 9 of W is printed in logs/n30/a3_filter.log (marker A3_M2_30_MODEL_READY). */
 A3p:=7;A3X15:=MDX1(15,GF(A3p));A3C15:=Curve(A3X15);
 A3F15:=FunctionField(A3C15);
 A3A15,A3ma:=AlgorithmicFunctionField(A3F15);

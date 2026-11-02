@@ -1,17 +1,16 @@
-/* gl2_point_counts.m -- third, independent recomputation of the point counts of sextic model enumeration, using
-   Sutherland's GL2 package (https://github.com/AndrewVSutherland/Magma, file gl2points.m).
+/* independent_counts.m -- independent recomputation of the numbers of non-cuspidal closed points of
+   the curves of Table 4 (Section 11 of the paper), using Sutherland's GL2 package (https://github.com/AndrewVSutherland/Magma, file gl2points.m).
 
    That package counts #X_H(F_q) and #Y_H(F_q) from Frobenius similarity classes and weighted
-   class numbers, whereas code/count_Y1_points.m enumerates j-invariants and twists directly;
-   the two are independent implementations of the same moduli-theoretic count, and neither uses
-   a model of the modular curve.
+   class numbers, without using a model of the modular curve, so the counts are independent of
+   the models used in the sieves.
 
    X_1(m,n), m | n, is X_H for the pointwise stabiliser in GL(2,Z/n) of the level structure
    (P,Q) = ((n/m)e_1, e_2) of type Z/m x Z/n on E[n], namely
         H = { [a,0;c,1] : a = 1 mod m,  c = 0 mod m }.
    The genus of X_H is printed as a check on this identification.
 
-   Usage: magma -b gl2_point_counts.m   (needs the current AndrewVSutherland/Magma checkout) */
+   Usage: magma -n -b independent_counts.m   (uses gl2/magma.spec, see README.md) */
 SetColumns(0);
 SetMemoryLimit(2*10^9);
 AttachSpec("gl2/magma.spec");

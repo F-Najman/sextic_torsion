@@ -39,7 +39,7 @@ cusps := Cusps(X);
 printf "CUSPS number=%o degrees=%o\n", #cusps, Sort([Degree(c) : c in cusps]);
 
 // ---- fields of definition of the cusps ----
-// M=1: DEHMZ (arXiv:2007.13929) Lemma 2.7: the cuspidal subscheme of X_1(N) over Z[1/2N] is
+// M=1: DEHMZ (arXiv:2007.13929) Lemma 2.8: the cuspidal subscheme of X_1(N) over Z[1/2N] is
 //   the disjoint union over d | N of (mu_{N/d} x Z/d)'/[-1]; Galois acts on mu_{N/d} only, so a cusp
 //   of type d has stabiliser H = {k = 1 mod N/d} (d > 2) or {k = +-1 mod N/d} (d <= 2) in (Z/N)^*.
 // M=2: computed from the model over Q (residue fields of the cuspidal closed points).

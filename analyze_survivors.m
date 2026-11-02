@@ -1,15 +1,19 @@
-/* analyze_survivors.m (v2) -- X = X_1(N) over F_p (M=1), rank 0, J(Q) = ClCusp_Q (DEHMZ).
-   (1) reconstruct survivors (file SURV from code/extract_survivors.py);
-   (2) reduce known quintic points (N=28,30, van Hoeij) mod every prime above p; match up to diamonds;
-   (3) for each unmatched survivor D and each effective cuspidal F_p-divisor C of degree 5-deg D:
-       test [D + C - 5 c0] in G := image of ClCusp_Q in Cl(X_Fp) (CuspidalClassGroupQ);
+/* analyze_survivors.m -- X = X_1(N) over F_p (M=1), rank 0, J(Q) = ClCusp_Q (DEHMZ).
+   In this repository it is run for Proposition 7.2 (N=32, p=3, D=6) on the survivors of the Hecke
+   sieve, data/survivors_32_p3.txt (the SURVIVOR_DATA lines of logs/sieve/X1_32_p3.log).
+   The defaults (N=28, D=5, SURV=data/surv_28_3.txt) are from the quintic paper.
+   (1) read the survivors from the file SURV;
+   (2) for N = 28 and 30 only, reduce known points of degree D (van Hoeij) mod every prime above p
+       and match them with the survivors up to diamonds (there are none for N = 32);
+   (3) for each unmatched survivor Z and each effective cuspidal F_p-divisor C of degree D - deg Z:
+       test [Z + C - D c0] in G := image of ClCusp_Q in Cl(X_Fp) (CuspidalClassGroupQ);
    (4) for classes in G: lift to Q using the cusp signatures (mdmagma CuspSignature identifies the
-       Q-orbit of each F_p cusp orbit), and compute the Riemann-Roch space of the lifted degree-5
+       Q-orbit of each F_p cusp orbit), and compute the Riemann-Roch space of the lifted degree-D
        class over Q: dim 0 -> no rational effective divisor in the class; dim 1 -> the unique
-       effective divisor is printed and tested for being an irreducible non-cuspidal degree-5 point;
-       dim >= 2 -> the class contains a fixed rational component (no degree-5 function exists), so
-       no irreducible degree-5 point.
-   Usage: magma -b N:=28 p:=3 SURV:=data/surv_28_3.txt analyze_survivors.m */
+       effective divisor is printed and tested for being an irreducible non-cuspidal point of
+       degree D; dim >= 2 -> the class contains a fixed rational component, so no irreducible
+       point of degree D.
+   Usage: magma -n -b N:=32 p:=3 D:=6 SURV:=data/survivors_32_p3.txt analyze_survivors.m */
 SetColumns(0);
 SetMemoryLimit(3*10^9);
 if not assigned N then N := 28; elif Type(N) eq MonStgElt then N := StringToInteger(N); end if;

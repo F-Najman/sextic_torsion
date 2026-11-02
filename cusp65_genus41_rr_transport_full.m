@@ -1,6 +1,6 @@
-/* Direct genus41 H3 quotient of X1(65), AS cover of genus21 fiber product.
-   Exact j13 and twist parameter certified in setup13_twist_parameter.m.
-   This setup intentionally retains its state at the TTY for continuation. */
+/* Direct genus41 H3 quotient of X1(65), AS cover of genus21 fiber product (Lemma 9.4).
+   Exact j13 and twist parameter certified in setup13_twist_parameter_certified.m.
+   Run: magma -n -b cusp65_genus41_rr_transport_full.m (see jobs.txt and README.md). */
 SetColumns(0);SetMemoryLimit(24*10^9);t0:=Cputime();
 F0<z13>:=FunctionField(GF(2));
 j13:=(z13^16+z13^4+1)/(z13^28+z13^25+z13^24+z13^21+z13^20+z13^17+z13^16+z13^13);

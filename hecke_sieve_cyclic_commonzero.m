@@ -1,14 +1,19 @@
-/* v6: uses HeckeOperatorFast / PlacesUpToDiamondFast from code/fast_hecke.m (validated in logs/test_fast_hecke.log, logs/test_fast_orbits.log).
-/* hecke_sieve_deg5.m (v3) -- degree-D Hecke sieve on X_1(N) (M=1) or X_1(2,N) (M=2) over F_p.
-   Implements Prop. 5.5 / Cor. 5.6 of Derickx-Najman (arXiv:2412.16016) for arbitrary degree D,
-   with the congruence condition on q for the cuspidal complement computed rigorously from the
-   fields of definition of the cusps (notes/01_methods.md, method M2, refined form):
-   for a non-cuspidal part D' of degree d' < D the cuspidal complement C has degree k = D-d',
-   and [A_q C] = 0 is guaranteed if q lies in <p>.H_c for every Galois orbit c of cusps whose
-   F_p-reduction has degree <= k, where H_c = Gal(Q(zeta_N)/F_c) and F_c = field of definition
-   (residue field of the cuspidal closed point on the model over Q, embedded in Q(zeta_N)).
-   Hypotheses verified elsewhere: rk J(Q) = 0; the all-cuspidal reduction excluded by Prop 5.1.
-   Usage: magma -b N:=26 p:=7 Qs:=3,5,11,13 D:=5 M:=1 MemGB:=8 hecke_sieve_deg5.m
+/* hecke_sieve_cyclic_commonzero.m -- degree-D Hecke sieve on X_1(N) (M=1) or X_1(2,N) (M=2) over F_p. In this repository
+   it is run with D:=6 for the sextic paper: jobs.txt gives the parameters of each run, and
+   README.md the statements it supports.
+   Variant of hecke_sieve_cached.m that computes the Hecke divisors with
+   fast_hecke_cyclic_commonzero.m (used for the representatives of degree 6 on X_1(49)).
+   It implements the Hecke sieve of Derickx-Najman (J. reine angew. Math., Proposition 5.5;
+   Proposition 5.4 in arXiv:2412.16016v2). For a non-cuspidal part D' of degree d' < D the
+   cuspidal complement C has degree k = D-d', and [A_q C] = 0 is guaranteed if q lies in <p>.H_c
+   for every Galois orbit c of cusps whose F_p-reduction has degree <= k, where
+   H_c = Gal(Q(zeta_N)/F_c) and F_c is the field of definition of c.
+   Hypotheses checked elsewhere: rk J(Q) = 0, and the totally cuspidal reduction is excluded by
+   Proposition 5.1 of the paper.
+   The fast Hecke operators of fast_hecke.m are compared with the reference correspondence in
+   check_char2_hecke.m and verify_35.m, and the X_1(2,N) routines of fast_hecke_11.m in
+   test_fast_hecke_*.m and test_fast_diamonds_22.m.
+   Usage (example): magma -n -b N:=49 p:=3 Qs:=5 D:=6 M:=1 FromDegree:=6 MaxPart:=6 hecke_sieve_cyclic_commonzero.m
    Log markers: SETUP CUSPS CUSPFIELDS CC NONCUSP REPS QLIST TYPE PROGRESS SURVIVOR SURVIVOR_DATA
                 RESULT SUMMARY SIEVE_DONE ERROR */
 SetColumns(0);
@@ -36,7 +41,7 @@ cusps := Cusps(X);
 printf "CUSPS number=%o degrees=%o\n", #cusps, Sort([Degree(c) : c in cusps]);
 
 // ---- fields of definition of the cusps ----
-// M=1: DEHMZ (arXiv:2007.13929) Lemma 2.7: the cuspidal subscheme of X_1(N) over Z[1/2N] is
+// M=1: DEHMZ (arXiv:2007.13929) Lemma 2.8: the cuspidal subscheme of X_1(N) over Z[1/2N] is
 //   the disjoint union over d | N of (mu_{N/d} x Z/d)'/[-1]; Galois acts on mu_{N/d} only, so a cusp
 //   of type d has stabiliser H = {k = 1 mod N/d} (d > 2) or {k = +-1 mod N/d} (d <= 2) in (Z/N)^*.
 // M=2: computed from the model over Q (residue fields of the cuspidal closed points).
