@@ -196,4 +196,4 @@ independent/logs/doubled_cuspidal_3_21.log	magma -n -b independent/doubled_cuspi
 independent/logs/two_torsion_57_49.log	magma -n -b independent/two_torsion_57_49.m	TWO_TORSION_CHECK_DONE
 independent/logs/cartier_51.log	magma -n -b Case:=51 independent/cartier_51_63.m	CARTIER_CHECK_DONE	^CARTIER_CHECK_DONE case 51: divisors 54808 failures 0 
 independent/logs/cartier_63.log	magma -n -b Case:=63 independent/cartier_51_63.m	CARTIER_CHECK_DONE	^CARTIER_CHECK_DONE case 63: divisors 6542 failures 0 
-independent/logs/cartier_65.log	magma -n -b independent/cartier_65.m	C65_CHECK_DONE	^admissible: 1792, admissible failures: 0,
+independent/logs/cartier_65.log	magma -n -b independent/cartier_65.m	C65_CHECK_DONE	^admissible: 1792, admissible failures: 0, failures among all: 0$
