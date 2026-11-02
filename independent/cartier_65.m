@@ -1,5 +1,5 @@
 // Independent check of the C65 Cartier/formal-immersion certificate,
-// built only from the equations printed in C65_genus41_model.tex.
+// built only from the equations printed in Lemma 9.4 of the paper.
 SetColumns(0);
 SetMemoryLimit(8*10^9);
 t0 := Cputime();

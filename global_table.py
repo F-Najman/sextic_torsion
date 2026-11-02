@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Table 2 and Table 3: indices, Abramovich bounds, orders of diamond operators and the
-inequalities of (4.1), and every other value of Abramovich's bound quoted in the paper.
-The least CM degrees are those of Clark-Genao-Pollack-Saia.
+inequalities (2) of Proposition 4.1, and every other value of Abramovich's bound quoted in the paper.
+The least CM degrees are those of Clark-Genao-Pollack-Saia, from Required Lists/
+dcm_list_all_min_orders_X1_10k.m in https://github.com/fsaia/least-cm-degree (commit 7eef6c9).
 Run: python3 global_table.py     (closing marker GLOBALTABLE_DONE)"""
 from fractions import Fraction as Fr
 from math import gcd
