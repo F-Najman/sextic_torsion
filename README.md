@@ -127,9 +127,10 @@ that consist of a CPU time only (Magma prints the time on a line of its own afte
 Failures are listed at the end and give a nonzero exit status. Missing or malformed job lists,
 invalid options, and filters matching no runnable job also give a nonzero status.
 
-Rerunning all jobs costs about 6 hours of CPU time, most of it on the shards of
+Rerunning all jobs costs about 21 hours of CPU time. About 15 of them go to the independent
+recomputations in `independent/` (10 to `Z/65` alone), and most of the rest to the shards of
 `X_1(42)`, the resumed sieves on `X_1(33)`, `X_1(2,22)` and `X_1(49)`, the doubled-cuspidal test
-on `X_1(45)` and the class sieve on `X_1(36)`. Some jobs rewrite data files in `data/` (the
+on `X_1(45)`, the `Z/54` certificate and the class sieve on `X_1(36)`. Some jobs rewrite data files in `data/` (the
 matrix exports, the survivor lists of the `Z/2 × Z/30` filter, the coverage records); a correct
 rerun rewrites them with the same content.
 
@@ -412,4 +413,5 @@ runs up to the interruption). The longest single computations were the `Z/51` ce
 (2728 s), the `Z/2 × Z/30` first filter (2708 s), the `Z/45` test (2678 s), the interrupted
 `X_1(33)` and `X_1(42)` sieves (2365 s, 2348 s), the `Z/54` certificate (1914 s) and the four
 `X_1(42)` shards (about 1100 s each). Runs were given memory limits of 1-24 GB. The independent recomputations in
-`independent/` are not included in these figures.
+`independent/` are not included in these figures. They took about 15 hours, 10 of them (35628 s)
+for the `Z/65` computation, which is the one used in the proof of Proposition 9.5.
