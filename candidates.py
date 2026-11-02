@@ -208,10 +208,11 @@ def main():
     assert replay == {'dimension':170, 'A5_rank_mod2':168,
                       'kernel_dimension':2, 'diamond2_identity_on_kernel':True}
     reduction_exclusions.add((1,57))
-    assert log_has('logs/rr/X1_27_C54_certificate.log','C54_FINITE_CERTIFICATE_DONE complete=true')
-    assert log_has('logs/rr/X1_27_C54_certificate.log','C54_CERT_F5_ODD_GROUP 27 [ 27 ]')
-    assert log_has('logs/counts/X1_27_p2.log','GL2_COUNT_27_DONE')
-    reduction_exclusions.add((1,54))
+    assert log_has('logs/classes/X1_27_C54_p5.log','C54_MOD5_CERTIFICATE_DONE complete=true')
+    assert log_has('logs/classes/X1_27_C54_p5.log','C54_MOD5_SURVIVORS count=6 all_in_S=true')
+    assert log_has('logs/classes/X1_27_C54_p5.log','isogenous_j_outside_F5=true')
+    assert log_has('logs/counts/X1_27_p5.log','closed_place_counts=[ 0, 9, 57, 171, 612, 2700 ]')
+    divisor_class_exclusions.add((1,54))
     assert log_has('logs/cartier/Y63_continuation.log','RANK0_CARTIER_DONE N=63 D=6 tested=6542 total=6542 exceptions=0 complete=true')
     assert log_has('logs/cartier/Y63_projection_replay.log',"'independent_projection_replay': True")
     assert log_has('logs/cartier/Y63_rank_replay.log','"exceptions": 0, "complete": true')

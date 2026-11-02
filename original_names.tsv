@@ -10,7 +10,6 @@ audit_n30_final.py	audit_n30_final.py
 candidates.py	candidates.py
 cartier_direct_51_union_continuation.m	cartier_direct_51_union_continuation.m
 cartier_direct_63_diagnostic_continuation.m	cartier_direct_63_diagnostic_continuation.m
-certify_54_via27.m	certify_54_via27.m
 check_char2_hecke.m	check_char2_hecke.m
 check_diamonds.m	check_diamonds.m
 check_good2_57_65.m	check_good2_57_65.m
@@ -128,7 +127,6 @@ logs/classification_glue_audit.log	classification_glue_audit_root.log
 logs/counts/gl2_point_counts.log	independent_counts.log
 logs/counts/short_sieves.log	count_short_sieves.log
 logs/counts/X1_2_24_p5.log	independent_m2_24_counts.log
-logs/counts/X1_27_p2.log	count_27_gl2.log
 logs/counts/X1_3_18_and_3_24_p7.log	independent_m3_counts.log
 logs/counts/X1_3_18_p13.log	independent_m3_18_p13_counts.log
 logs/counts/X1_35_p3_verify.log	verify_35.log
@@ -167,7 +165,6 @@ logs/n30/normalization_guard.log	m2_30_normalization_guard.log
 logs/n30/other_quotients.log	m2_30_other_quotients.log
 logs/n30/quotient_coverage_audit.log	audit_m2_30_quotients.log
 logs/rr/X1_21_F2_double_cusp_validation.log	cusp_double_21_local_ref_lazy_validation.log
-logs/rr/X1_27_C54_certificate.log	certify_54_via27_root.log
 logs/rr/X1_3_15_F4_double_cusp.log	cusp_double_rr_3_15.log
 logs/rr/X1_3_21_F4_double_cusp.log	cusp_double_rr_3_21.log
 logs/rr/X1_45_F2_double_cusp.log	cusp_double_45_local_ref_lazy.log

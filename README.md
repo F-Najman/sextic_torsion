@@ -225,7 +225,6 @@ Numbering refers to the manuscript (version of 2 November 2026), and the rows fo
 | **Proposition 5.5.** `Z/3 × Z/15`: of the 944 effective cuspidal divisors of degree 3 on `X_1(3,15)` over `F_4`, 912 have `dim L(2C) = 1` and the other 32 are supported on the cusps of degree 1, with `dim L(C) = 1` | `cusp_double_rr_3n_localref.m` | `logs/rr/X1_3_15_F4_double_cusp.log` |
 | **Proposition 5.5.** `Z/3 × Z/15`: with `σ_a(ζ_15) = ζ_15^a`, the generator `σ_7` of `Gal(Q(ζ_15)/Q(ζ_3))` and the Frobenius `σ_4 = σ_7^2` at 2 each fix exactly 16 of the 32 cusps (so the same 16) | `cusp_orbits.py` | `logs/classes/X1_3_15_cusp_orbits.log` |
 | **Proposition 5.5.** `Z/3 × Z/15`: reduction at 2 is injective on `J(Q(ζ_3))_tors` (cusp group `[3,3,24,96,96]` over `F_4`, `J(F_7) = [3,3,3,24,480,480]`, equal 2-primary orders 8192) | `verify_3_15_reduction_injective.m` | `logs/classes/X1_3_15_reduction_injective.log` |
-| **Proposition 5.7.** `Z/54`: on `X_1(27)` over `F_2` the non-cuspidal place counts are (0,0,0,0,0,9), one diamond orbit; `dim L(B) = 1` at 2 and at 5 for the divisor `B` of the proof; the curve at `T_2` has `E(F_25) ≅ Z/27` | `certify_54_via27.m`; independent count `count_27_gl2.m` | `logs/rr/X1_27_C54_certificate.log`, `logs/counts/X1_27_p2.log` |
 | **Proposition 6.1 and Table 4.** `Z/34`, `Z/38`: the Hecke sieve at 3 (q = 5, 7, 11) leaves no survivors | `hecke_sieve_deg5_v6.m` | `logs/sieve/X1_34_p3.log`, `logs/sieve/X1_38_p3.log` |
 | **Proposition 6.1 and Table 4.** `Z/35`: the Hecke sieve at 3 (q = 11, 13) leaves no survivors among the 1, 3, 11, 12 divisors of types [3], [5], [6], [3,3] | `hecke_sieve_deg5_v6.m`; place counts and fast/reference Hecke divisors checked by `verify_35.m` | `logs/sieve/X1_35_p3.log`, `logs/counts/X1_35_p3_verify.log` |
 | **Proposition 6.1 and Table 4.** `Z/39`: the Hecke sieve at 2 (q = 5, 7) leaves no survivors; the fast Hecke divisors agree with the reference ones in characteristic 2 | `hecke_sieve_deg5_v6.m`; `check_char2_hecke.m` | `logs/sieve/X1_39_p2.log`, `logs/tests/check_char2_hecke.log` |
@@ -250,6 +249,7 @@ Numbering refers to the manuscript (version of 2 November 2026), and the rows fo
 | **Proposition 7.5** (diamond orbits). The `X_1(2,N)` orbit hashing agrees with the reference diamond orbits in degrees 3 and 4 and gives 168 and 684 orbits in degrees 5 and 6 on `X_1(2,24)` over `F_5` | `test_diamond_hash_m2_direct.m` | `logs/tests/test_diamond_hash_m2_explicit.log` |
 | **Proposition 7.7.** `Z/3 × Z/18`: at 7 and 13 the Hecke tests leave 36 cubic places each; the 24 unit-signature cusp blocks give the same cusp group (order 20253807) at both primes, and none of the 1296 pairs has compatible 9-multiples | `diagonal_3_18_cusp_classes_certificate.m`; independent integer replay `verify_c3x18_arithmetic.py`; counts `independent_m3_counts.m`, `independent_m3_18_p13_counts.m` | `logs/classes/X1_3_18_diagonal_classes.log`, `logs/classes/X1_3_18_arithmetic_replay.log`, `logs/counts/X1_3_18_and_3_24_p7.log`, `logs/counts/X1_3_18_p13.log`; `data/C3x18_arithmetic_certificate.txt` |
 | **Proposition 7.8.** `Z/2 × Z/30` (hence `Z/60`): `J(X_1(30))(F_7) = [4,4,4,136,16320]`; of the 22706 non-cuspidal reductions at 7 (10 support types), the map to `X_1(30)` keeps 68 and the two other maps keep 10; the quotient `W` has genus 9, and the class obstruction on `W` excludes all 10 (`J(W)(F_7) = [2^6,102,10608]`, order 69249024) | `m2_30_quotient_prefilter.m` with `m2_30_mixed_continuation.m`, `m2_30_other_quotients.m`, `filter_a3_m2_30.m` with `a3_m2_30_model.m`, `a3_m2_30_frobenius.m`, `test_a3_m2_30_map.m`, `m2_30_normalization_guard.m`; audits and replays `audit_m2_30_quotients.py`, `verify_a3_n30_arithmetic.py`, `replay_a3_projection.py`, `audit_n30_final.py` | `logs/n30/*.log`; `data/m2_30_*.m`, `data/A3_m2_30_arithmetic.txt`, `data/A3_n30_arithmetic_replay_root.json`, `data/n30_final_coverage.json` |
+| **Proposition 7.10.** `Z/54`: on `X_1(27)` at 5, `J(F_5) = [3,3,342175446]` and the cuspidal subgroup `G` is `[3,3,52497]` (index 6518); the non-cuspidal place counts in degrees 1-6 are (0,9,57,171,612,2700), and (0,0,30,171,396,1890) of them have a point of order 2; of the 9 + 2487 + 465 possible push-forwards (3 times a quadratic point, one point of degree 3-6 with a point of order 2, two cubic points with a point of order 2) exactly the 6 sums of two of the three cubic places with j-invariant 2 (one diamond orbit) have their class in `G`; the curves 2-isogenous to `y^2 = x^3+x+1` (j = 2) have j-invariant `2r^2+r+4`, not in `F_5` | `certify_54_mod5.m`; independent count `count_27_gl2.m` (p = 5); the numbers of points of order 2 give the place counts of `X_1(54)` of `count_short_sieves.m` | `logs/classes/X1_27_C54_p5.log`, `logs/counts/X1_27_p5.log` |
 | **Proposition 8.5.** `Z/51`: on `Y = X_1(51)/⟨16⟩` (genus 33), the closed cusps over `F_2` have degrees `1^16, 4^4`, the image of `C − 1` has dimension 30, and it restricts with rank 6 to each of the 54808 effective cuspidal divisors of degree 6; the 100 restriction kernels and all ranks are replayed independently | `cusp51_direct_cartier.m`, `cartier_direct_51_union_continuation.m`, `cusp51_retained_rr_kernels_continuation.m` (standalone: `cusp51_direct_rr_kernels_full.m`); replays `verify_rr_transport.py`, `replay_rr_kernels.py`, `replay_cartier_projection.py`, `replay_fi_jets.py`; cusp count `audit_c51_cusp_orbits.py` | `logs/cartier/Y51_session.log` (first four lines), `logs/cartier/Y51_cusp_union.log`, `logs/cartier/Y51_rr_kernels.log`, `logs/cartier/Y51_*_replay.log`, `logs/cartier/Y51_cusp_orbits.log`; `data/fi51_retained_rr_kernels.m` |
 | **Proposition 8.5.** `Z/63`: on `Y = X_1(63)/⟨8⟩` (genus 49), the closed cusps over `F_2` have degrees `1^9, 2^3, 3^9, 6`, the image of `C − 1` has dimension 45, and it restricts with rank 6 to each of the 6542 effective cuspidal divisors of degree 6 | `cusp63_direct_cartier.m` with `cartier_direct_63_diagnostic_continuation.m`; replays `replay_cartier_projection.py`, `replay_fi_jets.py` | `logs/cartier/Y63_session.log`, `logs/cartier/Y63_continuation.log`, `logs/cartier/Y63_projection_replay.log`, `logs/cartier/Y63_rank_replay.log`; `data/fi63_direct_cartier_jets.m` |
 | **Proposition 8.5.** `Z/63`: the character of the only newform of positive analytic rank takes the value −1 at 8; no curve over `F_64` has order divisible by 63 | `rank_quotient_63_character.m`, `finite_field_63.m` | `logs/cartier/X1_63_character.log`, `logs/finite_fields/C63_F64.log` |
@@ -346,8 +346,7 @@ the original runs. The following scripts were changed further for this repositor
 paths, so their logs were produced by the unedited version:
 
 * `gl2/magma.spec` instead of `sutherland-magma-current/magma.spec`: `independent_counts.m`,
-  `count_short_sieves.m`, `count_27_gl2.m`, `count_42_gl2.m`, `independent_m2_24_counts.m`,
-  `verify_35.m`;
+  `count_short_sieves.m`, `count_42_gl2.m`, `independent_m2_24_counts.m`, `verify_35.m`;
 * data files moved to `data/`: `sieve_M2_tate_cached.m` (`cusp_conditions_m2.m`),
   `sieve_42_fixed_shard.m` and `export_42_fixed_reps.m` (`c42_fixed_representatives.m`),
   `cusp65_genus41_rr_transport_full.m`, `cusp51_retained_rr_kernels_continuation.m`,
@@ -362,8 +361,9 @@ paths, so their logs were produced by the unedited version:
   that `data/n30_final_coverage.json` stays valid).
 
 The scripts written together with the manuscript (`group_list.py`, `global_table.py`,
-`lmfdb_ranks.py`, `verify_sporadic_curves.m`, `check_65_diamonds.m` and the folder
-`independent/`) and `cusp_orbits.py`,
+`lmfdb_ranks.py`, `verify_sporadic_curves.m`, `check_65_diamonds.m`, `certify_54_mod5.m` and the
+folder `independent/`), `count_27_gl2.m`, which originally counted over `F_2` only and now takes
+the prime as a parameter, and `cusp_orbits.py`,
 to which a closing line was added (its original run left no log), were run as they stand here.
 
 Magma's `Write` appends to an existing file. So that a rerun replaces the exported data instead of
@@ -397,7 +397,7 @@ Further points a reproduction should be aware of:
   `candidates.py` reads; the two differ only in timings. This concerns `X1_6_12_p7.log`,
   `logs/counts/X1_6_12_p7.log`, `X1_4_16_p3.log`, `logs/counts/X1_4_16_p3.log`,
   `logs/counts/X1_4_20_p3.log`, `logs/tests/preflight_4_20_p3.log`,
-  `X1_27_C54_certificate.log`, `example_first_isogenies.log`, `example_second_isogenies.log`,
+  `example_first_isogenies.log`, `example_second_isogenies.log`,
   `match_exact_points.log`, `reduction_bounds_isogenies.log` and `J1_49_T2.log`; the kept
   `J1_57_two_torsion.log` is the audit run with `Qs:=5`, the first run (with the default
   `Qs`) stopped after `q = 5` with the same result.
@@ -406,10 +406,10 @@ Further points a reproduction should be aware of:
 
 The computations were run on the server Mordell at the University of Zagreb, with an AMD EPYC
 9175F CPU (16 cores, 32 threads) and 384 GB of RAM, using Magma V2.30-1. The committed runs took
-about 10.5 hours of CPU time in total (the CPU times recorded in the logs, counting interrupted
+about 11 hours of CPU time in total (the CPU times recorded in the logs, counting interrupted
 runs up to the interruption). The longest single computations were the `Z/51` certificate
 (3787 s, including its setup), the resumed `X_1(49)` sieve (2772 s), the `Z/63` certificate
 (2728 s), the `Z/2 × Z/30` first filter (2708 s), the `Z/45` test (2678 s), the interrupted
-`X_1(33)` and `X_1(42)` sieves (2365 s, 2348 s) and the four `X_1(42)` shards (about 1100 s
-each). Runs were given memory limits of 1-24 GB. The independent recomputations in
+`X_1(33)` and `X_1(42)` sieves (2365 s, 2348 s), the `Z/54` certificate (1914 s) and the four
+`X_1(42)` shards (about 1100 s each). Runs were given memory limits of 1-24 GB. The independent recomputations in
 `independent/` are not included in these figures.

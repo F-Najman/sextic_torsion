@@ -1,0 +1,11 @@
+C54_MOD5_GROUPS cusp_degrees=[ 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 6, 9 ] J=[ 3, 3, 342175446 ] G=[ 3, 3, 52497 ] index=6518 time=49.400
+C54_MOD5_PLACES counts=[ 0, 9, 57, 171, 612, 2700 ] with_point_of_order_2=[ 0, 0, 30, 171, 396, 1890 ] X1_54_counts=[ 0, 0, 54, 261, 612, 3033 ] time=66.450
+C54_MOD5_TEST type=3y tested=9 passed=0 time=66.490
+C54_MOD5_TEST type=y degree=3 tested=30 passed=0 time=66.500
+C54_MOD5_TEST type=y degree=4 tested=171 passed=0 time=66.500
+C54_MOD5_TEST type=y degree=5 tested=396 passed=0 time=66.510
+C54_MOD5_TEST type=y degree=6 tested=1890 passed=0 time=1913.440
+C54_MOD5_TEST type=y+y' tested=465 passed=6 time=1913.570
+C54_MOD5_SURVIVORS count=6 all_in_S=true S_degrees=[ 3, 3, 3 ] S_j=2 S_is_one_diamond_orbit=true time=1913.680
+C54_MOD5_ISOGENY E0_j=2 E0_points_F5=9 E0_points_F125=108 paper_models=true S_isomorphic_to_E0=true isogenous_j_outside_F5=true time=1913.840
+C54_MOD5_CERTIFICATE_DONE complete=true time=1913.850

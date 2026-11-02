@@ -30,7 +30,7 @@
 #
 # Logs that come from the original run and must be regenerated with the path-edited script
 # (the script differs from the one that produced the log only in a file path):
-#   logs/counts/gl2_point_counts.log, logs/counts/short_sieves.log, logs/counts/X1_27_p2.log,
+#   logs/counts/gl2_point_counts.log, logs/counts/short_sieves.log,
 #   logs/counts/X1_42_p5.log, logs/counts/X1_2_24_p5.log, logs/counts/X1_35_p3_verify.log
 #     (gl2/magma.spec in place of sutherland-magma-current/magma.spec);
 #   logs/sieve/X1_2_26_p3.log, logs/sieve/X1_2_28_p3.log (data/cusp_conditions_m2.m);
@@ -102,14 +102,16 @@ logs/homology/J1_49_T2.log	magma -n -b MatrixFile:=data/two_torsion_49_T2_matric
 logs/classes/X1_36_p5_class_sieve.log	magma -n -b N:=36 p:=5 MemGB:=2 class_cuspidal_36_certificate.m	CLASS_CUSPIDAL_SIEVE_DONE N=36 p=5 D=6 remaining_classes=0 complete=true
 logs/classes/J1_36_F5_order.log	magma -n -b jacobian36_5.m	JAC36_F5_DONE
 
-# ---- doubled cuspidal Riemann-Roch at 2, and Z/54 ----
+# ---- Z/54: cuspidal divisor classes on X_1(27) at 5, and a 2-isogeny ----
+logs/classes/X1_27_C54_p5.log	magma -n -b certify_54_mod5.m	C54_MOD5_CERTIFICATE_DONE complete=true	^C54_MOD5_SURVIVORS count=6 all_in_S=true S_degrees=\[ 3, 3, 3 \] S_j=2 S_is_one_diamond_orbit=true
+logs/counts/X1_27_p5.log	magma -n -b count_27_gl2.m	GL2_COUNT_27_DONE	^GL2_COUNT_27 p=5 .* closed_place_counts=\[ 0, 9, 57, 171, 612, 2700 \]$
+
+# ---- doubled cuspidal Riemann-Roch at 2 ----
 logs/rr/X1_45_F2_double_cusp.log	magma -n -b N:=45 D:=6 DirectCheck:=3 UseJets:=1 cusp_double_rr_local_ref_lazy.m	CUSP_DOUBLE_FAST_DONE N=45 D=6 tested=19048 total=19048 exceptions=0 complete=true
 logs/rr/X1_21_F2_double_cusp_validation.log	magma -n -b N:=21 D:=2 DirectCheck:=24 UseJets:=1 cusp_double_rr_local_ref_lazy.m	CUSP_DOUBLE_FAST_DONE N=21 D=2 tested=24 total=24 exceptions=6 complete=true
 logs/rr/X1_3_21_F4_double_cusp.log	magma -n -b N:=21 D:=3 cusp_double_rr_3n.m	CUSP_DOUBLE_NONCYCLIC_DONE N=21 D=3 tested=2608 total=2608 exceptions=0 complete=true
 logs/rr/X1_3_15_F4_double_cusp.log	magma -n -b N:=15 D:=3 cusp_double_rr_3n_localref.m	CUSP_DOUBLE_LOCALREF_DONE N=15 D=3 tested=944 total=944 exceptions=32 complete=true	^ALL_EXCEPTIONS_SUPPORTED_ON_RATIONAL_CUSPS_WITH_H0_EQ_1 32$
 logs/classes/X1_3_15_reduction_injective.log	magma -n -b verify_3_15_reduction_injective.m	INJECTIVE_REDUCTION_3_15_DONE	^EQUAL_TWO_PRIMARY_ORDERS 8192 8192$
-logs/rr/X1_27_C54_certificate.log	magma -n -b certify_54_via27.m	C54_FINITE_CERTIFICATE_DONE complete=true	^C54_CERT_F5_ODD_GROUP 27 \[ 27 \]
-logs/counts/X1_27_p2.log	magma -n -b count_27_gl2.m	GL2_COUNT_27_DONE
 
 # ---- Hecke and class-group arguments on X_1(3,24), X_1(6,12), X_1(4,16), X_1(4,20), X_1(3,18) ----
 logs/sieve/X1_3_24_p7.log	magma -n -b sieve_3_24.m	SIEVE_3_24_DONE 12 0
